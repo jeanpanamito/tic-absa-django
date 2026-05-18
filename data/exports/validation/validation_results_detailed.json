@@ -1,0 +1,82 @@
+[
+  {
+    "comment_id": "57bc814dec4a8938d400009e",
+    "text_snippet": "no, no es muy importante xq...................",
+    "aspect": "General",
+    "sentiment": "Neutral",
+    "ontological_compliance": true,
+    "alignment_score": 4,
+    "sentiment_consistent": true,
+    "reasoning": "The aspect 'General' is relevant as the comment does not specify a particular aspect. The sentiment 'Neutral' is consistent with the justification, as the comment suggests a lack of importance without strong negative sentiment."
+  },
+  {
+    "comment_id": "57f3ce4cec4a8938d4000120",
+    "text_snippet": "Es importante mencionar que el recurso del suelo e",
+    "aspect": "General",
+    "sentiment": "Positivo",
+    "ontological_compliance": true,
+    "alignment_score": 4,
+    "sentiment_consistent": true,
+    "reasoning": "The aspect 'General' is somewhat relevant as the comment discusses the overall importance and benefits of soil resources, but it could be more specific. The sentiment 'Positivo' is consistent with the justification, as the comment highlights the positive contributions of soil to humanity."
+  },
+  {
+    "comment_id": "57f3ce4cec4a8938d4000120",
+    "text_snippet": "Es importante mencionar que el recurso del suelo e",
+    "aspect": "Contenido",
+    "sentiment": "Positivo",
+    "ontological_compliance": true,
+    "alignment_score": 1,
+    "sentiment_consistent": false,
+    "reasoning": "The aspect 'Contenido' is not relevant to the text, which focuses on the importance of soil as a resource. The sentiment 'Positivo' does not match the text, which emphasizes the need for awareness and protection due to neglect, indicating a more neutral or concerned sentiment."
+  },
+  {
+    "comment_id": "57f3d385ec4a89c76100010a",
+    "text_snippet": "puedo mensionar que el suelo es un recurso inporta",
+    "aspect": "General",
+    "sentiment": "Positivo",
+    "ontological_compliance": true,
+    "alignment_score": 3,
+    "sentiment_consistent": true,
+    "reasoning": "The aspect 'General' is somewhat relevant as the comment discusses the importance of soil, but it could be more specific. The sentiment 'Positivo' is consistent with the text, as it reflects a positive attitude towards conserving soil."
+  },
+  {
+    "comment_id": "57f3d3efec4a89c76100010c",
+    "text_snippet": "El suelo es un recurso no renovable su conservació",
+    "aspect": "General",
+    "sentiment": "Positivo",
+    "ontological_compliance": true,
+    "alignment_score": 4,
+    "sentiment_consistent": true,
+    "reasoning": "The aspect 'General' is somewhat relevant as the comment discusses the importance of soil conservation in a broad context. The sentiment 'Positivo' is consistent with the justification, as the comment emphasizes the positive impact of soil conservation on future sustainability."
+  },
+  {
+    "comment_id": "57f3fc3aec4a896c9b000147",
+    "text_snippet": "El suelo es necesario para cultivar alimentos mant",
+    "aspect": "General",
+    "sentiment": "Positivo",
+    "ontological_compliance": true,
+    "alignment_score": 4,
+    "sentiment_consistent": true,
+    "reasoning": "The aspect 'General' is somewhat relevant as the comment discusses the general importance of soil. The sentiment 'Positivo' is consistent with the text, which emphasizes the necessity and importance of soil in daily life."
+  },
+  {
+    "comment_id": "57f409f9ec4a89c761000125",
+    "text_snippet": "El suelo esta conformado por sales minerales, mate",
+    "aspect": "General",
+    "sentiment": "Negativo",
+    "ontological_compliance": true,
+    "alignment_score": 3,
+    "sentiment_consistent": true,
+    "reasoning": "The aspect 'General' is somewhat relevant as the comment discusses general issues related to soil degradation and chemical use. However, it could be more specific, such as 'Soil Condition' or 'Environmental Impact'. The sentiment 'Negativo' is consistent with the justification, as the text clearly describes negative impacts on the soil."
+  },
+  {
+    "comment_id": "57f409f9ec4a89c761000125",
+    "text_snippet": "El suelo esta conformado por sales minerales, mate",
+    "aspect": "Contenido",
+    "sentiment": "Negativo",
+    "ontological_compliance": true,
+    "alignment_score": 1,
+    "sentiment_consistent": true,
+    "reasoning": "The aspect 'Contenido' is not relevant to the text, which discusses soil degradation and the impact of chemicals. The sentiment 'Negativo' is consistent with the justification, as the text describes damage and the need for treatment."
+  }
+]

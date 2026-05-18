@@ -35,3 +35,6 @@ Thumbs.db
 # Logs
 *.log
 logs/
+
+# Exclude large data files
+data/exports/*.json

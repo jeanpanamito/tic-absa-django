@@ -1,0 +1,136 @@
+{
+  "HG": {
+    "base_course": "HG",
+    "num_ediciones": 23,
+    "estadisticas": {
+      "total_comentarios": 6748,
+      "total_threads": 3702
+    },
+    "course_ids": [
+      "course-v1:UTPL+HG15+2021_1",
+      "course-v1:UTPL+HG11+2019_1",
+      "course-v1:UTPL+HG-Ed7+2017_DIC",
+      "course-v1:UTPL+HG10+2018_3",
+      "course-v1:UTPL+HG21+2024_1",
+      "course-v1:UTPL+HG9+2018_2",
+      "course-v1:UTPL+HG-Ed5+2017_JUN",
+      "course-v1:UTPL+HG13+2020_1",
+      "course-v1:UTPL+HG23+2025_1",
+      "course-v1:UTPL+HG19+2023_1",
+      "course-v1:UTPL+HG20+2023_2",
+      "course-v1:UTPL+HG17+2022_1",
+      "course-v1:UTPL+HG-Ed8+2018_1",
+      "course-v1:UTPL+HG22+2024_2",
+      "course-v1:UTPL+HG+2016",
+      "course-v1:UTPL+HG14+2020_2",
+      "course-v1:UTPL+HG18+2022_2",
+      "course-v1:UTPL+HG-Ed4+ABR_2017",
+      "course-v1:UTPL+HG-Ed2+2017_ENE",
+      "course-v1:UTPL+HG-Ed6+2017_OCT",
+      "course-v1:UTPL+HG16+2021_2",
+      "course-v1:UTPL+HG12+2019_2",
+      "course-v1:UTPL+HG-Ed3+2017-FEB"
+    ],
+    "data_preview": [
+      {
+        "base_course": "HG",
+        "course_id": "course-v1:UTPL+HG+2016",
+        "comment_id": "583d9349ec4a894498000628",
+        "comment_created_at": NaN,
+        "text": "Son factores que van estrechamente en relación el autoconsumo comercialización, ya que la producción urbana se refiere explícitamente a pequeñas superficies como solares, huertos, márgenes, terrazas, recipientes situadas dentro de una ciudad para el consumo propio. La agricultura periurbana refiere a unidades agrícolas cercanas a una ciudad que explotan intensivamente granjas comerciales o semicomerciales para cultivar hortalizas y otros productos hortícolas para comercialixzacion en mayor canti",
+        "word_count": 66,
+        "votes": 0,
+        "thread_id": "583d33daec4a896c9b0005b3",
+        "thread_title": "autoconsumo, comercialización ",
+        "thread_created_at": NaN,
+        "parent_id": NaN
+      },
+      {
+        "base_course": "HG",
+        "course_id": "course-v1:UTPL+HG+2016",
+        "comment_id": "583d970fec4a896c9b0005b6",
+        "comment_created_at": NaN,
+        "text": "el autoconsumo se da debido a que o consumo de uno mismo de lo que produce en pequeñas cantidades sin fines de lucro en pequeñas cantidades de terreno, la comercialización se la realiza en producciones a mayor escala para obtener ganancias sustentar el consumo a muchas personas del medi.",
+        "word_count": 49,
+        "votes": 0,
+        "thread_id": "583cf5b0ec4a89c761000548",
+        "thread_title": "FORO 01",
+        "thread_created_at": NaN,
+        "parent_id": NaN
+      },
+      {
+        "base_course": "HG",
+        "course_id": "course-v1:UTPL+HG+2016",
+        "comment_id": "583d9944ec4a896c9b0005b7",
+        "comment_created_at": NaN,
+        "text": "urbana para la satisfaccióny sustento personal,y la que se comercializa la periurbana producción destinadas para comerio",
+        "word_count": 16,
+        "votes": 0,
+        "thread_id": "583cf448ec4a89449800061c",
+        "thread_title": "Producción alimentos",
+        "thread_created_at": NaN,
+        "parent_id": NaN
+      }
+    ]
+  },
+  "EVOLFUND": {
+    "base_course": "EVOLFUND",
+    "num_ediciones": 9,
+    "estadisticas": {
+      "total_comentarios": 327,
+      "total_threads": 213
+    },
+    "course_ids": [
+      "course-v1:UTPL+EVOLFUND2+2018_2",
+      "course-v1:UTPL+EVOLFUND7+2021_1",
+      "course-v1:UTPL+EVOLFUND4+2019_1",
+      "course-v1:UTPL+EVOLFUND3+2018_3",
+      "course-v1:UTPL+EVOLFUND6+2020_2",
+      "course-v1:UTPL+EVOLFUND5+2020_1",
+      "course-v1:UTPL+EVOLFUND+2018_1",
+      "course-v1:UTPL+EVOLFUND6+2021_2",
+      "course-v1:UTPL+EVOLFUND7+2022_1"
+    ],
+    "data_preview": [
+      {
+        "base_course": "EVOLFUND",
+        "course_id": "course-v1:UTPL+EVOLFUND+2018_1",
+        "comment_id": "5ad407ddec4a89af17001aab",
+        "comment_created_at": NaN,
+        "text": "Buenas noches, al igual que el compañero tengo el mismo problema al momento de resolver la autoevaluación, podría revisar por favor",
+        "word_count": 21,
+        "votes": 0,
+        "thread_id": "5ad2979aec4a89af170019e0",
+        "thread_title": "Autoevaluación del personaje",
+        "thread_created_at": NaN,
+        "parent_id": NaN
+      },
+      {
+        "base_course": "EVOLFUND",
+        "course_id": "course-v1:UTPL+EVOLFUND+2018_1",
+        "comment_id": "5ad60abaec4a89f42b0018b4",
+        "comment_created_at": NaN,
+        "text": "Enseguida lo reviso. gracias por la información.",
+        "word_count": 7,
+        "votes": 0,
+        "thread_id": "5ad2979aec4a89af170019e0",
+        "thread_title": "Autoevaluación del personaje",
+        "thread_created_at": NaN,
+        "parent_id": NaN
+      },
+      {
+        "base_course": "EVOLFUND",
+        "course_id": "course-v1:UTPL+EVOLFUND+2018_1",
+        "comment_id": "5ad762ecec4a89ecb6001914",
+        "comment_created_at": NaN,
+        "text": "Estimados, Puede existir alguna falla que sea sólo por usuario porque hemos revisado que no es un problema que todos lo tengan. Cabe señalar que el ejercicio se marcará como correcto cuando todas las respuestas sean correctas. Por favor si me pueden enviar una captura de pantalla del problema. gracias, Saludos,",
+        "word_count": 51,
+        "votes": 0,
+        "thread_id": "5ad2979aec4a89af170019e0",
+        "thread_title": "Autoevaluación del personaje",
+        "thread_created_at": NaN,
+        "parent_id": NaN
+      }
+    ]
+  }
+}

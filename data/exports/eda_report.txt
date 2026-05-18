@@ -1,0 +1,73 @@
+======================================================================
+EDA - TIC_ABSA_KG (Preparación para Grafo SKOS)
+======================================================================
+
+[Comentarios]
+Total: 117,906
+Nulos por columna:
+  - id: 0 (0.0%)
+  - course_id: 0 (0.0%)
+  - thread_id: 0 (0.0%)
+  - parent_id: 92,802 (78.7%)
+  - created_at: 117,906 (100.0%)
+  - text: 877 (0.7%)
+  - word_count: 0 (0.0%)
+  - votes: 0 (0.0%)
+
+Estadísticas de texto (word_count):
+  - media: 35.6  mediana: 21.0  min: 0  max: 7701
+  - bins:
+    * wc_0_10: 26,624 (22.6%)
+    * wc_11_50: 72,679 (61.6%)
+    * wc_51_100: 12,503 (10.6%)
+    * wc_gt_100: 6,100 (5.2%)
+    * wc_gt_500: 180 (0.2%)
+
+Votos:
+  - media: 0.06  mediana: 0.0  min: 0  max: 40
+  - votos==0: 112,202 (95.2%)  votos>0: 5,704 (4.8%)
+
+Temporal:
+  - created_at: min=NaT  max=NaT  nulos=117,906
+
+Cursos:
+  - únicos: 446  media por curso: 264.4  mediana: 79.0
+  - Top 5:
+    * course-v1:UTPL+GPSY3+2020_1: 6,600
+    * course-v1:UTPL+PRESCHEDU3+2020_1: 4,390
+    * course-v1:UTPL+EAIG6+2020_1: 3,908
+    * course-v1:UTPL+HG13+2020_1: 3,814
+    * course-v1:UTPL+ADMINI3+2020_1: 3,663
+
+Hilos y respuestas:
+  - hilos únicos: 29,016  media/hilo: 4.1  mediana/hilo: 2.0
+  - respuestas: 25,104 (21.3%)  originales: 92,802 (78.7%)
+
+Patrones sospechosos:
+  - solo números/símbolos: 418 (0.4%)
+  - contiene URL: 75 (0.1%)
+  - MAYÚSCULAS: 4,615 (3.9%)
+
+Recomendaciones de limpieza:
+- Eliminar 877 comentarios sin texto (0.7%).
+- Filtrar comentarios muy cortos (≤10 palabras): 26624 (22.6%). Mantener ≥3-5 palabras para calidad.
+- Revisar/recortar comentarios >500 palabras: 180 (0.2%).
+- Deduplicar por texto (mantener primero): 13249 ocurrencias en 2751 textos repetidos.
+- Eliminar comentarios solo con números/símbolos: 418 (0.4%).
+- Etiquetar o eliminar comentarios que son principalmente enlaces: 75 (0.1%).
+- Normalizar mayúsculas totales a minúsculas: 4615 (3.9%).
+- Generar fechas sintéticas o imputadas (si es necesario para SKOS/timeline).
+- Validar campos mínimos por nodo (Comment/Thread/Course/Author): id, texto, course_id, thread_id.
+- Derivar metadatos de course_id (código, año, período) para enriquecer el grafo.
+
+Guía de mapeo SKOS:
+- Clases SKOS sugeridas:
+- - skos:Concept → Course, Author, Thread, Comment (o utilizar Comment como skos:note del Thread/Course)
+- - skos:Collection → agrupar Comments por Thread o Course
+- Propiedades:
+- - skos:prefLabel → títulos (Thread.title) o nombres (Author.username, Course.course_id)
+- - skos:note → texto del comentario (recortado)
+- - skos:broader / skos:narrower → Course > Thread > Comment
+- - skos:related → reply_to, inThread, aboutCourse
+- - dcterms:created → created_at (imputado si falta)
+- - schema:upvoteCount → votes

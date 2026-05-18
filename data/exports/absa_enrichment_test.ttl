@@ -1,0 +1,135 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix absa: <http://example.org/tic-absa/absa#> .
+@base <http://example.org/tic-absa/> .
+
+<http://example.org/tic-absa/comment/583ef5a3ec4a89449800065f> absa:hasAnnotation <http://example.org/tic-absa/annotation/583ef5a3ec4a89449800065f_Evaluacion_Neutral_0> .
+<http://example.org/tic-absa/annotation/583ef5a3ec4a89449800065f_Evaluacion_Neutral_0> a absa:Annotation .
+<http://example.org/tic-absa/annotation/583ef5a3ec4a89449800065f_Evaluacion_Neutral_0> absa:hasAspect <http://example.org/tic-absa/aspect/Evaluacion> .
+<http://example.org/tic-absa/annotation/583ef5a3ec4a89449800065f_Evaluacion_Neutral_0> absa:hasPolarity <http://example.org/tic-absa/polarity/Neutral> .
+<http://example.org/tic-absa/annotation/583ef5a3ec4a89449800065f_Evaluacion_Neutral_0> absa:confidence 0.8000 .
+<http://example.org/tic-absa/annotation/583ef5a3ec4a89449800065f_Evaluacion_Neutral_0> absa:similarity -0.015603 .
+<http://example.org/tic-absa/annotation/583ef5a3ec4a89449800065f_Evaluacion_Neutral_0> absa:mention """debe existir algún puntaje en estos casos.""" .
+<http://example.org/tic-absa/annotation/583ef5a3ec4a89449800065f_Evaluacion_Neutral_0> absa:justification """La frase sugiere la necesidad de un sistema de evaluación, pero no expresa una opinión positiva o negativa sobre el mismo.""" .
+<http://example.org/tic-absa/annotation/583ef5a3ec4a89449800065f_Evaluacion_Neutral_0> absa:embeddingDimension 128 .
+<http://example.org/tic-absa/annotation/583ef5a3ec4a89449800065f_Evaluacion_Neutral_0> absa:inCourse <http://example.org/tic-absa/courseEdition/course-v1:UTPL%2BHG%2B2016> .
+<http://example.org/tic-absa/annotation/583ef5a3ec4a89449800065f_Evaluacion_Neutral_0> absa:inBaseCourse <http://example.org/tic-absa/courseBase/HG> .
+<http://example.org/tic-absa/annotation/583ef5a3ec4a89449800065f_Evaluacion_Neutral_0> absa:inThread <http://example.org/tic-absa/thread/583ed2e3ec4a89449800065a> .
+
+<http://example.org/tic-absa/comment/58408b0fec4a8938d4000607> absa:hasAnnotation <http://example.org/tic-absa/annotation/58408b0fec4a8938d4000607_Evaluacion_Negativo_1> .
+<http://example.org/tic-absa/annotation/58408b0fec4a8938d4000607_Evaluacion_Negativo_1> a absa:Annotation .
+<http://example.org/tic-absa/annotation/58408b0fec4a8938d4000607_Evaluacion_Negativo_1> absa:hasAspect <http://example.org/tic-absa/aspect/Evaluacion> .
+<http://example.org/tic-absa/annotation/58408b0fec4a8938d4000607_Evaluacion_Negativo_1> absa:hasPolarity <http://example.org/tic-absa/polarity/Negativo> .
+<http://example.org/tic-absa/annotation/58408b0fec4a8938d4000607_Evaluacion_Negativo_1> absa:confidence 0.9000 .
+<http://example.org/tic-absa/annotation/58408b0fec4a8938d4000607_Evaluacion_Negativo_1> absa:similarity -0.051715 .
+<http://example.org/tic-absa/annotation/58408b0fec4a8938d4000607_Evaluacion_Negativo_1> absa:mention """mal calificadas o preguntas mal planteadas""" .
+<http://example.org/tic-absa/annotation/58408b0fec4a8938d4000607_Evaluacion_Negativo_1> absa:justification """Se expresa descontento con la calidad de las calificaciones y las preguntas.""" .
+<http://example.org/tic-absa/annotation/58408b0fec4a8938d4000607_Evaluacion_Negativo_1> absa:embeddingDimension 128 .
+<http://example.org/tic-absa/annotation/58408b0fec4a8938d4000607_Evaluacion_Negativo_1> absa:inCourse <http://example.org/tic-absa/courseEdition/course-v1:UTPL%2BHG%2B2016> .
+<http://example.org/tic-absa/annotation/58408b0fec4a8938d4000607_Evaluacion_Negativo_1> absa:inBaseCourse <http://example.org/tic-absa/courseBase/HG> .
+<http://example.org/tic-absa/annotation/58408b0fec4a8938d4000607_Evaluacion_Negativo_1> absa:inThread <http://example.org/tic-absa/thread/583f6ff9ec4a89c76100058f> .
+
+<http://example.org/tic-absa/comment/5840bf4dec4a8938d400060e> absa:hasAnnotation <http://example.org/tic-absa/annotation/5840bf4dec4a8938d400060e_Contenido_Negativo_2> .
+<http://example.org/tic-absa/annotation/5840bf4dec4a8938d400060e_Contenido_Negativo_2> a absa:Annotation .
+<http://example.org/tic-absa/annotation/5840bf4dec4a8938d400060e_Contenido_Negativo_2> absa:hasAspect <http://example.org/tic-absa/aspect/Contenido> .
+<http://example.org/tic-absa/annotation/5840bf4dec4a8938d400060e_Contenido_Negativo_2> absa:hasPolarity <http://example.org/tic-absa/polarity/Negativo> .
+<http://example.org/tic-absa/annotation/5840bf4dec4a8938d400060e_Contenido_Negativo_2> absa:confidence 0.9000 .
+<http://example.org/tic-absa/annotation/5840bf4dec4a8938d400060e_Contenido_Negativo_2> absa:similarity 0.047876 .
+<http://example.org/tic-absa/annotation/5840bf4dec4a8938d400060e_Contenido_Negativo_2> absa:mention """las respuestas se contradicen con el contenido de las diapositivas""" .
+<http://example.org/tic-absa/annotation/5840bf4dec4a8938d400060e_Contenido_Negativo_2> absa:justification """El comentario indica que hay una discrepancia entre las respuestas y el contenido, lo que sugiere una insatisfacción con el material del curso.""" .
+<http://example.org/tic-absa/annotation/5840bf4dec4a8938d400060e_Contenido_Negativo_2> absa:embeddingDimension 128 .
+<http://example.org/tic-absa/annotation/5840bf4dec4a8938d400060e_Contenido_Negativo_2> absa:inCourse <http://example.org/tic-absa/courseEdition/course-v1:UTPL%2BHG%2B2016> .
+<http://example.org/tic-absa/annotation/5840bf4dec4a8938d400060e_Contenido_Negativo_2> absa:inBaseCourse <http://example.org/tic-absa/courseBase/HG> .
+<http://example.org/tic-absa/annotation/5840bf4dec4a8938d400060e_Contenido_Negativo_2> absa:inThread <http://example.org/tic-absa/thread/583ed2e3ec4a89449800065a> .
+
+<http://example.org/tic-absa/comment/5841999cec4a89c7610005c4> absa:hasAnnotation <http://example.org/tic-absa/annotation/5841999cec4a89c7610005c4_Evaluacion_Negativo_3> .
+<http://example.org/tic-absa/annotation/5841999cec4a89c7610005c4_Evaluacion_Negativo_3> a absa:Annotation .
+<http://example.org/tic-absa/annotation/5841999cec4a89c7610005c4_Evaluacion_Negativo_3> absa:hasAspect <http://example.org/tic-absa/aspect/Evaluacion> .
+<http://example.org/tic-absa/annotation/5841999cec4a89c7610005c4_Evaluacion_Negativo_3> absa:hasPolarity <http://example.org/tic-absa/polarity/Negativo> .
+<http://example.org/tic-absa/annotation/5841999cec4a89c7610005c4_Evaluacion_Negativo_3> absa:confidence 0.9000 .
+<http://example.org/tic-absa/annotation/5841999cec4a89c7610005c4_Evaluacion_Negativo_3> absa:similarity -0.080067 .
+<http://example.org/tic-absa/annotation/5841999cec4a89c7610005c4_Evaluacion_Negativo_3> absa:mention """las notas del test reflejen los verdaderos conocimientos de los estudiantes.""" .
+<http://example.org/tic-absa/annotation/5841999cec4a89c7610005c4_Evaluacion_Negativo_3> absa:justification """El comentario sugiere que las notas actuales no reflejan adecuadamente el conocimiento, lo que implica una insatisfacción con la evaluación.""" .
+<http://example.org/tic-absa/annotation/5841999cec4a89c7610005c4_Evaluacion_Negativo_3> absa:embeddingDimension 128 .
+<http://example.org/tic-absa/annotation/5841999cec4a89c7610005c4_Evaluacion_Negativo_3> absa:inCourse <http://example.org/tic-absa/courseEdition/course-v1:UTPL%2BHG%2B2016> .
+<http://example.org/tic-absa/annotation/5841999cec4a89c7610005c4_Evaluacion_Negativo_3> absa:inBaseCourse <http://example.org/tic-absa/courseBase/HG> .
+<http://example.org/tic-absa/annotation/5841999cec4a89c7610005c4_Evaluacion_Negativo_3> absa:inThread <http://example.org/tic-absa/thread/58419892ec4a896c9b000633> .
+
+<http://example.org/tic-absa/comment/5841a19cec4a8938d4000626> absa:hasAnnotation <http://example.org/tic-absa/annotation/5841a19cec4a8938d4000626_Evaluacion_Negativo_4> .
+<http://example.org/tic-absa/annotation/5841a19cec4a8938d4000626_Evaluacion_Negativo_4> a absa:Annotation .
+<http://example.org/tic-absa/annotation/5841a19cec4a8938d4000626_Evaluacion_Negativo_4> absa:hasAspect <http://example.org/tic-absa/aspect/Evaluacion> .
+<http://example.org/tic-absa/annotation/5841a19cec4a8938d4000626_Evaluacion_Negativo_4> absa:hasPolarity <http://example.org/tic-absa/polarity/Negativo> .
+<http://example.org/tic-absa/annotation/5841a19cec4a8938d4000626_Evaluacion_Negativo_4> absa:confidence 0.9000 .
+<http://example.org/tic-absa/annotation/5841a19cec4a8938d4000626_Evaluacion_Negativo_4> absa:similarity -0.045883 .
+<http://example.org/tic-absa/annotation/5841a19cec4a8938d4000626_Evaluacion_Negativo_4> absa:mention """Las preguntas del test1 se contradicen con lo expuesto en las diapositivas.""" .
+<http://example.org/tic-absa/annotation/5841a19cec4a8938d4000626_Evaluacion_Negativo_4> absa:justification """Se menciona una contradicción entre el test y el material, lo que afecta negativamente la evaluación.""" .
+<http://example.org/tic-absa/annotation/5841a19cec4a8938d4000626_Evaluacion_Negativo_4> absa:embeddingDimension 128 .
+<http://example.org/tic-absa/annotation/5841a19cec4a8938d4000626_Evaluacion_Negativo_4> absa:inCourse <http://example.org/tic-absa/courseEdition/course-v1:UTPL%2BHG%2B2016> .
+<http://example.org/tic-absa/annotation/5841a19cec4a8938d4000626_Evaluacion_Negativo_4> absa:inBaseCourse <http://example.org/tic-absa/courseBase/HG> .
+<http://example.org/tic-absa/annotation/5841a19cec4a8938d4000626_Evaluacion_Negativo_4> absa:inThread <http://example.org/tic-absa/thread/583f6ff9ec4a89c76100058f> .
+
+<http://example.org/tic-absa/comment/5841a19cec4a8938d4000626> absa:hasAnnotation <http://example.org/tic-absa/annotation/5841a19cec4a8938d4000626_Contenido_Negativo_5> .
+<http://example.org/tic-absa/annotation/5841a19cec4a8938d4000626_Contenido_Negativo_5> a absa:Annotation .
+<http://example.org/tic-absa/annotation/5841a19cec4a8938d4000626_Contenido_Negativo_5> absa:hasAspect <http://example.org/tic-absa/aspect/Contenido> .
+<http://example.org/tic-absa/annotation/5841a19cec4a8938d4000626_Contenido_Negativo_5> absa:hasPolarity <http://example.org/tic-absa/polarity/Negativo> .
+<http://example.org/tic-absa/annotation/5841a19cec4a8938d4000626_Contenido_Negativo_5> absa:confidence 0.8500 .
+<http://example.org/tic-absa/annotation/5841a19cec4a8938d4000626_Contenido_Negativo_5> absa:similarity -0.031380 .
+<http://example.org/tic-absa/annotation/5841a19cec4a8938d4000626_Contenido_Negativo_5> absa:mention """Las preguntas del test1 se contradicen con lo expuesto en las diapositivas.""" .
+<http://example.org/tic-absa/annotation/5841a19cec4a8938d4000626_Contenido_Negativo_5> absa:justification """La contradicción sugiere que el contenido no es coherente, lo que es un aspecto negativo.""" .
+<http://example.org/tic-absa/annotation/5841a19cec4a8938d4000626_Contenido_Negativo_5> absa:embeddingDimension 128 .
+<http://example.org/tic-absa/annotation/5841a19cec4a8938d4000626_Contenido_Negativo_5> absa:inCourse <http://example.org/tic-absa/courseEdition/course-v1:UTPL%2BHG%2B2016> .
+<http://example.org/tic-absa/annotation/5841a19cec4a8938d4000626_Contenido_Negativo_5> absa:inBaseCourse <http://example.org/tic-absa/courseBase/HG> .
+<http://example.org/tic-absa/annotation/5841a19cec4a8938d4000626_Contenido_Negativo_5> absa:inThread <http://example.org/tic-absa/thread/583f6ff9ec4a89c76100058f> .
+
+<http://example.org/tic-absa/comment/5843492dec4a89c7610005ee> absa:hasAnnotation <http://example.org/tic-absa/annotation/5843492dec4a89c7610005ee_Evaluacion_Negativo_6> .
+<http://example.org/tic-absa/annotation/5843492dec4a89c7610005ee_Evaluacion_Negativo_6> a absa:Annotation .
+<http://example.org/tic-absa/annotation/5843492dec4a89c7610005ee_Evaluacion_Negativo_6> absa:hasAspect <http://example.org/tic-absa/aspect/Evaluacion> .
+<http://example.org/tic-absa/annotation/5843492dec4a89c7610005ee_Evaluacion_Negativo_6> absa:hasPolarity <http://example.org/tic-absa/polarity/Negativo> .
+<http://example.org/tic-absa/annotation/5843492dec4a89c7610005ee_Evaluacion_Negativo_6> absa:confidence 0.9000 .
+<http://example.org/tic-absa/annotation/5843492dec4a89c7610005ee_Evaluacion_Negativo_6> absa:similarity -0.119688 .
+<http://example.org/tic-absa/annotation/5843492dec4a89c7610005ee_Evaluacion_Negativo_6> absa:mention """me estaba frustrando con el test""" .
+<http://example.org/tic-absa/annotation/5843492dec4a89c7610005ee_Evaluacion_Negativo_6> absa:justification """La frustración indica una experiencia negativa con la evaluación.""" .
+<http://example.org/tic-absa/annotation/5843492dec4a89c7610005ee_Evaluacion_Negativo_6> absa:embeddingDimension 128 .
+<http://example.org/tic-absa/annotation/5843492dec4a89c7610005ee_Evaluacion_Negativo_6> absa:inCourse <http://example.org/tic-absa/courseEdition/course-v1:UTPL%2BHG%2B2016> .
+<http://example.org/tic-absa/annotation/5843492dec4a89c7610005ee_Evaluacion_Negativo_6> absa:inBaseCourse <http://example.org/tic-absa/courseBase/HG> .
+<http://example.org/tic-absa/annotation/5843492dec4a89c7610005ee_Evaluacion_Negativo_6> absa:inThread <http://example.org/tic-absa/thread/58431263ec4a896c9b00065f> .
+
+<http://example.org/tic-absa/comment/584349ffec4a896c9b00066d> absa:hasAnnotation <http://example.org/tic-absa/annotation/584349ffec4a896c9b00066d_Contenido_Negativo_7> .
+<http://example.org/tic-absa/annotation/584349ffec4a896c9b00066d_Contenido_Negativo_7> a absa:Annotation .
+<http://example.org/tic-absa/annotation/584349ffec4a896c9b00066d_Contenido_Negativo_7> absa:hasAspect <http://example.org/tic-absa/aspect/Contenido> .
+<http://example.org/tic-absa/annotation/584349ffec4a896c9b00066d_Contenido_Negativo_7> absa:hasPolarity <http://example.org/tic-absa/polarity/Negativo> .
+<http://example.org/tic-absa/annotation/584349ffec4a896c9b00066d_Contenido_Negativo_7> absa:confidence 0.9000 .
+<http://example.org/tic-absa/annotation/584349ffec4a896c9b00066d_Contenido_Negativo_7> absa:similarity -0.107009 .
+<http://example.org/tic-absa/annotation/584349ffec4a896c9b00066d_Contenido_Negativo_7> absa:mention """pues crea confusión en relación a test.""" .
+<http://example.org/tic-absa/annotation/584349ffec4a896c9b00066d_Contenido_Negativo_7> absa:justification """La frase indica que hay confusión respecto al material de estudio, lo que sugiere una percepción negativa sobre el contenido.""" .
+<http://example.org/tic-absa/annotation/584349ffec4a896c9b00066d_Contenido_Negativo_7> absa:embeddingDimension 128 .
+<http://example.org/tic-absa/annotation/584349ffec4a896c9b00066d_Contenido_Negativo_7> absa:inCourse <http://example.org/tic-absa/courseEdition/course-v1:UTPL%2BHG%2B2016> .
+<http://example.org/tic-absa/annotation/584349ffec4a896c9b00066d_Contenido_Negativo_7> absa:inBaseCourse <http://example.org/tic-absa/courseBase/HG> .
+<http://example.org/tic-absa/annotation/584349ffec4a896c9b00066d_Contenido_Negativo_7> absa:inThread <http://example.org/tic-absa/thread/583f6ff9ec4a89c76100058f> .
+
+<http://example.org/tic-absa/comment/584349ffec4a896c9b00066d> absa:hasAnnotation <http://example.org/tic-absa/annotation/584349ffec4a896c9b00066d_Evaluacion_Neutral_8> .
+<http://example.org/tic-absa/annotation/584349ffec4a896c9b00066d_Evaluacion_Neutral_8> a absa:Annotation .
+<http://example.org/tic-absa/annotation/584349ffec4a896c9b00066d_Evaluacion_Neutral_8> absa:hasAspect <http://example.org/tic-absa/aspect/Evaluacion> .
+<http://example.org/tic-absa/annotation/584349ffec4a896c9b00066d_Evaluacion_Neutral_8> absa:hasPolarity <http://example.org/tic-absa/polarity/Neutral> .
+<http://example.org/tic-absa/annotation/584349ffec4a896c9b00066d_Evaluacion_Neutral_8> absa:confidence 0.7000 .
+<http://example.org/tic-absa/annotation/584349ffec4a896c9b00066d_Evaluacion_Neutral_8> absa:similarity -0.072140 .
+<http://example.org/tic-absa/annotation/584349ffec4a896c9b00066d_Evaluacion_Neutral_8> absa:mention """en relación a test.""" .
+<http://example.org/tic-absa/annotation/584349ffec4a896c9b00066d_Evaluacion_Neutral_8> absa:justification """La mención de 'test' no expresa una opinión clara, solo se refiere a una evaluación sin un juicio positivo o negativo.""" .
+<http://example.org/tic-absa/annotation/584349ffec4a896c9b00066d_Evaluacion_Neutral_8> absa:embeddingDimension 128 .
+<http://example.org/tic-absa/annotation/584349ffec4a896c9b00066d_Evaluacion_Neutral_8> absa:inCourse <http://example.org/tic-absa/courseEdition/course-v1:UTPL%2BHG%2B2016> .
+<http://example.org/tic-absa/annotation/584349ffec4a896c9b00066d_Evaluacion_Neutral_8> absa:inBaseCourse <http://example.org/tic-absa/courseBase/HG> .
+<http://example.org/tic-absa/annotation/584349ffec4a896c9b00066d_Evaluacion_Neutral_8> absa:inThread <http://example.org/tic-absa/thread/583f6ff9ec4a89c76100058f> .
+
+<http://example.org/tic-absa/comment/5844522bec4a8938d4000660> absa:hasAnnotation <http://example.org/tic-absa/annotation/5844522bec4a8938d4000660_Evaluacion_Negativo_9> .
+<http://example.org/tic-absa/annotation/5844522bec4a8938d4000660_Evaluacion_Negativo_9> a absa:Annotation .
+<http://example.org/tic-absa/annotation/5844522bec4a8938d4000660_Evaluacion_Negativo_9> absa:hasAspect <http://example.org/tic-absa/aspect/Evaluacion> .
+<http://example.org/tic-absa/annotation/5844522bec4a8938d4000660_Evaluacion_Negativo_9> absa:hasPolarity <http://example.org/tic-absa/polarity/Negativo> .
+<http://example.org/tic-absa/annotation/5844522bec4a8938d4000660_Evaluacion_Negativo_9> absa:confidence 0.9000 .
+<http://example.org/tic-absa/annotation/5844522bec4a8938d4000660_Evaluacion_Negativo_9> absa:similarity 0.044420 .
+<http://example.org/tic-absa/annotation/5844522bec4a8938d4000660_Evaluacion_Negativo_9> absa:mention """hay problemas en el test deberían corregir las contradicciones""" .
+<http://example.org/tic-absa/annotation/5844522bec4a8938d4000660_Evaluacion_Negativo_9> absa:justification """Se menciona que hay problemas en la evaluación, lo que indica una insatisfacción.""" .
+<http://example.org/tic-absa/annotation/5844522bec4a8938d4000660_Evaluacion_Negativo_9> absa:embeddingDimension 128 .
+<http://example.org/tic-absa/annotation/5844522bec4a8938d4000660_Evaluacion_Negativo_9> absa:inCourse <http://example.org/tic-absa/courseEdition/course-v1:UTPL%2BHG%2B2016> .
+<http://example.org/tic-absa/annotation/5844522bec4a8938d4000660_Evaluacion_Negativo_9> absa:inBaseCourse <http://example.org/tic-absa/courseBase/HG> .
+<http://example.org/tic-absa/annotation/5844522bec4a8938d4000660_Evaluacion_Negativo_9> absa:inThread <http://example.org/tic-absa/thread/583ed2e3ec4a89449800065a> .

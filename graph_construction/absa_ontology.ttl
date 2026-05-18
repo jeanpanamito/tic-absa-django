@@ -1,0 +1,108 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix absa: <http://example.org/tic-absa/absa#> .
+@base <http://example.org/tic-absa/> .
+
+# --- CLASE: absa:Annotation ---
+# Representa una anotación ABSA que conecta un comentario con un aspecto y su polaridad
+absa:Annotation a owl:Class ;
+    rdfs:label "ABSA Annotation"@en ;
+    rdfs:comment "Una anotación de análisis de sentimientos basado en aspectos (ABSA) que conecta un comentario con un aspecto educativo y su polaridad detectada."@en ;
+    rdfs:subClassOf owl:Thing .
+
+# --- PROPIEDADES ABSA ---
+
+# absa:hasAnnotation
+# Relación: Comment -> Annotation
+absa:hasAnnotation a owl:ObjectProperty ;
+    rdfs:label "has annotation"@en ;
+    rdfs:comment "Relaciona un comentario con una anotación ABSA."@en ;
+    rdfs:domain skos:Concept ;  # Los comentarios son skos:Concept
+    rdfs:range absa:Annotation .
+
+# absa:hasAspect
+# Relación: Annotation -> Aspect
+absa:hasAspect a owl:ObjectProperty ;
+    rdfs:label "has aspect"@en ;
+    rdfs:comment "Relaciona una anotación ABSA con el aspecto educativo detectado."@en ;
+    rdfs:domain absa:Annotation ;
+    rdfs:range skos:Concept .  # Los aspectos son skos:Concept
+
+# absa:hasPolarity
+# Relación: Annotation -> Polarity
+absa:hasPolarity a owl:ObjectProperty ;
+    rdfs:label "has polarity"@en ;
+    rdfs:comment "Relaciona una anotación ABSA con la polaridad del sentimiento detectado (Positivo, Negativo, Neutral)."@en ;
+    rdfs:domain absa:Annotation ;
+    rdfs:range skos:Concept .  # Las polaridades son skos:Concept
+
+# absa:inCourse
+# Relación: Annotation -> CourseEdition (opcional)
+absa:inCourse a owl:ObjectProperty ;
+    rdfs:label "in course"@en ;
+    rdfs:comment "Relaciona una anotación ABSA con la edición del curso donde se encontró."@en ;
+    rdfs:domain absa:Annotation ;
+    rdfs:range skos:Concept .  # CourseEdition es skos:Concept
+
+# absa:inBaseCourse
+# Relación: Annotation -> CourseBase (opcional)
+absa:inBaseCourse a owl:ObjectProperty ;
+    rdfs:label "in base course"@en ;
+    rdfs:comment "Relaciona una anotación ABSA con el curso base donde se encontró."@en ;
+    rdfs:domain absa:Annotation ;
+    rdfs:range skos:Concept .  # CourseBase es skos:Concept
+
+# absa:inThread
+# Relación: Annotation -> Thread (opcional)
+absa:inThread a owl:ObjectProperty ;
+    rdfs:label "in thread"@en ;
+    rdfs:comment "Relaciona una anotación ABSA con el hilo de discusión donde se encontró."@en ;
+    rdfs:domain absa:Annotation ;
+    rdfs:range skos:Concept .  # Thread es skos:Concept
+
+# --- PROPIEDADES DE DATOS (DATATYPE PROPERTIES) ---
+
+# absa:confidence
+# Confianza de la anotación (0.0 - 1.0)
+absa:confidence a owl:DatatypeProperty ;
+    rdfs:label "confidence"@en ;
+    rdfs:comment "Nivel de confianza de la anotación ABSA (valor entre 0.0 y 1.0)."@en ;
+    rdfs:domain absa:Annotation ;
+    rdfs:range xsd:float .
+
+# absa:similarity
+# Similitud semántica del embedding (puede ser negativa)
+absa:similarity a owl:DatatypeProperty ;
+    rdfs:label "similarity"@en ;
+    rdfs:comment "Similitud semántica calculada entre el embedding del comentario y el aspecto (puede ser negativa)."@en ;
+    rdfs:domain absa:Annotation ;
+    rdfs:range xsd:float .
+
+# absa:mention
+# Texto original mencionado en el comentario
+absa:mention a owl:DatatypeProperty ;
+    rdfs:label "mention"@en ;
+    rdfs:comment "Fragmento de texto del comentario que menciona el aspecto."@en ;
+    rdfs:domain absa:Annotation ;
+    rdfs:range xsd:string .
+
+# absa:justification
+# Justificación de la anotación
+absa:justification a owl:DatatypeProperty ;
+    rdfs:label "justification"@en ;
+    rdfs:comment "Explicación breve de por qué se asignó esta anotación al comentario."@en ;
+    rdfs:domain absa:Annotation ;
+    rdfs:range xsd:string .
+
+# absa:embeddingDimension
+# Dimensión del embedding fusionado
+absa:embeddingDimension a owl:DatatypeProperty ;
+    rdfs:label "embedding dimension"@en ;
+    rdfs:comment "Dimensión del vector de embedding fusionado usado para la anotación."@en ;
+    rdfs:domain absa:Annotation ;
+    rdfs:range xsd:integer .
+

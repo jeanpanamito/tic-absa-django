@@ -1,0 +1,156 @@
+================================================================================
+5 CONSULTAS SPARQL PRINCIPALES PARA EXPLORAR EL GRAFO ENRIQUECIDO CON ABSA
+================================================================================
+
+================================================================================
+CONSULTA 1: Comentarios con Anotaciones ABSA (Detalle Completo)
+================================================================================
+Muestra comentarios con todas sus anotaciones ABSA, incluyendo aspectos, 
+polaridades y metadatos.
+
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX absa: <http://example.org/tic-absa/absa#>
+BASE <http://example.org/tic-absa/>
+
+SELECT ?comment ?commentText ?aspect ?polarity ?confidence ?mention ?justification
+WHERE {
+    ?comment absa:hasAnnotation ?annotation .
+    ?annotation absa:hasAspect ?aspect .
+    ?annotation absa:hasPolarity ?polarity .
+    ?annotation absa:confidence ?confidence .
+    ?annotation absa:mention ?mention .
+    ?annotation absa:justification ?justification .
+    ?comment skos:note ?commentText .
+    ?aspect skos:prefLabel ?aspectLabel .
+    ?polarity skos:prefLabel ?polarityLabel .
+}
+ORDER BY DESC(?confidence)
+LIMIT 20
+
+================================================================================
+CONSULTA 2: Jerarquía Completa: CourseBase → CourseEdition → Thread → Comment
+================================================================================
+Muestra la jerarquía completa del grafo desde el curso base hasta los comentarios,
+incluyendo las anotaciones ABSA.
+
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX absa: <http://example.org/tic-absa/absa#>
+BASE <http://example.org/tic-absa/>
+
+SELECT ?baseCourse ?courseEdition ?thread ?comment ?aspect ?polarity
+WHERE {
+    # Jerarquía: CourseBase -> CourseEdition -> Thread -> Comment
+    ?courseEdition skos:broader ?baseCourse .
+    ?thread skos:broader ?courseEdition .
+    ?comment skos:broader ?thread .
+    
+    # Anotaciones ABSA del comentario
+    ?comment absa:hasAnnotation ?annotation .
+    ?annotation absa:hasAspect ?aspect .
+    ?annotation absa:hasPolarity ?polarity .
+    
+    # Labels para legibilidad
+    ?baseCourse skos:prefLabel ?baseLabel .
+    ?courseEdition skos:prefLabel ?courseLabel .
+    ?thread skos:prefLabel ?threadLabel .
+    ?aspect skos:prefLabel ?aspectLabel .
+    ?polarity skos:prefLabel ?polarityLabel .
+}
+ORDER BY ?baseCourse ?courseEdition ?thread ?comment
+LIMIT 30
+
+================================================================================
+CONSULTA 3: Comentarios con Sentimientos Positivos (Alta Confianza)
+================================================================================
+Encuentra comentarios con sentimientos positivos y alta confianza, mostrando 
+los aspectos mencionados.
+
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX absa: <http://example.org/tic-absa/absa#>
+BASE <http://example.org/tic-absa/>
+
+SELECT ?comment ?commentText ?aspect ?mention ?confidence ?similarity
+WHERE {
+    ?comment absa:hasAnnotation ?annotation .
+    ?annotation absa:hasPolarity <polarity/Positivo> .
+    ?annotation absa:hasAspect ?aspect .
+    ?annotation absa:confidence ?confidence .
+    ?annotation absa:similarity ?similarity .
+    ?annotation absa:mention ?mention .
+    ?comment skos:note ?commentText .
+    ?aspect skos:prefLabel ?aspectLabel .
+    
+    # Filtrar por alta confianza
+    FILTER(?confidence >= 0.8)
+}
+ORDER BY DESC(?confidence) DESC(?similarity)
+LIMIT 25
+
+================================================================================
+CONSULTA 4: Comentarios con Sentimientos Negativos por Aspecto
+================================================================================
+Agrupa comentarios negativos por aspecto, mostrando conteos y ejemplos.
+
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX absa: <http://example.org/tic-absa/absa#>
+BASE <http://example.org/tic-absa/>
+
+SELECT ?aspect ?aspectLabel 
+       (COUNT(?annotation) AS ?totalNegativos)
+       (AVG(?confidence) AS ?confianzaPromedio)
+       (SAMPLE(?mention) AS ?ejemploMencion)
+WHERE {
+    ?comment absa:hasAnnotation ?annotation .
+    ?annotation absa:hasPolarity <polarity/Negativo> .
+    ?annotation absa:hasAspect ?aspect .
+    ?annotation absa:confidence ?confidence .
+    ?annotation absa:mention ?mention .
+    ?aspect skos:prefLabel ?aspectLabel .
+}
+GROUP BY ?aspect ?aspectLabel
+ORDER BY DESC(?totalNegativos)
+
+================================================================================
+CONSULTA 5: Distribución de Sentimientos por Aspecto (Resumen Estadístico)
+================================================================================
+Muestra un resumen completo de la distribución de sentimientos (Positivo, 
+Negativo, Neutral) para cada aspecto.
+
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX absa: <http://example.org/tic-absa/absa#>
+BASE <http://example.org/tic-absa/>
+
+SELECT ?aspect ?aspectLabel ?polarity ?polarityLabel
+       (COUNT(?annotation) AS ?cantidad)
+       (AVG(?confidence) AS ?confianzaPromedio)
+       (MIN(?confidence) AS ?confianzaMinima)
+       (MAX(?confidence) AS ?confianzaMaxima)
+WHERE {
+    ?comment absa:hasAnnotation ?annotation .
+    ?annotation absa:hasAspect ?aspect .
+    ?annotation absa:hasPolarity ?polarity .
+    ?annotation absa:confidence ?confidence .
+    ?aspect skos:prefLabel ?aspectLabel .
+    ?polarity skos:prefLabel ?polarityLabel .
+}
+GROUP BY ?aspect ?aspectLabel ?polarity ?polarityLabel
+ORDER BY ?aspectLabel ?polarityLabel
+
+================================================================================
+INSTRUCCIONES DE USO EN GRAPHDB
+================================================================================
+
+1. Abre GraphDB Workbench en tu navegador
+2. Selecciona tu repositorio
+3. Ve a la pestaña "SPARQL"
+4. Copia y pega cualquiera de las consultas anteriores
+5. Haz clic en "Run" para ejecutar la consulta
+6. Los resultados se mostrarán en formato tabla
+
+NOTA: Asegúrate de haber cargado primero:
+   - data/exports/sample_skos.ttl (grafo base)
+   - src/graph_construction/absa_ontology.ttl (ontología)
+   - data/exports/absa_enrichment.ttl (enriquecimiento ABSA)
+
+================================================================================
+

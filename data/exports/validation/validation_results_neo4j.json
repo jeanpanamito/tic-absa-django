@@ -1,0 +1,62 @@
+[
+  {
+    "id": "http://example.org/tic-absa/comment/5e973b60ec4a89c1a9000ad1",
+    "text": "me parece interesante el tema a tratar",
+    "aspect": "General",
+    "sentiment": "Positivo",
+    "justification": "El comentario expresa un interés positivo hacia el tema del curso.",
+    "relevancia_aspecto": 4,
+    "aspecto_correcto": true,
+    "sentimiento_correcto": true,
+    "sentimiento_real": "Positivo",
+    "explicacion": "El comentario expresa un interés general en el tema, lo cual es razonablemente capturado por el aspecto 'General'. El sentimiento es positivo, ya que 'interesante' sugiere una valoración favorable."
+  },
+  {
+    "id": "http://example.org/tic-absa/comment/59e3ace5ec4a89ecb6000a44",
+    "text": "las respuestas del foro 1 es q si se debería fomentar a que las personas cosechen sus propios productos",
+    "aspect": "Foros",
+    "sentiment": "Positivo",
+    "justification": "El comentario sugiere que el foro es un espacio para fomentar la producción y el bienestar, lo que indica una percepción positiva.",
+    "relevancia_aspecto": 4,
+    "aspecto_correcto": true,
+    "sentimiento_correcto": false,
+    "sentimiento_real": "Neutral",
+    "explicacion": "El aspecto 'Foros' es relevante ya que el comentario menciona 'las respuestas del foro 1'. Sin embargo, el sentimiento no es positivo ni negativo, sino más bien neutral, ya que el comentario simplemente describe una opinión expresada en el foro sin emitir un juicio de valor sobre el foro en sí."
+  },
+  {
+    "id": "http://example.org/tic-absa/comment/5c088345ec4a890590000360",
+    "text": "Este curso me parece muy importante aprender sobre el tema Huertos Familiares",
+    "aspect": "Contenido",
+    "sentiment": "Positivo",
+    "justification": "El comentario expresa que el curso es importante para el aprendizaje.",
+    "relevancia_aspecto": 4,
+    "aspecto_correcto": true,
+    "sentimiento_correcto": true,
+    "sentimiento_real": "Positivo",
+    "explicacion": "El aspecto 'Contenido' es razonable ya que el comentario se refiere al tema del curso, que es parte del contenido. El sentimiento positivo es correcto porque el estudiante expresa que el curso es 'muy importante', lo cual es una valoración positiva."
+  },
+  {
+    "id": "http://example.org/tic-absa/comment/5e9c8d28ec4a89906b000115",
+    "text": "Tengo muchas expectativas de este curso.",
+    "aspect": "General",
+    "sentiment": "Positivo",
+    "justification": "La frase expresa una actitud optimista hacia el curso.",
+    "relevancia_aspecto": 4,
+    "aspecto_correcto": true,
+    "sentimiento_correcto": true,
+    "sentimiento_real": "Positivo",
+    "explicacion": "El aspecto 'General' es razonable ya que el comentario no menciona un aspecto específico del curso, sino una expectativa global. El sentimiento 'Positivo' es correcto porque 'tener muchas expectativas' generalmente implica una actitud positiva hacia el curso."
+  },
+  {
+    "id": "http://example.org/tic-absa/comment/5e9de7caec4a898ced000730",
+    "text": "estoy muy contenta de seguir aprendiendo",
+    "aspect": "Contenido",
+    "sentiment": "Positivo",
+    "justification": "La expresión de estar contenta indica una actitud positiva hacia el aprendizaje.",
+    "relevancia_aspecto": 4,
+    "aspecto_correcto": true,
+    "sentimiento_correcto": true,
+    "sentimiento_real": "Positivo",
+    "explicacion": "El comentario expresa satisfacción con el proceso de aprendizaje, lo cual está relacionado con el 'Contenido' de lo que se aprende. El sentimiento positivo es correcto ya que la palabra 'contenta' indica satisfacción."
+  }
+]

@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 700px;
+                 background-color: #1e1e1e;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#3498db", "font": {"color": "white"}, "id": "Comment_5ad407ddec4a89af17001aab", "label": "Comment\n5ad407dd...\n\"tengo el mismo problema al mom...\"", "shape": "dot", "size": 25, "title": "Comentario: 5ad407ddec4a89af17001aab\nMencion: tengo el mismo problema al momento de resolver la autoevaluaci\u00f3n\nConfianza: 0.90"}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "Aspect_Evaluacion", "label": "Evaluacion", "shape": "dot", "size": 20, "title": "Aspecto: Evaluacion"}, {"color": "#e74c3c", "font": {"color": "white"}, "id": "Polarity_Negativo", "label": "Negativo", "shape": "dot", "size": 20, "title": "Polaridad: Negativo"}, {"color": "#f39c12", "font": {"color": "white"}, "id": "Justification_5ad407ddec4a89af17001aab_Evaluacion", "label": "Justificaci\u00f3n\nEl comentario expresa un problema relacionado con ...", "shape": "box", "size": 15, "title": "Justificaci\u00f3n: El comentario expresa un problema relacionado con la autoevaluaci\u00f3n, lo que indica una experiencia negativa."}, {"color": "#3498db", "font": {"color": "white"}, "id": "Comment_5ad762ecec4a89ecb6001914", "label": "Comment\n5ad762ec...\n\"Puede existir alguna falla que...\"", "shape": "dot", "size": 25, "title": "Comentario: 5ad762ecec4a89ecb6001914\nMencion: Puede existir alguna falla que sea s\u00f3lo por usuario porque hemos revisado que no es un problema que todos lo tengan.\nConfianza: 0.80"}, {"color": "#95a5a6", "font": {"color": "white"}, "id": "Polarity_Neutral", "label": "Neutral", "shape": "dot", "size": 20, "title": "Polaridad: Neutral"}, {"color": "#f39c12", "font": {"color": "white"}, "id": "Justification_5ad762ecec4a89ecb6001914_Evaluacion", "label": "Justificaci\u00f3n\nLa frase describe un aspecto de la evaluaci\u00f3n sin ...", "shape": "box", "size": 15, "title": "Justificaci\u00f3n: La frase describe un aspecto de la evaluaci\u00f3n sin expresar una opini\u00f3n positiva o negativa."}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "Aspect_Plataforma", "label": "Plataforma", "shape": "dot", "size": 20, "title": "Aspecto: Plataforma"}, {"color": "#f39c12", "font": {"color": "white"}, "id": "Justification_5ad762ecec4a89ecb6001914_Plataforma", "label": "Justificaci\u00f3n\nSe menciona una posible falla en la plataforma, lo...", "shape": "box", "size": 15, "title": "Justificaci\u00f3n: Se menciona una posible falla en la plataforma, lo que indica un sentimiento negativo hacia su funcionamiento."}, {"color": "#3498db", "font": {"color": "white"}, "id": "Comment_5ad7732fec4a89af17001bd1", "label": "Comment\n5ad7732f...\n\"En total ser\u00e1n 6 cuestionarios...\"", "shape": "dot", "size": 25, "title": "Comentario: 5ad7732fec4a89af17001bd1\nMencion: En total ser\u00e1n 6 cuestionarios durante el curso.\nConfianza: 0.90"}, {"color": "#f39c12", "font": {"color": "white"}, "id": "Justification_5ad7732fec4a89af17001bd1_Evaluacion", "label": "Justificaci\u00f3n\nSe proporciona informaci\u00f3n factual sobre la cantid...", "shape": "box", "size": 15, "title": "Justificaci\u00f3n: Se proporciona informaci\u00f3n factual sobre la cantidad de cuestionarios sin un sentimiento asociado."}, {"color": "#3498db", "font": {"color": "white"}, "id": "Comment_5adc0d67ec4a89f42b0019b0", "label": "Comment\n5adc0d67...\n\"estimada tutora, me puede ayud...\"", "shape": "dot", "size": 25, "title": "Comentario: 5adc0d67ec4a89f42b0019b0\nMencion: estimada tutora, me puede ayudar\nConfianza: 0.80"}, {"color": "#f39c12", "font": {"color": "white"}, "id": "Justification_5adc0d67ec4a89f42b0019b0_Evaluacion", "label": "Justificaci\u00f3n\nEl comentario expresa insatisfacci\u00f3n con la evalua...", "shape": "box", "size": 15, "title": "Justificaci\u00f3n: El comentario expresa insatisfacci\u00f3n con la evaluaci\u00f3n recibida."}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "Aspect_Tutoria", "label": "Tutoria", "shape": "dot", "size": 20, "title": "Aspecto: Tutoria"}, {"color": "#2ecc71", "font": {"color": "white"}, "id": "Polarity_Positivo", "label": "Positivo", "shape": "dot", "size": 20, "title": "Polaridad: Positivo"}, {"color": "#f39c12", "font": {"color": "white"}, "id": "Justification_5adc0d67ec4a89f42b0019b0_Tutoria", "label": "Justificaci\u00f3n\nEl comentario muestra una solicitud de ayuda, lo q...", "shape": "box", "size": 15, "title": "Justificaci\u00f3n: El comentario muestra una solicitud de ayuda, lo que indica una percepci\u00f3n positiva del soporte del tutor."}, {"color": "#3498db", "font": {"color": "white"}, "id": "Comment_5ae07d0aec4a89253000000b", "label": "Comment\n5ae07d0a...\n\"no se ve reflejado las autoeva...\"", "shape": "dot", "size": 25, "title": "Comentario: 5ae07d0aec4a89253000000b\nMencion: no se ve reflejado las autoevaluaciones pese al estar cumplidas\nConfianza: 0.90"}, {"color": "#f39c12", "font": {"color": "white"}, "id": "Justification_5ae07d0aec4a89253000000b_Evaluacion", "label": "Justificaci\u00f3n\nEl comentario expresa insatisfacci\u00f3n con la falta ...", "shape": "box", "size": 15, "title": "Justificaci\u00f3n: El comentario expresa insatisfacci\u00f3n con la falta de reflejo de las autoevaluaciones."}, {"color": "#3498db", "font": {"color": "white"}, "id": "Comment_5ae20567ec4a89c2cf000036", "label": "Comment\n5ae20567...\n\"todas las autoevaluaciones ten...\"", "shape": "dot", "size": 25, "title": "Comentario: 5ae20567ec4a89c2cf000036\nMencion: todas las autoevaluaciones tengan un valor de 0 puntos, es decir no cuentan para su nota final, constituyen s\u00f3lo un repaso.\nConfianza: 0.90"}, {"color": "#f39c12", "font": {"color": "white"}, "id": "Justification_5ae20567ec4a89c2cf000036_Evaluacion", "label": "Justificaci\u00f3n\nEl comentario indica que las autoevaluaciones no t...", "shape": "box", "size": 15, "title": "Justificaci\u00f3n: El comentario indica que las autoevaluaciones no tienen valor en la calificaci\u00f3n final, lo que se considera negativo."}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "#f39c12", "from": "Comment_5ad407ddec4a89af17001aab", "label": "justified_by", "to": "Justification_5ad407ddec4a89af17001aab_Evaluacion", "width": 2}, {"arrows": "to", "color": "#e74c3c", "from": "Comment_5ad407ddec4a89af17001aab", "label": "hasPolarity", "to": "Polarity_Negativo", "width": 3}, {"arrows": "to", "color": "#f39c12", "from": "Justification_5ad407ddec4a89af17001aab_Evaluacion", "label": "explains", "to": "Aspect_Evaluacion", "width": 2}, {"arrows": "to", "color": "#f39c12", "from": "Comment_5ad762ecec4a89ecb6001914", "label": "justified_by", "to": "Justification_5ad762ecec4a89ecb6001914_Evaluacion", "width": 2}, {"arrows": "to", "color": "#95a5a6", "from": "Comment_5ad762ecec4a89ecb6001914", "label": "hasPolarity", "to": "Polarity_Neutral", "width": 3}, {"arrows": "to", "color": "#f39c12", "from": "Comment_5ad762ecec4a89ecb6001914", "label": "justified_by", "to": "Justification_5ad762ecec4a89ecb6001914_Plataforma", "width": 2}, {"arrows": "to", "color": "#e74c3c", "from": "Comment_5ad762ecec4a89ecb6001914", "label": "hasPolarity", "to": "Polarity_Negativo", "width": 3}, {"arrows": "to", "color": "#f39c12", "from": "Justification_5ad762ecec4a89ecb6001914_Evaluacion", "label": "explains", "to": "Aspect_Evaluacion", "width": 2}, {"arrows": "to", "color": "#f39c12", "from": "Justification_5ad762ecec4a89ecb6001914_Plataforma", "label": "explains", "to": "Aspect_Plataforma", "width": 2}, {"arrows": "to", "color": "#f39c12", "from": "Comment_5ad7732fec4a89af17001bd1", "label": "justified_by", "to": "Justification_5ad7732fec4a89af17001bd1_Evaluacion", "width": 2}, {"arrows": "to", "color": "#95a5a6", "from": "Comment_5ad7732fec4a89af17001bd1", "label": "hasPolarity", "to": "Polarity_Neutral", "width": 3}, {"arrows": "to", "color": "#f39c12", "from": "Justification_5ad7732fec4a89af17001bd1_Evaluacion", "label": "explains", "to": "Aspect_Evaluacion", "width": 2}, {"arrows": "to", "color": "#f39c12", "from": "Comment_5adc0d67ec4a89f42b0019b0", "label": "justified_by", "to": "Justification_5adc0d67ec4a89f42b0019b0_Evaluacion", "width": 2}, {"arrows": "to", "color": "#e74c3c", "from": "Comment_5adc0d67ec4a89f42b0019b0", "label": "hasPolarity", "to": "Polarity_Negativo", "width": 3}, {"arrows": "to", "color": "#f39c12", "from": "Comment_5adc0d67ec4a89f42b0019b0", "label": "justified_by", "to": "Justification_5adc0d67ec4a89f42b0019b0_Tutoria", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "Comment_5adc0d67ec4a89f42b0019b0", "label": "hasPolarity", "to": "Polarity_Positivo", "width": 3}, {"arrows": "to", "color": "#f39c12", "from": "Justification_5adc0d67ec4a89f42b0019b0_Evaluacion", "label": "explains", "to": "Aspect_Evaluacion", "width": 2}, {"arrows": "to", "color": "#f39c12", "from": "Justification_5adc0d67ec4a89f42b0019b0_Tutoria", "label": "explains", "to": "Aspect_Tutoria", "width": 2}, {"arrows": "to", "color": "#f39c12", "from": "Comment_5ae07d0aec4a89253000000b", "label": "justified_by", "to": "Justification_5ae07d0aec4a89253000000b_Evaluacion", "width": 2}, {"arrows": "to", "color": "#e74c3c", "from": "Comment_5ae07d0aec4a89253000000b", "label": "hasPolarity", "to": "Polarity_Negativo", "width": 3}, {"arrows": "to", "color": "#f39c12", "from": "Justification_5ae07d0aec4a89253000000b_Evaluacion", "label": "explains", "to": "Aspect_Evaluacion", "width": 2}, {"arrows": "to", "color": "#f39c12", "from": "Comment_5ae20567ec4a89c2cf000036", "label": "justified_by", "to": "Justification_5ae20567ec4a89c2cf000036_Evaluacion", "width": 2}, {"arrows": "to", "color": "#e74c3c", "from": "Comment_5ae20567ec4a89c2cf000036", "label": "hasPolarity", "to": "Polarity_Negativo", "width": 3}, {"arrows": "to", "color": "#f39c12", "from": "Justification_5ae20567ec4a89c2cf000036_Evaluacion", "label": "explains", "to": "Aspect_Evaluacion", "width": 2}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"physics": {"enabled": true, "stabilization": {"iterations": 200}, "barnesHut": {"gravitationalConstant": -2000, "centralGravity": 0.1, "springLength": 150, "springConstant": 0.05, "damping": 0.09}}, "interaction": {"hover": true, "tooltipDelay": 200, "zoomView": true, "dragView": true}, "nodes": {"font": {"size": 12, "face": "Arial"}, "borderWidth": 2, "shadow": true}, "edges": {"smooth": {"type": "continuous", "roundness": 0.5}, "font": {"size": 10, "align": "middle"}, "arrows": {"to": {"enabled": true, "scaleFactor": 1.2}}}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

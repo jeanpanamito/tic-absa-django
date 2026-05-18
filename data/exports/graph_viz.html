@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 700px;
+                 background-color: #1e1e1e;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:25", "label": "Comment 58498782ec4a89449800076f", "shape": "dot", "size": 25, "title": "Text: el TEST 1 tuvo much\u00edsimas fallas y en el TEST 2 formulan preguntas que no est\u00e1n entre la materia que..."}, {"font": {"color": "white"}, "group": "Aspect", "id": "A_General", "label": "General", "shape": "dot", "size": 20, "title": "Aspect: General"}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:38", "label": "Comment 5854ba84ec4a8944980007f1", "shape": "dot", "size": 25, "title": "Text: los test tienen errores por ejemplo en el test 2 en las preguntas 2 y 8 se pide ELIJA AL MENOS 2 OPC..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:60", "label": "Comment 5899db88ec4a8938d400097d", "shape": "dot", "size": 25, "title": "Text: Es un gusto para mi participar de este curso mediante este medio...."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:61", "label": "Comment 5899ea4aec4a894498000ac8", "shape": "dot", "size": 25, "title": "Text: espero adquirir nuevos conocimientos los cuales me ayuden aplicarlos a mi vida diaria...."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:62", "label": "Comment 5899ec3cec4a89c761000934", "shape": "dot", "size": 25, "title": "Text: espero cumplir mis expectativas en esta materia y adquirir conocimientos..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:63", "label": "Comment 5899f326ec4a894498000adb", "shape": "dot", "size": 25, "title": "Text: mi interes en este curso en especial, es porque siempre me gusto la idea de tener un huerto en mi ca..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:64", "label": "Comment 5899f7fcec4a894498000ae4", "shape": "dot", "size": 25, "title": "Text: estoy muy gustosa de inicar este curso..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:65", "label": "Comment 589a2cf1ec4a896c9b0009ba", "shape": "dot", "size": 25, "title": "Text: los cursos que ofrece mooc s son una gran oportunidad de aprender y conocer temas muy importantes e ..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:66", "label": "Comment 589a404aec4a89c76100097a", "shape": "dot", "size": 25, "title": "Text: espero aprender mucho de esta materia..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:67", "label": "Comment 589a4507ec4a894498000b23", "shape": "dot", "size": 25, "title": "Text: me pareci\u00f3 muy interesante el tema..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:68", "label": "Comment 589a4703ec4a8938d40009be", "shape": "dot", "size": 25, "title": "Text: me intereso mucho seguir este curso..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:69", "label": "Comment 589a4cf5ec4a894498000b2d", "shape": "dot", "size": 25, "title": "Text: me interesa este curso por que me encanta lo referente a huertos..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:70", "label": "Comment 589a66dbec4a896c9b0009f3", "shape": "dot", "size": 25, "title": "Text: Es un gusto compartir con ustedes esta nueva experiencia...."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:71", "label": "Comment 589a680fec4a894498000b40", "shape": "dot", "size": 25, "title": "Text: me alegra mucho haber tomado este curso..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:72", "label": "Comment 589a6ca7ec4a896c9b0009f6", "shape": "dot", "size": 25, "title": "Text: me parece muy interesante este curso..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:76", "label": "Comment 589a75dcec4a894498000b4a", "shape": "dot", "size": 25, "title": "Text: es un gusto poder aprender este curso q lo veo muy interesante..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:78", "label": "Comment 589a7ae3ec4a896c9b000a00", "shape": "dot", "size": 25, "title": "Text: es un tema muy interesante el cual me entusiasma el hecho de aprender y compartir ideas..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:79", "label": "Comment 589a7d40ec4a894498000b51", "shape": "dot", "size": 25, "title": "Text: espero que este curso sea muy provechoso para todos los participantes..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:80", "label": "Comment 589a7e81ec4a8938d40009ec", "shape": "dot", "size": 25, "title": "Text: es un gusto compartir con uds. este curso..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:82", "label": "Comment 589a8056ec4a89c7610009b9", "shape": "dot", "size": 25, "title": "Text: en este curso espero cumplir con mi objetivo de aprender sobre los huertos familiares..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:83", "label": "Comment 589a84a3ec4a896c9b000a0e", "shape": "dot", "size": 25, "title": "Text: me interesa mucho adquirir conocimientos sobre este tema..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:84", "label": "Comment 589a84c1ec4a89c7610009c0", "shape": "dot", "size": 25, "title": "Text: para mi es un gusto aprender m\u00e1s sobre este tema...."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:85", "label": "Comment 589a84cfec4a896c9b000a0f", "shape": "dot", "size": 25, "title": "Text: me parece muy interesante la tematica de este curso..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:87", "label": "Comment 589a8eaeec4a896c9b000a1f", "shape": "dot", "size": 25, "title": "Text: motivada por seguir este curso..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:88", "label": "Comment 589a8fbbec4a8938d4000a00", "shape": "dot", "size": 25, "title": "Text: motiva por seguir este curso..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:89", "label": "Comment 589acc32ec4a894498000b94", "shape": "dot", "size": 25, "title": "Text: los temas muy intersantes e insentivan a un mayor aprendizaje..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:90", "label": "Comment 589b24e6ec4a89c7610009f4", "shape": "dot", "size": 25, "title": "Text: me interesa la alimentaci\u00f3n saludable y los huertos familiares es una excelente alternativa a la hor..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:91", "label": "Comment 589b2789ec4a89c7610009f8", "shape": "dot", "size": 25, "title": "Text: es un gusto para mi compartir con cada uno de ustedes un nuevo reto mas en lo que respecta a nuestro..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:92", "label": "Comment 589b38f0ec4a896c9b000a64", "shape": "dot", "size": 25, "title": "Text: mi nombre es Esteban Yaguari y espero que nos vaya muy bien esn estos cursos..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:93", "label": "Comment 589b4598ec4a894498000bbb", "shape": "dot", "size": 25, "title": "Text: mi objetivo es adquirir conocimientos acerca de los huertos familiares...."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:94", "label": "Comment 589b4f2bec4a894498000bc1", "shape": "dot", "size": 25, "title": "Text: estos cursos para mi son muy interesantes..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:95", "label": "Comment 589b6088ec4a8938d4000a44", "shape": "dot", "size": 25, "title": "Text: me parece que el tema de Huertos familiares es muy interesante..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:97", "label": "Comment 589b60f3ec4a894498000bd0", "shape": "dot", "size": 25, "title": "Text: gracias por estos cursos que nos dan la oportunidad de conocer y utilizar estos conocimientos...."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:100", "label": "Comment 589bb51bec4a896c9b000ab1", "shape": "dot", "size": 25, "title": "Text: me es grato poder participar del mismo y sacarle el mayor provecho..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:101", "label": "Comment 589bc800ec4a8938d4000a6f", "shape": "dot", "size": 25, "title": "Text: estoy muy gustosa de aprender esta tem\u00e1tica y adquirir nuevos conocimientos...."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:103", "label": "Comment 589bd7b5ec4a896c9b000ac8", "shape": "dot", "size": 25, "title": "Text: es importante conocer temas adicionales a mi carrera..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:104", "label": "Comment 589bea0dec4a896c9b000ae0", "shape": "dot", "size": 25, "title": "Text: es importante aprender acerca t\u00e9cnicas y huertos familiares..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:106", "label": "Comment 589c3802ec4a8938d4000aab", "shape": "dot", "size": 25, "title": "Text: me parece muy interesante..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:108", "label": "Comment 589c8460ec4a894498000c40", "shape": "dot", "size": 25, "title": "Text: estoy muy entusiasmada de dar inicio a este curso..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:109", "label": "Comment 589c9137ec4a8938d4000abd", "shape": "dot", "size": 25, "title": "Text: me encuentro muy emocionada empezar con este curso..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:110", "label": "Comment 589ca523ec4a896c9b000b18", "shape": "dot", "size": 25, "title": "Text: para mi es gusto tomar los cursos de open campus..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:111", "label": "Comment 589cece3ec4a894498000c75", "shape": "dot", "size": 25, "title": "Text: este interesante curso..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:113", "label": "Comment 589de458ec4a894498000cb1", "shape": "dot", "size": 25, "title": "Text: Es un gusto poder pertenecer a este grupo y estar en el curso de Huertos familiares..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:115", "label": "Comment 589e5c64ec4a89c761000b2c", "shape": "dot", "size": 25, "title": "Text: me llamo la atenci\u00f3n este tema por ser de mucha importancia en nuestras vidas..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:117", "label": "Comment 589e5e71ec4a896c9b000bb6", "shape": "dot", "size": 25, "title": "Text: es un curso interesante y puede servir de mucha ayuda en la vida cotidiana y como profesional...."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:120", "label": "Comment 58a10b6aec4a89c761000bda", "shape": "dot", "size": 25, "title": "Text: mi objetivo es poder aprender y llegar a finalizar con mejores conocimientos de la materia...."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:122", "label": "Comment 58a11119ec4a894498000db1", "shape": "dot", "size": 25, "title": "Text: tengo muchas ganas de absorver los conocimientos que este curso me pueda brindar...."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:123", "label": "Comment 58a270f4ec4a896c9b000caa", "shape": "dot", "size": 25, "title": "Text: estoy muy gustoso con esta materia..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:125", "label": "Comment 58a33f94ec4a8938d4000c6c", "shape": "dot", "size": 25, "title": "Text: este curso veo muy interesante para una alimentacion saludable..."}, {"font": {"color": "white"}, "group": "Comment", "id": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:132", "label": "Comment 58a69a78ec4a8938d4000ced", "shape": "dot", "size": 25, "title": "Text: es un placer poder compartir este curso con todos ustedes..."}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "#e74c3c", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:25", "label": "Negativo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#e74c3c", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:38", "label": "Negativo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:60", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:61", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:62", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:63", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:64", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:65", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:66", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:67", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:68", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:69", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:70", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:71", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:72", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:76", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:78", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:79", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:80", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:82", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:83", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:84", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:85", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:87", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:88", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:89", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:90", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:91", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#95a5a6", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:92", "label": "Neutral", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#95a5a6", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:93", "label": "Neutral", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:94", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:95", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:97", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:100", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:101", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:103", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:104", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:106", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:108", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:109", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:110", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:111", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:113", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:115", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:117", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:120", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:122", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:123", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:125", "label": "Positivo", "to": "A_General", "width": 2}, {"arrows": "to", "color": "#2ecc71", "from": "C_4:4b7462ec-c5e0-4af5-8aef-2d6bf581e2ca:132", "label": "Positivo", "to": "A_General", "width": 2}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"physics": {"enabled": true, "stabilization": {"iterations": 200}, "barnesHut": {"gravitationalConstant": -2000, "centralGravity": 0.1, "springLength": 150, "springConstant": 0.05}}, "interaction": {"hover": true, "tooltipDelay": 200}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

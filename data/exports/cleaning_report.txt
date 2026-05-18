@@ -1,0 +1,16 @@
+======================================================================
+CLEANING REPORT - TIC_ABSA_KG
+======================================================================
+
+Total antes: 117,906
+Total después: 105,603
+
+Remociones:
+- Texto vacío: 877
+- Muy cortos (<=2 palabras): 3,269
+- Muy largos (>1000 palabras): 0
+- Solo números/símbolos: 4
+- Duplicados por texto: 8,153
+
+Fechas:
+- Fechas imputadas: sí
