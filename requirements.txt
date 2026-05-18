@@ -12,3 +12,7 @@ llama-index-llms-openai>=0.2.0
 
 # Utilities
 python-dotenv>=1.0.0
+
+# Render Deployment
+gunicorn>=21.2.0
+whitenoise>=6.6.0
