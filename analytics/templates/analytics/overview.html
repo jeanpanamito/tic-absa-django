@@ -1,0 +1,212 @@
+{% extends "analytics/base.html" %}
+{% load static %}
+
+{% block title %}Overview — TIC ABSA Dashboard{% endblock %}
+
+{% block content %}
+<div class="animate-fade-in space-y-8">
+
+    <!-- Page Header -->
+    <div class="flex items-center justify-between">
+        <div>
+            <h1 class="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-teal-400 bg-clip-text text-transparent">
+                Resumen General
+            </h1>
+            <p class="text-gray-400 text-sm mt-1">Estadísticas del grafo de conocimiento ABSA en tiempo real</p>
+        </div>
+        <button onclick="loadAllData()" class="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-sm text-gray-300 transition-all hover:border-purple-500/30" id="btn-refresh-overview">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+            Actualizar
+        </button>
+    </div>
+
+    <!-- KPI Cards -->
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-4" id="kpi-grid">
+        <div class="glass-card-interactive kpi-card">
+            <p class="text-xs font-medium text-gray-400 uppercase tracking-wider mb-2">Total Comentarios</p>
+            <p class="kpi-value" id="kpi-comments">
+                <span class="skeleton inline-block w-20 h-8">&nbsp;</span>
+            </p>
+            <p class="text-xs text-gray-500 mt-2">Nodos Comment en el grafo</p>
+        </div>
+        <div class="glass-card-interactive kpi-card">
+            <p class="text-xs font-medium text-gray-400 uppercase tracking-wider mb-2">Hilos de Discusión</p>
+            <p class="kpi-value" id="kpi-threads">
+                <span class="skeleton inline-block w-16 h-8">&nbsp;</span>
+            </p>
+            <p class="text-xs text-gray-500 mt-2">Nodos Thread</p>
+        </div>
+        <div class="glass-card-interactive kpi-card">
+            <p class="text-xs font-medium text-gray-400 uppercase tracking-wider mb-2">Aspectos Únicos</p>
+            <p class="kpi-value" id="kpi-aspects">
+                <span class="skeleton inline-block w-12 h-8">&nbsp;</span>
+            </p>
+            <p class="text-xs text-gray-500 mt-2">Categorías ABSA identificadas</p>
+        </div>
+        <div class="glass-card-interactive kpi-card">
+            <p class="text-xs font-medium text-gray-400 uppercase tracking-wider mb-2">Ediciones de Cursos</p>
+            <p class="kpi-value" id="kpi-courses">
+                <span class="skeleton inline-block w-12 h-8">&nbsp;</span>
+            </p>
+            <p class="text-xs text-gray-500 mt-2">Nodos CourseEdition</p>
+        </div>
+    </div>
+
+    <!-- Charts Row: Polarity + Aspects -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div class="glass-card chart-container" id="polarity-chart-wrapper">
+            <h3 class="text-sm font-semibold text-gray-300 mb-3">Distribución de Polaridades</h3>
+            <div id="polarity-chart" class="w-full" style="height:360px;">
+                <div class="skeleton w-full h-full"></div>
+            </div>
+        </div>
+        <div class="glass-card chart-container" id="aspect-chart-wrapper">
+            <h3 class="text-sm font-semibold text-gray-300 mb-3">Anotaciones por Aspecto</h3>
+            <div id="aspect-chart" class="w-full" style="height:360px;">
+                <div class="skeleton w-full h-full"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Heatmap -->
+    <div class="glass-card chart-container" id="heatmap-chart-wrapper">
+        <h3 class="text-sm font-semibold text-gray-300 mb-3">Mapa de Calor — Aspecto × Sentimiento</h3>
+        <div id="heatmap-chart" class="w-full" style="height:500px;">
+            <div class="skeleton w-full h-full"></div>
+        </div>
+    </div>
+
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script src="{% static 'analytics/js/charts.js' %}"></script>
+<script>
+    // Plotly dark layout defaults
+    const darkLayout = {
+        paper_bgcolor: 'rgba(0,0,0,0)',
+        plot_bgcolor: 'rgba(0,0,0,0)',
+        font: { color: '#9ca3af', family: 'Inter, sans-serif', size: 12 },
+        margin: { t: 30, b: 40, l: 60, r: 20 },
+        coloraxis: { colorbar: { tickfont: { color: '#9ca3af' } } },
+    };
+    const plotConfig = { displayModeBar: false, responsive: true };
+
+    async function loadKPIs() {
+        try {
+            const res = await fetch('/api/stats/');
+            const data = await res.json();
+            animateCounter('kpi-comments', data.total_comments);
+            animateCounter('kpi-threads', data.total_threads);
+            animateCounter('kpi-aspects', data.total_aspects);
+            animateCounter('kpi-courses', data.total_courses);
+        } catch (e) {
+            console.error('KPI load error:', e);
+            ['kpi-comments','kpi-threads','kpi-aspects','kpi-courses'].forEach(id => {
+                document.getElementById(id).textContent = '—';
+            });
+        }
+    }
+
+    function animateCounter(elementId, target) {
+        const el = document.getElementById(elementId);
+        const duration = 800;
+        const start = performance.now();
+        const format = (n) => n.toLocaleString('es-EC');
+
+        function step(now) {
+            const progress = Math.min((now - start) / duration, 1);
+            const eased = 1 - Math.pow(1 - progress, 3);
+            el.textContent = format(Math.floor(target * eased));
+            if (progress < 1) requestAnimationFrame(step);
+        }
+        requestAnimationFrame(step);
+    }
+
+    async function loadPolarityChart() {
+        try {
+            const res = await fetch('/api/polarity/');
+            const { data } = await res.json();
+            if (!data.length) return;
+
+            const colors = { 'Positivo': '#10b981', 'Negativo': '#ef4444', 'Neutral': '#6b7280' };
+            Plotly.newPlot('polarity-chart', [{
+                type: 'pie',
+                labels: data.map(d => d.polarity),
+                values: data.map(d => d.count),
+                hole: 0.45,
+                marker: { colors: data.map(d => colors[d.polarity] || '#3b82f6') },
+                textinfo: 'label+percent',
+                textfont: { color: '#e5e7eb', size: 13 },
+                hovertemplate: '<b>%{label}</b><br>%{value:,} menciones<br>%{percent}<extra></extra>',
+            }], { ...darkLayout, showlegend: true, legend: { font: { color: '#9ca3af' } } }, plotConfig);
+        } catch (e) { console.error('Polarity chart error:', e); }
+    }
+
+    async function loadAspectChart() {
+        try {
+            const res = await fetch('/api/aspects/');
+            const { data } = await res.json();
+            if (!data.length) return;
+
+            const sorted = data.sort((a, b) => a.count - b.count);
+            Plotly.newPlot('aspect-chart', [{
+                type: 'bar',
+                y: sorted.map(d => d.aspect),
+                x: sorted.map(d => d.count),
+                orientation: 'h',
+                marker: {
+                    color: sorted.map((_, i) => `hsl(${220 + (i * 3)}, 70%, ${50 + (i * 1.5)}%)`),
+                    line: { width: 0 },
+                },
+                hovertemplate: '<b>%{y}</b><br>%{x:,} menciones<extra></extra>',
+            }], {
+                ...darkLayout,
+                xaxis: { gridcolor: 'rgba(255,255,255,0.04)' },
+                yaxis: { gridcolor: 'rgba(255,255,255,0.04)', automargin: true },
+            }, plotConfig);
+        } catch (e) { console.error('Aspect chart error:', e); }
+    }
+
+    async function loadHeatmap() {
+        try {
+            const res = await fetch('/api/heatmap/');
+            const { data } = await res.json();
+            if (!data.length) return;
+
+            const aspects = [...new Set(data.map(d => d.aspect))];
+            const sentiments = [...new Set(data.map(d => d.sentiment))];
+            const z = aspects.map(a =>
+                sentiments.map(s => {
+                    const found = data.find(d => d.aspect === a && d.sentiment === s);
+                    return found ? found.count : 0;
+                })
+            );
+
+            Plotly.newPlot('heatmap-chart', [{
+                type: 'heatmap',
+                z: z,
+                x: sentiments,
+                y: aspects,
+                colorscale: 'Viridis',
+                hovertemplate: '<b>%{y}</b> × %{x}<br>Menciones: %{z:,}<extra></extra>',
+                colorbar: { tickfont: { color: '#9ca3af' } },
+            }], {
+                ...darkLayout,
+                xaxis: { side: 'bottom', tickfont: { size: 11 } },
+                yaxis: { automargin: true, tickfont: { size: 11 } },
+            }, plotConfig);
+        } catch (e) { console.error('Heatmap error:', e); }
+    }
+
+    function loadAllData() {
+        loadKPIs();
+        loadPolarityChart();
+        loadAspectChart();
+        loadHeatmap();
+    }
+
+    // Auto-load on page ready
+    loadAllData();
+</script>
+{% endblock %}

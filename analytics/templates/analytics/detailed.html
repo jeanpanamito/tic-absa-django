@@ -1,0 +1,237 @@
+{% extends "analytics/base.html" %}
+{% load static %}
+
+{% block title %}Análisis Detallado — TIC ABSA Dashboard{% endblock %}
+
+{% block content %}
+<div class="animate-fade-in space-y-8">
+
+    <!-- Page Header -->
+    <div>
+        <h1 class="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-purple-400 via-pink-400 to-red-400 bg-clip-text text-transparent">
+            Análisis Detallado
+        </h1>
+        <p class="text-gray-400 text-sm mt-1">Quejas principales, ranking de cursos y explorador de datos</p>
+    </div>
+
+    <!-- Row 1: Negative Aspects + Course Ranking -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div class="glass-card chart-container">
+            <h3 class="text-sm font-semibold text-gray-300 mb-3">🚨 Top 10 Aspectos Negativos</h3>
+            <div id="negative-chart" class="w-full" style="height:380px;">
+                <div class="skeleton w-full h-full"></div>
+            </div>
+        </div>
+        <div class="glass-card chart-container">
+            <h3 class="text-sm font-semibold text-gray-300 mb-3">📊 Ranking de Cursos (Ratio Negativo)</h3>
+            <div id="ranking-chart" class="w-full" style="height:380px;">
+                <div class="skeleton w-full h-full"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Row 2: Confidence Histogram -->
+    <div class="glass-card chart-container">
+        <h3 class="text-sm font-semibold text-gray-300 mb-3">🎯 Distribución de Confianza del Modelo ABSA</h3>
+        <div id="confidence-chart" class="w-full" style="height:350px;">
+            <div class="skeleton w-full h-full"></div>
+        </div>
+    </div>
+
+    <!-- Row 3: Data Explorer -->
+    <div class="glass-card p-6 rounded-2xl space-y-4">
+        <h3 class="text-lg font-semibold text-gray-200">📋 Explorador de Datos</h3>
+
+        <!-- Filters -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 items-end">
+            <div>
+                <label class="block text-xs font-medium text-gray-400 mb-1.5">Filtrar por Aspectos</label>
+                <select id="filter-aspects" multiple class="w-full px-3 py-2 text-sm rounded-lg" size="4">
+                    <!-- Populated by JS -->
+                </select>
+                <p class="text-xs text-gray-500 mt-1">Ctrl+Click para selección múltiple</p>
+            </div>
+            <div>
+                <label class="block text-xs font-medium text-gray-400 mb-1.5">Confianza Mínima: <span id="conf-value" class="text-purple-400">0.00</span></label>
+                <input type="range" id="filter-confidence" min="0" max="1" step="0.05" value="0" class="w-full accent-purple-500 mt-2">
+            </div>
+            <div>
+                <button onclick="loadFilteredComments()" id="btn-filter" class="w-full px-4 py-2.5 rounded-lg bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-500 hover:to-blue-500 text-white text-sm font-medium transition-all shadow-lg shadow-purple-600/20 hover:shadow-purple-600/40 flex items-center justify-center gap-2">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                    Buscar
+                </button>
+            </div>
+        </div>
+
+        <!-- Results -->
+        <div id="results-info" class="hidden text-sm text-gray-400"></div>
+        <div class="overflow-auto max-h-96 rounded-lg border border-white/5" id="table-wrapper" style="display:none;">
+            <table class="data-table" id="comments-table">
+                <thead>
+                    <tr>
+                        <th>Texto</th>
+                        <th>Aspecto</th>
+                        <th>Sentimiento</th>
+                        <th>Confianza</th>
+                    </tr>
+                </thead>
+                <tbody id="comments-tbody"></tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+    const darkLayout = {
+        paper_bgcolor: 'rgba(0,0,0,0)',
+        plot_bgcolor: 'rgba(0,0,0,0)',
+        font: { color: '#9ca3af', family: 'Inter, sans-serif', size: 12 },
+        margin: { t: 30, b: 40, l: 80, r: 20 },
+    };
+    const plotConfig = { displayModeBar: false, responsive: true };
+
+    // Confidence slider label
+    document.getElementById('filter-confidence').addEventListener('input', (e) => {
+        document.getElementById('conf-value').textContent = parseFloat(e.target.value).toFixed(2);
+    });
+
+    async function loadNegativeChart() {
+        try {
+            const res = await fetch('/api/top-negative/?limit=10');
+            const { data } = await res.json();
+            if (!data.length) { document.getElementById('negative-chart').innerHTML = '<p class="text-gray-500 text-center mt-20">Sin datos</p>'; return; }
+
+            const sorted = data.sort((a, b) => a.count - b.count);
+            Plotly.newPlot('negative-chart', [{
+                type: 'bar',
+                y: sorted.map(d => d.aspect),
+                x: sorted.map(d => d.count),
+                orientation: 'h',
+                marker: {
+                    color: sorted.map((_, i) => `hsl(${0 + i * 4}, 75%, ${45 + i * 2}%)`),
+                },
+                hovertemplate: '<b>%{y}</b><br>%{x:,} quejas<extra></extra>',
+            }], {
+                ...darkLayout,
+                xaxis: { gridcolor: 'rgba(255,255,255,0.04)' },
+                yaxis: { automargin: true },
+            }, plotConfig);
+        } catch (e) { console.error(e); }
+    }
+
+    async function loadRankingChart() {
+        try {
+            const res = await fetch('/api/course-ranking/');
+            const { data } = await res.json();
+            if (!data.length) { document.getElementById('ranking-chart').innerHTML = '<p class="text-gray-500 text-center mt-20">Sin datos</p>'; return; }
+
+            const top10 = data.slice(0, 10).reverse();
+            Plotly.newPlot('ranking-chart', [{
+                type: 'bar',
+                y: top10.map(d => d.course),
+                x: top10.map(d => d.ratio_negativo),
+                orientation: 'h',
+                marker: {
+                    color: top10.map(d => `rgba(239, 68, 68, ${0.3 + d.ratio_negativo * 0.7})`),
+                },
+                text: top10.map(d => `${(d.ratio_negativo * 100).toFixed(1)}%`),
+                textposition: 'outside',
+                textfont: { color: '#f87171', size: 11 },
+                hovertemplate: '<b>%{y}</b><br>Ratio: %{x:.1%}<extra></extra>',
+                customdata: top10.map(d => [d.total, d.positivos, d.negativos]),
+            }], {
+                ...darkLayout,
+                xaxis: { tickformat: '.0%', gridcolor: 'rgba(255,255,255,0.04)' },
+                yaxis: { automargin: true },
+            }, plotConfig);
+        } catch (e) { console.error(e); }
+    }
+
+    async function loadConfidenceChart() {
+        try {
+            const res = await fetch('/api/confidence/');
+            const { data } = await res.json();
+            if (!data.length) return;
+
+            Plotly.newPlot('confidence-chart', [{
+                type: 'histogram',
+                x: data,
+                nbinsx: 50,
+                marker: {
+                    color: 'rgba(139, 92, 246, 0.6)',
+                    line: { color: 'rgba(139, 92, 246, 0.8)', width: 1 },
+                },
+                hovertemplate: 'Confianza: %{x:.2f}<br>Frecuencia: %{y}<extra></extra>',
+            }], {
+                ...darkLayout,
+                xaxis: { title: 'Nivel de Confianza (0.0 – 1.0)', gridcolor: 'rgba(255,255,255,0.04)' },
+                yaxis: { title: 'Frecuencia', gridcolor: 'rgba(255,255,255,0.04)' },
+            }, plotConfig);
+        } catch (e) { console.error(e); }
+    }
+
+    async function loadAspectOptions() {
+        try {
+            const res = await fetch('/api/available-aspects/');
+            const { data } = await res.json();
+            const sel = document.getElementById('filter-aspects');
+            sel.innerHTML = data.map(a => `<option value="${a}">${a}</option>`).join('');
+        } catch (e) { console.error(e); }
+    }
+
+    async function loadFilteredComments() {
+        const btn = document.getElementById('btn-filter');
+        const origHTML = btn.innerHTML;
+        btn.innerHTML = '<div class="spinner mx-auto"></div>';
+        btn.disabled = true;
+
+        try {
+            const sel = document.getElementById('filter-aspects');
+            const aspects = Array.from(sel.selectedOptions).map(o => o.value).join(',');
+            const minConf = document.getElementById('filter-confidence').value;
+
+            const url = `/api/comments/?aspects=${encodeURIComponent(aspects)}&min_confidence=${minConf}`;
+            const res = await fetch(url);
+            const { data, count } = await res.json();
+
+            const info = document.getElementById('results-info');
+            info.classList.remove('hidden');
+            info.textContent = `Se encontraron ${count.toLocaleString()} registros`;
+
+            const wrapper = document.getElementById('table-wrapper');
+            const tbody = document.getElementById('comments-tbody');
+
+            if (!data.length) {
+                wrapper.style.display = 'none';
+                info.textContent = 'No se encontraron datos con los filtros seleccionados.';
+                return;
+            }
+
+            wrapper.style.display = 'block';
+            tbody.innerHTML = data.map(d => {
+                const badgeClass = d.sentimiento === 'Positivo' ? 'badge-positivo' : d.sentimiento === 'Negativo' ? 'badge-negativo' : 'badge-neutral';
+                return `<tr>
+                    <td title="${(d.text || '').replace(/"/g, '&quot;')}">${(d.text || '').substring(0, 120)}${(d.text || '').length > 120 ? '…' : ''}</td>
+                    <td><span class="text-purple-300">${d.aspecto}</span></td>
+                    <td><span class="px-2 py-0.5 rounded-full text-xs font-medium ${badgeClass}">${d.sentimiento}</span></td>
+                    <td class="text-right font-mono text-xs">${d.confianza != null ? d.confianza.toFixed(3) : '—'}</td>
+                </tr>`;
+            }).join('');
+        } catch (e) {
+            console.error(e);
+        } finally {
+            btn.innerHTML = origHTML;
+            btn.disabled = false;
+        }
+    }
+
+    // Load everything
+    loadNegativeChart();
+    loadRankingChart();
+    loadConfidenceChart();
+    loadAspectOptions();
+</script>
+{% endblock %}

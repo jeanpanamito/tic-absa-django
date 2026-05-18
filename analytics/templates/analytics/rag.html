@@ -1,0 +1,286 @@
+{% extends "analytics/base.html" %}
+{% load static %}
+
+{% block title %}Asistente RAG — TIC ABSA Dashboard{% endblock %}
+
+{% block content %}
+<div class="animate-fade-in space-y-6">
+
+    <!-- Page Header -->
+    <div>
+        <h1 class="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-amber-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
+            Asistente Inteligente (GraphRAG)
+        </h1>
+        <p class="text-gray-400 text-sm mt-1">Consultas con búsqueda híbrida Vector + Grafo sobre los comentarios de estudiantes</p>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+
+        <!-- ════════ CHAT COLUMN (2/3) ════════ -->
+        <div class="lg:col-span-2 space-y-4">
+
+            <!-- Chat Messages -->
+            <div class="glass-card rounded-2xl p-4 flex flex-col" style="height: 520px;">
+                <div class="flex-1 overflow-y-auto space-y-4 pr-2" id="chat-messages">
+                    <!-- Welcome message -->
+                    <div class="chat-bubble-assistant p-4 max-w-[85%] animate-fade-in">
+                        <p class="text-sm text-gray-300 leading-relaxed">
+                            👋 ¡Hola! Soy el asistente analítico del grafo ABSA. Puedo responder preguntas sobre los comentarios, aspectos y sentimientos de los estudiantes.
+                        </p>
+                        <p class="text-xs text-gray-500 mt-2">Selecciona una pregunta ejemplo o escribe la tuya.</p>
+                    </div>
+                </div>
+
+                <!-- Input Area -->
+                <div class="mt-4 border-t border-white/5 pt-4">
+                    <!-- Predefined questions -->
+                    <div class="mb-3">
+                        <select id="predefined-questions" class="w-full px-3 py-2 text-sm rounded-lg" onchange="onQuestionSelect(this)">
+                            <option value="">Preguntas ejemplo...</option>
+                            <option value="¿Cuáles son las principales quejas sobre las evaluaciones?">¿Principales quejas sobre evaluaciones?</option>
+                            <option value="¿Qué opinan los estudiantes sobre los contenidos en video?">¿Opiniones sobre contenidos en video?</option>
+                            <option value="¿Hay problemas reportados con la plataforma o el acceso?">¿Problemas con la plataforma?</option>
+                            <option value="¿Qué aspectos tienen mejor recepción por parte de los alumnos?">¿Aspectos con mejor recepción?</option>
+                            <option value="Resumen de los problemas en los foros de discusión">Problemas en foros de discusión</option>
+                            <option value="¿Qué sugerencias hacen los estudiantes sobre la tutoría?">¿Sugerencias sobre tutoría?</option>
+                        </select>
+                    </div>
+
+                    <div class="flex gap-2">
+                        <!-- Course filter -->
+                        <select id="course-filter" class="px-3 py-2 text-sm rounded-lg w-36 shrink-0">
+                            <option value="">Todos</option>
+                        </select>
+
+                        <!-- Text input -->
+                        <input type="text" id="rag-input" placeholder="Escribe tu pregunta..."
+                               class="flex-1 px-4 py-2 text-sm rounded-lg"
+                               onkeydown="if(event.key==='Enter') sendRAGQuery()">
+
+                        <!-- Send button -->
+                        <button onclick="sendRAGQuery()" id="btn-send" class="px-4 py-2 rounded-lg bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white text-sm font-medium transition-all shadow-lg shadow-purple-600/20 shrink-0 flex items-center gap-2">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/></svg>
+                            Enviar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ════════ REPORT COLUMN (1/3) ════════ -->
+        <div class="space-y-4">
+
+            <!-- Report Generator -->
+            <div class="glass-card rounded-2xl p-5 space-y-4">
+                <h3 class="text-sm font-semibold text-gray-300 flex items-center gap-2">
+                    <svg class="w-4 h-4 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+                    Reporte Ejecutivo por Curso
+                </h3>
+                <div>
+                    <label class="block text-xs font-medium text-gray-400 mb-1.5">Selecciona curso</label>
+                    <select id="report-course" class="w-full px-3 py-2 text-sm rounded-lg">
+                        <option value="">Cargando cursos...</option>
+                    </select>
+                </div>
+                <button onclick="generateReport()" id="btn-report" class="w-full px-4 py-2.5 rounded-lg bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-500 hover:to-orange-500 text-white text-sm font-medium transition-all shadow-lg shadow-amber-600/20 hover:shadow-amber-600/40 flex items-center justify-center gap-2">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+                    Generar Reporte
+                </button>
+            </div>
+
+            <!-- Report Output -->
+            <div class="glass-card rounded-2xl p-5" id="report-output" style="display:none;">
+                <h4 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Reporte Generado</h4>
+                <div class="prose prose-invert prose-sm max-w-none text-gray-300 leading-relaxed" id="report-content"></div>
+            </div>
+
+            <!-- RAG Status -->
+            <div class="glass-card rounded-2xl p-4">
+                <h4 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-2">Estado del Motor</h4>
+                <div class="flex items-center gap-2" id="rag-status">
+                    <div class="w-2 h-2 rounded-full bg-gray-500 animate-pulse" id="rag-status-dot"></div>
+                    <span class="text-xs text-gray-500" id="rag-status-text">Verificando...</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+    // Load courses for both selects
+    async function loadCourses() {
+        try {
+            const res = await fetch('/api/available-courses/');
+            const { data } = await res.json();
+
+            const courseFilter = document.getElementById('course-filter');
+            courseFilter.innerHTML = '<option value="">Todos los cursos</option>' +
+                data.map(c => `<option value="${c}">${c}</option>`).join('');
+
+            const reportCourse = document.getElementById('report-course');
+            reportCourse.innerHTML = data.map(c => `<option value="${c}">${c}</option>`).join('');
+        } catch (e) { console.error(e); }
+    }
+
+    function onQuestionSelect(sel) {
+        if (sel.value) {
+            document.getElementById('rag-input').value = sel.value;
+        }
+    }
+
+    function appendMessage(role, content) {
+        const container = document.getElementById('chat-messages');
+        const div = document.createElement('div');
+        div.className = `${role === 'user' ? 'chat-bubble-user ml-auto' : 'chat-bubble-assistant'} p-4 max-w-[85%] animate-slide-up`;
+
+        if (role === 'user') {
+            div.innerHTML = `<p class="text-sm text-blue-200">${escapeHTML(content)}</p>`;
+        } else {
+            // Render markdown-like content (basic: bold, newlines)
+            const formatted = escapeHTML(content)
+                .replace(/\*\*(.*?)\*\*/g, '<strong class="text-gray-100">$1</strong>')
+                .replace(/\n/g, '<br>');
+            div.innerHTML = `<div class="text-sm text-gray-300 leading-relaxed">${formatted}</div>`;
+        }
+
+        container.appendChild(div);
+        container.scrollTop = container.scrollHeight;
+    }
+
+    function appendLoading() {
+        const container = document.getElementById('chat-messages');
+        const div = document.createElement('div');
+        div.id = 'loading-msg';
+        div.className = 'chat-bubble-assistant p-4 max-w-[85%] animate-fade-in';
+        div.innerHTML = `<div class="flex items-center gap-3">
+            <div class="spinner"></div>
+            <span class="text-sm text-gray-500">Analizando con búsqueda híbrida...</span>
+        </div>`;
+        container.appendChild(div);
+        container.scrollTop = container.scrollHeight;
+    }
+
+    function removeLoading() {
+        const el = document.getElementById('loading-msg');
+        if (el) el.remove();
+    }
+
+    function escapeHTML(str) {
+        const div = document.createElement('div');
+        div.textContent = str;
+        return div.innerHTML;
+    }
+
+    async function sendRAGQuery() {
+        const input = document.getElementById('rag-input');
+        const question = input.value.trim();
+        if (!question) return;
+
+        const courseFilter = document.getElementById('course-filter').value || null;
+
+        // Show user message
+        appendMessage('user', question + (courseFilter ? ` [Curso: ${courseFilter}]` : ''));
+        input.value = '';
+        document.getElementById('predefined-questions').value = '';
+
+        // Loading
+        appendLoading();
+        const btn = document.getElementById('btn-send');
+        btn.disabled = true;
+
+        try {
+            const res = await fetch('/api/rag/query/', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ question, course_filter: courseFilter }),
+            });
+            const data = await res.json();
+            removeLoading();
+
+            if (data.error) {
+                appendMessage('assistant', `⚠️ Error: ${data.error}`);
+            } else {
+                appendMessage('assistant', data.answer);
+            }
+        } catch (e) {
+            removeLoading();
+            appendMessage('assistant', `⚠️ Error de conexión: ${e.message}`);
+        } finally {
+            btn.disabled = false;
+        }
+    }
+
+    async function generateReport() {
+        const courseId = document.getElementById('report-course').value;
+        if (!courseId) return;
+
+        const btn = document.getElementById('btn-report');
+        const origHTML = btn.innerHTML;
+        btn.innerHTML = '<div class="spinner mx-auto"></div>';
+        btn.disabled = true;
+
+        const output = document.getElementById('report-output');
+        const content = document.getElementById('report-content');
+
+        try {
+            const res = await fetch('/api/rag/report/', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ course_id: courseId }),
+            });
+            const data = await res.json();
+
+            output.style.display = 'block';
+
+            if (data.error) {
+                content.innerHTML = `<p class="text-red-400">⚠️ ${escapeHTML(data.error)}</p>`;
+            } else {
+                // Basic markdown rendering
+                const formatted = escapeHTML(data.report)
+                    .replace(/\*\*(.*?)\*\*/g, '<strong class="text-gray-100">$1</strong>')
+                    .replace(/### (.*)/g, '<h3 class="text-base font-semibold text-gray-200 mt-4 mb-1">$1</h3>')
+                    .replace(/## (.*)/g, '<h2 class="text-lg font-bold text-gray-100 mt-4 mb-2">$1</h2>')
+                    .replace(/# (.*)/g, '<h1 class="text-xl font-bold text-gray-100 mt-4 mb-2">$1</h1>')
+                    .replace(/^\d+\. (.*)/gm, '<li class="ml-4 list-decimal text-gray-300">$1</li>')
+                    .replace(/^- (.*)/gm, '<li class="ml-4 list-disc text-gray-300">$1</li>')
+                    .replace(/\n/g, '<br>');
+                content.innerHTML = formatted;
+            }
+        } catch (e) {
+            output.style.display = 'block';
+            content.innerHTML = `<p class="text-red-400">⚠️ Error: ${e.message}</p>`;
+        } finally {
+            btn.innerHTML = origHTML;
+            btn.disabled = false;
+        }
+    }
+
+    // Check RAG availability
+    async function checkRAGStatus() {
+        const dot = document.getElementById('rag-status-dot');
+        const text = document.getElementById('rag-status-text');
+        try {
+            // Attempt a lightweight query to verify RAG is up
+            const res = await fetch('/api/stats/');
+            if (res.ok) {
+                dot.className = 'w-2 h-2 rounded-full bg-emerald-400 shadow-lg shadow-emerald-400/50';
+                text.textContent = 'Listo para consultas';
+                text.className = 'text-xs text-emerald-400';
+            } else {
+                throw new Error();
+            }
+        } catch {
+            dot.className = 'w-2 h-2 rounded-full bg-amber-400';
+            text.textContent = 'Verificar conexión Neo4j';
+            text.className = 'text-xs text-amber-400';
+        }
+    }
+
+    // Init
+    loadCourses();
+    checkRAGStatus();
+</script>
+{% endblock %}

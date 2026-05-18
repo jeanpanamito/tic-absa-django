@@ -1,0 +1,14 @@
+# Django
+Django>=4.2,<5.0
+django-environ>=0.11.0
+
+# Neo4j
+neo4j>=5.0.0
+
+# LlamaIndex (RAG)
+llama-index-core>=0.11.0
+llama-index-embeddings-openai>=0.2.0
+llama-index-llms-openai>=0.2.0
+
+# Utilities
+python-dotenv>=1.0.0
