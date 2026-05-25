@@ -73,6 +73,18 @@ Abre `http://localhost:8000` en tu navegador.
 
 Jean Panamito — jppanamito@utpl.edu.ec
 
+## Experiments
+
+This project includes a comprehensive experiment layer inside the `evaluation/` directory to fulfill Phase 5 (Evaluation) of the Design Science Research (DSR) methodology (Peffers et al., 2007). It addresses two main research questions:
+1. **RQ1**: How do hybrid ABSA pipelines compare against purely vector-based and purely majority-class baselines?
+2. **RQ2**: How do different LLMs (GPT-4o-mini, GPT-4o, Gemini 2.0 Flash, Gemini 1.5 Pro, Gemini 2.5 Pro) compare in terms of sentiment F1 score, aspect accuracy, latency, and cost when using identical prompts?
+
+To run the experiments, configure `.env` with your API keys and run:
+```bash
+python -m evaluation.run_all_experiments
+```
+Use `python -m evaluation.run_all_experiments --help` for options like `--dry-run` or running specific subsets.
+
 ## Licencia
 
 MIT

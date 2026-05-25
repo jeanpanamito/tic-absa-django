@@ -1,0 +1,701 @@
+comment_id,comment_text,true_aspect,true_sentiment,confidence,course
+http://example.org/tic-absa/comment/5ea9dac9ec4a89a9a8001476,estamos perjudicados por este tema algunos si en tal caso debería hacer preguntas concretas que existan en el desarrollo del tema por que si no lastimosamente nuestro esfuerzo y dedicación esta dado de menos en los TEST.,Tutoria,Neutral,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e972fd2ec4a897eb1000a5f,es algo que me llama mucho la atención y que quisiera aprender,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ed2c251ec4a8995340039bb,Creo que el aprender es muy importante,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/59e536c7ec4a89af17000bec,me parece muy interesante y que me llamó mucho la atención,Actividades,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5ace8f82ec4a8964870018a4,poder cumplir correctamente con todas las actividades del curso,Contenido,Positivo,0.9,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/5ed1a3a0ec4a89a9a8003c8b,todos debemos subir las actividades de repaso??,Actividades,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e94f7a8ec4a8974b000090a,La plataforma me parece fácil de usar y se encuentra todo organizado.,Plataforma,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e952345ec4a89115400007c,este tipo de capacitaciones son muy importantes,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9a20e1ec4a89e2a50003b1,tome este curso con el objteivo de adquirir conocimientos,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5eda6ec1ec4a899534003eec,las fechas e indicaciones estaban claramente indicadas en la actividad.,Actividades,Neutral,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/59ebf5beec4a896487000d69,hola soy Alejandra un gusto estar en este curso.,General,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5e963672ec4a8927a2000581,me es grato aprender mediante este curso.,Plataforma,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e95e1efec4a891987000309,con este curso deseo profundizar y desarrollar más conocimientos acerca del agro.,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5eba0ec9ec4a899534002681,que hay que subir la actividad que se hizo con el crucigrama,Actividades,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ee2d274ec4a8995340042a9,Yo envié el trabajo a tiempo pero no se envió.,Actividades,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/63921cf0ec4a89d0f30001b9,por favor pido muy comedidamente revice este apartado de discusión ya que es la única manera como estudiantes de este curso contactarla,Actividades,Negativo,0.8,course-v1:UTPL+HG18+2022_2
+http://example.org/tic-absa/comment/5e9e5917ec4a899534000008,el test final no me aparece en la plataforma,Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5eb1fabdec4a89a684002199,"Estimada docente, Tengo algunas dudas, ojalá pudiera ayudarme.",Tutoria,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5edb0398ec4a89a9a80042fb,por la extensión del tiempo de entrega,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5acbc5ceec4a89ecb60012f9,este curso me interesa bastante para adquirir más conocimientos,General,Positivo,0.9,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/5ed91900ec4a89a6840042e9,no deben subirlo aquí sino directamente en el reto.,Retos,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5cb7dd8bec4a8968410002cc,es un gusto poder participar en este curso,Contenido,Positivo,0.9,course-v1:UTPL+HG11+2019_1
+http://example.org/tic-absa/comment/5e9bb3d5ec4a89e704000042,"Por favor lea las instrucciones y hagalas en su casa, debe ir haciendo un reporte fotografico que al final lo resumira en una infografia que sera lo que debe presentar.",Actividades,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5c05f662ec4a89a5b10001aa,estoy muy emocionada de poder adquirir conocimientos sobre esta temática muy interesante,General,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/5eda4b10ec4a899534003ed8,no fui la única con el problema de la subida del RETO,Plataforma,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e96416eec4a8927a20006d7,muy gustoso de participar en este foro,Tutoria,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9e3a69ec4a89d9510008ce,nuestros educandos deberían ir adquiriendo conocimientos de como producir alimentos sanos.,Contenido,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/58ec0d7dec4a8944980012f2,estoy encantada de estar en este curso,Actividades,Positivo,0.9,course-v1:UTPL+HG-Ed4+ABR_2017
+http://example.org/tic-absa/comment/589b62bfec4a8938d4000a45,solicito de la manera más comedida se sirva corregir y revisar la calificación.,Evaluacion,Negativo,0.9,course-v1:UTPL+HG-Ed3+2017-FEB
+http://example.org/tic-absa/comment/5b1a95f6ec4a89c2cf00074c,Los contenidos de la primera semana se encuentran disponibles,Contenido,Positivo,0.9,course-v1:UTPL+EVOLFUND2+2018_2
+http://example.org/tic-absa/comment/5ed5b33dec4a899534003c34,se encuentra en Semana 4 Propagación de hortalizas,Actividades,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5cb8af59ec4a89a9ae0002fc,es un gusto poder interactuar por este medio con esta materia que hemos tomado en común.,General,Positivo,0.9,course-v1:UTPL+HG11+2019_1
+http://example.org/tic-absa/comment/5ecbff29ec4a89a9a80037da,había respuestas que no encontraba en ningún lado,Tutoria,Negativo,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e95f48dec4a898e13000071,estoy muy contenta de poder compartir este espacio con todos ustedes,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5acbc5ceec4a89ecb60012f9,este curso me interesa bastante para adquirir más conocimientos,Tutoria,Positivo,0.9,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/5e9b7169ec4a89f904000b40,mi nombre es Cristina y aspiro a que todos los conocimientos que vayamos adquiriendo los pongamos en práctica para nuestra superación personal.,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5edf0487ec4a8973150045da,Lamento mucho que se haya dado mucho inconveniente por falta de lectura de los ítems.,Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5edec76aec4a897315004592,por favor solicitaría si pueden habilitar la plataforma,Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/68105aa1ec4a897e06000070,eso mismo no aparece el reto que hay que hacer,Evaluacion,Negativo,0.9,course-v1:UTPL+HG23+2025_1
+http://example.org/tic-absa/comment/5eda6ef8ec4a8973150042f6,las fechas e indicaciones estaban claramente indicadas en la actividad.,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9a6fa1ec4a890c830006e8,"totalmente en cuarentena, y decidido a adquirir nuevos conocimientos sobre cultivos de huertos familiares",General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e95f4ceec4a898e13000077,entré a este curso esperando aprovechar el tiempo para adquirir conocimientos sobre evolución,Contenido,Positivo,0.8,course-v1:UTPL+EVOLFUND5+2020_1
+http://example.org/tic-absa/comment/5e9b3d94ec4a89e2a50009d3,estoy muy contenta de participar en este curso de Huertos Familiares,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/59545b6bec4a89648700036d,CON LO QUE HE APRENDIDO ESTOY CONFORME,Contenido,Positivo,0.8,course-v1:UTPL+HG-Ed5+2017_JUN
+http://example.org/tic-absa/comment/59dd5e75ec4a89ecb60006f1,un gusto compartir este curso y adquirir nuevos conocimientos.,General,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5c3e7d0fec4a89d720000317,me puede dar un fecha para dar el test.,Evaluacion,Neutral,0.9,course-v1:UTPL+HG9+2018_2
+http://example.org/tic-absa/comment/5c0acd79ec4a892f07000422,sera un gusto compartir con ustedes este curso.,General,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/5f9ab2d2ec4a8981a1000467,En el primer día decía un foro y no pude participar.,Tutoria,Positivo,0.9,course-v1:UTPL+HG14+2020_2
+http://example.org/tic-absa/comment/5e97ff4cec4a89aa85000080,mi espectativa es aprender mucho sobre el tema de huertos familiares,Contenido,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9dd823ec4a898ced0006bb,mi nombre es Cristina y aspiro a que todos los conocimientos que vayamos adquiriendo los pongamos en práctica para nuestra superación personal.,General,Positivo,0.9,course-v1:UTPL+EVOLFUND5+2020_1
+http://example.org/tic-absa/comment/5e97cc0fec4a8910eb000078,un saludo cordial a la docente y a todos los estudiantes que acertada mente han decidido capacitarse por medio de estos cursos,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ecdb10aec4a8973150039fd,HAY MUCHAS INCONSISTENCIAS EN LOS TEST,Retos,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5c086d3fec4a89a5b100041e,soy una apasionada en adquirir nuevos conocimientos,General,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/5e98f7abec4a89779e0000cb,me parece bien las clases de agricultura,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ed993b0ec4a89a684004343,NO APARECE AL PAR QUE LE TOQUE CALIFICAR,Contenido,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5cb6adf8ec4a89109f000216,Con todo entusiasmo espero obtener conocimientos sobre esta materia,Tutoria,Positivo,0.9,course-v1:UTPL+HG11+2019_1
+http://example.org/tic-absa/comment/5e97b25dec4a89a036000031,Me encanta esta iniciativa de la UTPL,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ecd3ec0ec4a899534003618,el curso de Huertos familiares adolece de errores tanto en la presentación de los temas,Tutoria,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5cba38e2ec4a89109f0003e9,Buena tarde estimada tutora y compañeros.,Tutoria,Positivo,0.9,course-v1:UTPL+HG11+2019_1
+http://example.org/tic-absa/comment/5e9938b1ec4a8990b3000048,Estoy contenta de formar parte de Open Campus,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/65484db0ec4a89c79d000720,en ambas se presenta el mismo problema que no se encuentra activo el botón de guardar,Actividades,Negativo,0.9,course-v1:UTPL+HG20+2023_2
+http://example.org/tic-absa/comment/5e961ad1ec4a8927a200023a,me interesa aprender el curso debido a que en la actualidad es muy imoortante el tema de la seguridad alimentaria,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9baa25ec4a897f1400000a,gracias a la Universidad de Loja por haberme dado la oportunidad de de realizar este curso en estos momentos tan difíciles de de confinamiento.,Contenido,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e98c3c4ec4a89516a0003e3,Estoy muy gustosa de tomar este curso y compartir con mis compañeros y docente.,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/6566628cec4a8969ac00005e,hemos decidido extender las fechas para facilitar su participación de la mejor manera posible.,Retos,Positivo,0.9,course-v1:UTPL+HG20+2023_2
+http://example.org/tic-absa/comment/65666262ec4a8969ac00005c,hemos decidido extender las fechas para facilitar su participación de la mejor manera posible.,Videos,Neutral,0.9,course-v1:UTPL+HG20+2023_2
+http://example.org/tic-absa/comment/5ae07d0aec4a89253000000b,no se ve reflejado las autoevaluaciones pese al estar cumplidas,Evaluacion,Negativo,0.9,course-v1:UTPL+EVOLFUND+2018_1
+http://example.org/tic-absa/comment/59dd68c6ec4a8964870007b9,es un gusto y un placer poder compartir este curso con todos los presentes,General,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5b078207ec4a89af170020b9,si me puede habilitar por 1 hora los retos 1 parte 2 y 3 y el reto 2 para enviar los tengo desarrollados.,General,Positivo,0.8,course-v1:UTPL+EVOLFUND+2018_1
+http://example.org/tic-absa/comment/5ad22fedec4a896487001a3e,me interesa los temas del curso,Actividades,Positivo,0.9,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/5e94625aec4a89789c00099c,es un gusto formar parte es este curso,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e964425ec4a8927a2000723,considero muy interesante los temas a tratarse en el presente curso,Contenido,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5f9792bfec4a89afaa0002af,tal vez nos puedan ayudar con un contacto de docente tutor para realizar consultas.,Tutoria,Neutral,0.7,course-v1:UTPL+HG14+2020_2
+http://example.org/tic-absa/comment/5e9783a6ec4a89e67c0010a2,Me parece interesante este curso,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ec6e95eec4a89a9a80033b4,VEO EL CURSO SUPER INTERESANTE HE APRENDIDO UN MONTON,Plataforma,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/6079be72ec4a89ffd4000f71,en las próximas evaluaciones pongan bien estructuradas las preguntas,Evaluacion,Negativo,0.9,course-v1:UTPL+HG15+2021_1
+http://example.org/tic-absa/comment/5ea64925ec4a89a684000fca,Me pasó lo mismo con el test 2.,Evaluacion,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5a4fd183ec4a89f42b001162,a cuales test se refiere para poder revisar.,Evaluacion,Neutral,0.8,course-v1:UTPL+HG-Ed7+2017_DIC
+http://example.org/tic-absa/comment/5947f9d0ec4a89af17000056,es muy grato para mi poder formar parte en este curso,General,Positivo,0.9,course-v1:UTPL+HG-Ed5+2017_JUN
+http://example.org/tic-absa/comment/588a15ebec4a8944980009cc,"quisiera que se nos despeje algunas dudas referente al Test No. 1, porque si hay errores de respuestas.",Evaluacion,Negativo,0.9,course-v1:UTPL+HG-Ed2+2017_ENE
+http://example.org/tic-absa/comment/5e9d0efdec4a892278000486,Por error envié mi evaluación sin realizar otro intento,Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/674f93edec4a89983a000022,Los cortes de luz en semanas anteriores fue crítico para todos.,Retos,Negativo,0.9,course-v1:UTPL+HG22+2024_2
+http://example.org/tic-absa/comment/5eaf11b4ec4a897315001c6d,esta de armar un grupo y ayudarnos,Tutoria,Positivo,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5fc5b2c8ec4a898381001255,la 2da parte del reto aún falta por calificar,General,Negativo,0.9,course-v1:UTPL+HG14+2020_2
+http://example.org/tic-absa/comment/5e9b877dec4a896254000bda,"respecto del Municipio de Quito en mi caso, parece que están dando cursos sobre este tema",General,Neutral,0.7,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/59df80f0ec4a896487000924,sera un gusto compartir este curso con todos ustedes.,General,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5ea26ee7ec4a897315000867,"tengo dudas con las notas en la primera semana realicé el test, participé en el foro y la nota es un poco bajano se si se deba a que falta el reto",Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9e7f6dec4a89a9a800009a,Estoy muy entusiasmado en adquerir nuevos conocimientos.,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/66444d03ec4a8980b80001e1,hay mucha confusión con las fechas.,Retos,Negativo,0.9,course-v1:UTPL+HG21+2024_1
+http://example.org/tic-absa/comment/5f8e253cec4a89a68400553d,Complacido de participar en este curso,General,Positivo,0.9,course-v1:UTPL+HG14+2020_2
+http://example.org/tic-absa/comment/5e97ef5eec4a89beb9000026,tengo mucho interés por aprender y poner en práctica lo que aquí me enseñen.,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9676a4ec4a89906f0001be,estoy parcipando en este curso con mucho agrado,Contenido,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9a3b58ec4a8962540004e5,estoy muy fascinado por el curso,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5913d733ec4a89aa4a000063,no hay tutor que responda ni ayude,Tutoria,Negativo,0.9,course-v1:UTPL+HG-Ed4+ABR_2017
+http://example.org/tic-absa/comment/5ea114b6ec4a8973150005fb,se me hace difícil cumplir con el reto,Retos,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/595ea9ebec4a89f42b000378,me llamo la atencion este curso,General,Positivo,0.9,course-v1:UTPL+HG-Ed5+2017_JUN
+http://example.org/tic-absa/comment/67580f8cec4a89908e000038,"Se me pasó la fecha por alto, estaba estudiando para los exámenes el fin de semana.",Evaluacion,Negativo,0.9,course-v1:UTPL+HG22+2024_2
+http://example.org/tic-absa/comment/5c11fd6bec4a89a5640000c9,para este nuevo curso espero lograr adquirir los conocimientos las técnicas necesarias,General,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/5e9a366eec4a89e2a50004d0,"mi pregunta es, de que se trata el reto y como debemos realizarlo.?",Retos,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9a2cd2ec4a89e2a500044b,Estoy muy entusiasmado por iniciar este curso,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9793edec4a89906f0011e5,La estrategia de trabajo me gusta.,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5af8e27dec4a892530000227,gracias por la atencion brindada,Tutoria,Positivo,0.9,course-v1:UTPL+EVOLFUND+2018_1
+http://example.org/tic-absa/comment/589bea0dec4a896c9b000ae0,es importante aprender acerca técnicas y huertos familiares,General,Positivo,0.9,course-v1:UTPL+HG-Ed3+2017-FEB
+http://example.org/tic-absa/comment/5cbccc4bec4a89924000047d,es un gusto poder compartir con todos ustedes este espacio de aprendizaje,Tutoria,Positivo,0.9,course-v1:UTPL+HG11+2019_1
+http://example.org/tic-absa/comment/59dcf7f7ec4a89af170006f9,es un placer compartir con ustedes este curso,Actividades,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5e942ee5ec4a89aaf300029f,me parece un muy buen método para aprender,General,Positivo,0.9,course-v1:UTPL+EVOLFUND5+2020_1
+http://example.org/tic-absa/comment/646d6b1eec4a89d0f3000580,nos ayude por favor habilitando el link del reto 2 se ha cerrado,Retos,Negativo,0.9,course-v1:UTPL+HG19+2023_1
+http://example.org/tic-absa/comment/5cbab6d6ec4a89a9ae000399,encantado de iniciar este nuevo curso,General,Positivo,0.9,course-v1:UTPL+HG11+2019_1
+http://example.org/tic-absa/comment/5ef52854ec4a89a9a8004ad9,Saben cuándo estarán listos los resultados y el certificado?,Evaluacion,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ed439faec4a89a9a8003e3d,las preguntas no estaban en el material que generan aquí,Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5c07565cec4a89d342000245,mi objetivo es adquirir nuevos conocimientos y ponerlos en práctica tanto en la vida profesional como personal.,General,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/58a4579aec4a896c9b000ce3,no encuentro ningún problema con los Test 1 y 2,Plataforma,Neutral,0.8,course-v1:UTPL+HG-Ed2+2017_ENE
+http://example.org/tic-absa/comment/653f0a12ec4a89184f000784,"No puedo realizar la evaluación, no existe un botón para el envío de la encuesta",Evaluacion,Negativo,0.9,course-v1:UTPL+HG20+2023_2
+http://example.org/tic-absa/comment/58ec3469ec4a894498001347,este curso es de mucha importancia,General,Positivo,0.9,course-v1:UTPL+HG-Ed4+ABR_2017
+http://example.org/tic-absa/comment/5e96a16eec4a897eb10005f8,pienso que la agricultura es indispensable en cada nación,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9a4431ec4a89625400055c,cual es el cuestionario que estan hablando ??,Evaluacion,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ea0cee3ec4a89a68400052f,estoy complacido de haber encontrado esta posibilidad de capacitarme en el cultivo de huertos familiares,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/664e3111ec4a89d5bf0001fd,La tutora muy gentilmente nos envió un correo recordatorio,Tutoria,Positivo,0.9,course-v1:UTPL+HG21+2024_1
+http://example.org/tic-absa/comment/5e96f52bec4a89c1a90006c3,No he podido acceder a la plataforma de la UTPL porque estaba colapsada.,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9b37faec4a89e2a50009b6,mi expectativa es de ampliar conocimientos,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9751e2ec4a897eb1000d64,me encanta la idea de aprender y conocer acerca de hacer huertos,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5eb0d18bec4a89a684002061,"Mis expectativas son, aprovechar lo mas que pueda del curso",General,Neutral,0.5,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5a10640eec4a89f42b000ef5,Quisiera por favor que me ayude con la pregunta 2 del test 4,Tutoria,Negativo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5b16efe0ec4a892530000529,gracias a la UTPL por esta plataforma que nos ayuda a educarnos,Plataforma,Positivo,0.9,course-v1:UTPL+HG9+2018_2
+http://example.org/tic-absa/comment/5a20e6f4ec4a89af170011a2,hoy mismo se cerro el cuestionario dejándome sin nota.,Tutoria,Negativo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5876df54ec4a8944980008ec,estimada tutora le pedimos atienda a nuestros pedidos.,Tutoria,Positivo,0.8,course-v1:UTPL+HG+2016
+http://example.org/tic-absa/comment/5edf02f3ec4a8973150045d5,sin embargo a pedido de algunos participantes que tenían inconvenientes con el Reto se habilito un par de días.,Retos,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/58ebe835ec4a8938d4001029,les deseo muchos exitos y bendiciones a todos,General,Positivo,0.9,course-v1:UTPL+HG-Ed4+ABR_2017
+http://example.org/tic-absa/comment/59dec7abec4a89af170008b5,no veo que conste en el folleto proporcionado,Actividades,Negativo,0.8,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5ff4765fec4a8981a1001746,Agradezco su amabilidad de contestar el mensaje.,Actividades,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/58ae70a9ec4a89c761000de7,ya no pude realizarlo por cuanto ya esta cerrado y no me permite subir el archivo.,Actividades,Negativo,0.9,course-v1:UTPL+HG-Ed2+2017_ENE
+http://example.org/tic-absa/comment/5eacc439ec4a89a9a800191f,ya veo que puedo hacer . gracias,Retos,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5eb8e069ec4a89a68400272c,QUE SUSTO RECIEN TERMINE EL TEST DE LA SEMANA CUATRO.,Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9692d7ec4a897eb10004cb,tengo muchas ganas de aprender sobre huertos familiares.,Contenido,Neutral,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ed28584ec4a897315003d3d,no entiendo la necesidad de enviar las actividades cuando claramente se indica que no tiene ningún puntaje,Actividades,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5948a8f6ec4a89648700012f,considero que este tema de los huertos familiares ayuda mucho,Contenido,Positivo,0.9,course-v1:UTPL+HG-Ed5+2017_JUN
+http://example.org/tic-absa/comment/589bd7b5ec4a896c9b000ac8,es importante conocer temas adicionales a mi carrera,General,Positivo,0.9,course-v1:UTPL+HG-Ed3+2017-FEB
+http://example.org/tic-absa/comment/5ed99f0fec4a89a684004352,lamentablemente por cualquiera que hayan sido las razones el compañero a ser evaluado no pudo cargar la imagen,Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ebebad7ec4a8995340029c7,sale incorrecto pero es la respuesta correcta.,Retos,Neutral,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/656662bfec4a892e9f000058,hemos decidido extender las fechas para facilitar su participación de la mejor manera posible.,Videos,Neutral,0.9,course-v1:UTPL+HG20+2023_2
+http://example.org/tic-absa/comment/59dc2a13ec4a89f42b0005b9,un gusto poder conocer sobre este curso HUERTOS FAMILIARES,Contenido,Positivo,0.8,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5e988809ec4a89197b000122,me siento muy contenta de participar del curso,Contenido,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5edf0487ec4a8973150045da,Lamento mucho que se haya dado mucho inconveniente por falta de lectura de los ítems.,Evaluacion,Neutral,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5eb1fabdec4a89a684002199,"Estimada docente, Tengo algunas dudas, ojalá pudiera ayudarme.",Actividades,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/68105aa1ec4a897e06000070,eso mismo no aparece el reto que hay que hacer,Retos,Negativo,0.9,course-v1:UTPL+HG23+2025_1
+http://example.org/tic-absa/comment/5e97bb82ec4a899b930000d1,tengo expectativas en este curso,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ea9dab3ec4a89a684001478,sacque 4 ahora tengo que leer otros textos para tener mejor elementos para contestar los test,Contenido,Positivo,0.7,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e98fcf8ec4a89ab0800011d,deseo aprender sobre huertos familiares y cultivos orgánicos,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e991ab6ec4a89ab080002b6,no ven en este proceso algo positivo y ven sus resultados lejanos y con poco positivismo,General,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/59f63a2dec4a89ecb6000d01,Esta es una gran fuente donde puedes mejorar tus conocimientos,General,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5ec85fabec4a89a684003580,Menos mal que no es materia obligatoria de pensum porque ahi sí estuvieramos fritos.,Evaluacion,Neutral,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e97af38ec4a897eb1001511,estoy muy interesada en adquirir conocimientos sobre este tema,General,Neutral,0.7,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e94e537ec4a890a09000686,me interesa mucho este curso porque estoy segura que me ayudará a aumentar mis conocimientos,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ed856edec4a89a9a800417a,creo que todos hemos hecho un buen trabajo,Evaluacion,Neutral,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e98f7a9ec4a89779e0000ca,ese es el reto que tenemos ahora,Retos,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5c095df2ec4a892f0700039e,espero aprender de este curso sobre las actividades productivas,Actividades,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/5c0b4554ec4a892f07000448,me parecio muy interesante su contenido y todo el conocimiento que puede aportar a mi vida personal.,Contenido,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/5c06f962ec4a89a5b10002c7,mi deseo de participar en este curso es por aprender y mejorar mis conocimientos,Tutoria,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/5e95d05dec4a89e2c9000088,"me siento muy feliz de poder aprender mas de las maravillas que hace la tierrita, la naturaleza",General,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5a2b1f1aec4a89f42b000fe1,quería preguntarle cuando sale el resultado del curso,General,Neutral,0.8,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5f99bf25ec4a8981a10003cf,"La semana pasada se abrio un foro , que nunca se pudo concretar.",Evaluacion,Negativo,0.9,course-v1:UTPL+HG14+2020_2
+http://example.org/tic-absa/comment/5884ef09ec4a8938d4000881,hay confusiones entre las preguntas No. 1 3 4 y 5.,Evaluacion,Negativo,0.9,course-v1:UTPL+HG-Ed2+2017_ENE
+http://example.org/tic-absa/comment/5fc18a68ec4a89afaa001048,la pregunta 18 del trasplante no permite responder de acuerdo a la información del curso,Evaluacion,Negativo,0.9,course-v1:UTPL+HG14+2020_2
+http://example.org/tic-absa/comment/5f8e455cec4a89a9a8005565,me llamo la atención este curso puesto a que me interesaría conocer más a profundidad del tema.,Contenido,Positivo,0.9,course-v1:UTPL+HG14+2020_2
+http://example.org/tic-absa/comment/5e9715c8ec4a89e67c0007be,mi objetivo al seguir este curso es poder aprender para luego crear mi propio huerto.,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9bb336ec4a89e70400003d,"van a encontrar un saludo de bienvenida, la introducción, y la información correspondiente, como documentos y diapositivas.",Actividades,Positivo,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5acd5e2eec4a8964870017a6,espero obtener un gran conocimiento de este curso,General,Positivo,0.9,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/589ca523ec4a896c9b000b18,para mi es gusto tomar los cursos de open campus,Contenido,Positivo,0.9,course-v1:UTPL+HG-Ed3+2017-FEB
+http://example.org/tic-absa/comment/5e975962ec4a89906f000d2e,Me gustaría reforzar mis conocimientos ya q tengo algo de base,General,Neutral,0.7,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/6181afc2ec4a890612000482,producto de estos desfaces y sobrecarga de la plataforma,Evaluacion,Negativo,0.9,course-v1:UTPL+EVOLFUND6+2021_2
+http://example.org/tic-absa/comment/58ec4112ec4a89c7610011a4,Me gustaría aprender lo que mas pueda sobre este componente,General,Positivo,0.9,course-v1:UTPL+HG-Ed4+ABR_2017
+http://example.org/tic-absa/comment/5e979f79ec4a89e67c0012f3,es un inmenso gusto para mi saludarlos estimado docente y queridos compañeros,General,Positivo,0.9,course-v1:UTPL+EVOLFUND5+2020_1
+http://example.org/tic-absa/comment/5e944445ec4a89789c000570,escogí este curso porque se que me ayudará a reducir mi impacto en el planeta,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/664ceaf7ec4a8915020001e9,El Reto 2 esta habilitado desde el 6 de mayo hasta el dia 22,Retos,Neutral,0.8,course-v1:UTPL+HG21+2024_1
+http://example.org/tic-absa/comment/58ec2ce5ec4a894498001339,estimando tutor a y estimados compañeros,Contenido,Positivo,0.9,course-v1:UTPL+HG-Ed4+ABR_2017
+http://example.org/tic-absa/comment/59e04050ec4a89af17000989,es un gusto compartir con ustedes el aprendizaje de este curso que es muy interesante,Contenido,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/6074df48ec4a89ffd40004a7,He escogido seguir este curso porque deseo aprender más sobre el manejo correcto de las plantas,General,Positivo,0.9,course-v1:UTPL+HG15+2021_1
+http://example.org/tic-absa/comment/5ea0f7bcec4a897315000595,también tengo dudas del test N 2.,Evaluacion,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e98f525ec4a89ab080000a2,para que esté curso sea de máximo provecho.,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/6456c8f2ec4a89184f0005a8,NO PUEDO SUBIR LAS FOTOS A LA PLATAFORMA.,General,Negativo,0.9,course-v1:UTPL+HG19+2023_1
+http://example.org/tic-absa/comment/5ed9aea5ec4a89a9a800423c,no me sale la infografia osea que no tengo que calificar,Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e97235aec4a89e67c0008b9,me llamo la atención estos cursos que esta brindando la UTPL,Contenido,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e971b26ec4a89c1a90007e9,pero parece que ya todo esta ok positivo,Plataforma,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5c07f9f2ec4a892f070002f7,es un gusto llegar a ustedes a través de este medio,Tutoria,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/5ec1c751ec4a897315002f3c,"no encuentro más actividades que generen puntuación alguna, como es posible aprobar el curso si se requiere un mínimo del 70 ??",Actividades,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/59dd14aaec4a89648700073c,espero en este curso aprender mucho sobre esta materia,General,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5b232b4cec4a89c2cf00084e,encantado de estar en este curso con ustedes.,General,Positivo,0.9,course-v1:UTPL+HG9+2018_2
+http://example.org/tic-absa/comment/5cc119bcec4a89a9ae00051f,llevar todas las actividades acorde a lo indicado,Actividades,Positivo,0.9,course-v1:UTPL+HG11+2019_1
+http://example.org/tic-absa/comment/58ebbae5ec4a89c76100109a,Que este semestre sea de muchos éxitos para todos.,General,Positivo,0.9,course-v1:UTPL+HG-Ed4+ABR_2017
+http://example.org/tic-absa/comment/5e95b45bec4a89b0e0000b50,agradezco a la UTPL por tener éste gran proyecto,Contenido,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/58498782ec4a89449800076f,el TEST 1 tuvo muchísimas fallas y en el TEST 2 formulan preguntas que no están entre la materia que nos proporcionaron,Evaluacion,Negativo,0.9,course-v1:UTPL+HG+2016
+http://example.org/tic-absa/comment/5e9d03f1ec4a898ced00049d,estoy muy motivada en seguir este curso,Tutoria,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5eb0ab52ec4a897315002025,"acabo de sacar una pésima calificación, porque las preguntas me confundían y creí que lo que respondí era correcto pero resulta que casi todo estaba mal.",Evaluacion,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9a8e9fec4a89e2a5000868,"Con una buena educación , asesoramiento y entrega de semillas calificadas se podría desarrollar de una manera eficiente y efectiva la agricultura urbana y Periurbana.",Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9a394fec4a8962540004c9,"muy interesante, además necesario este curso",Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5af8e255ec4a89c2cf000297,gracias por la atencion brindada,Retos,Negativo,0.9,course-v1:UTPL+EVOLFUND+2018_1
+http://example.org/tic-absa/comment/589b62bfec4a8938d4000a45,solicito de la manera más comedida se sirva corregir y revisar la calificación.,Contenido,Negativo,0.9,course-v1:UTPL+HG-Ed3+2017-FEB
+http://example.org/tic-absa/comment/58efbaadec4a8944980015b0,ESTOY MUY GUSTOSA DE COMPARTIR EN ESTE CURSO,Contenido,Positivo,0.9,course-v1:UTPL+HG-Ed4+ABR_2017
+http://example.org/tic-absa/comment/5e95c6c7ec4a891292000d84,"fui bloqueado para ingresar al curso, por problemas de conexión y varias veces de intentos por problemas de contraseña",Plataforma,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ecd3c9fec4a899534003616,"los contenidos estudiados ahora nos ayudan a limpiar el parabrisa lo suficiente, dejando ver con mayor claridad el panorama",Contenido,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/58ec70a9ec4a8944980013c3,me uno al curso con el afán de aquirir nuevos conocimientos y continuar los estudios en el meta profesional,General,Positivo,0.9,course-v1:UTPL+HG-Ed4+ABR_2017
+http://example.org/tic-absa/comment/5e97ef73ec4a89a379000038,al momento de desarrollar los tests se los hace de una sola o se puede guardar e ir haciendo a como se avance con el tiempo?,Evaluacion,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/59dff3d2ec4a89af17000952,Es un gusto ser parte de este curso,General,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/58ec53a5ec4a89c7610011df,este curso para aprender sobre este tema que en la actualidad es muy importante y necesario saber.,General,Positivo,0.8,course-v1:UTPL+HG-Ed4+ABR_2017
+http://example.org/tic-absa/comment/5eda72f2ec4a897315004307,no se revisara ningún trabajo enviado al correo o por este medio.,Actividades,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/58ebab40ec4a896c9b00108b,espero que este curso sea de mucho beneficio para todos nosotros,Tutoria,Positivo,0.9,course-v1:UTPL+HG-Ed4+ABR_2017
+http://example.org/tic-absa/comment/5ed9950dec4a899534003e95,EN OTRO CURSO QUE TAMBIEN ESTOY DIJERON QUE SUBIR POR ESTE MEDIO ES UNA PERDIDA DE TIEMPO PORQUE EL SISTEMA DE CALIFICACION NO ES POR ESTE MEDIO,Retos,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ad372c2ec4a896487001ab0,espero que en este curso pueda aprender y aprofundir mas sobre los huertos.,General,Positivo,0.9,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/59eb65b7ec4a89f42b000bbd,"en la plataforma encuentras opciones que inicia de izquierda a derecha con contenidos, luego información del curso, discución , wiki, progreso",Evaluacion,Neutral,0.7,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5915276aec4a891e7100005c,EN EL CASO QUE LES TOQUE CALIFICAR,Retos,Neutral,0.7,course-v1:UTPL+HG-Ed4+ABR_2017
+http://example.org/tic-absa/comment/5b15c13bec4a89af17002191,LA PLATAFORMA QUE NOS OFRECE OPEN CAMPUS ES DE SUMA IMPORTANCIA,Plataforma,Positivo,0.9,course-v1:UTPL+HG9+2018_2
+http://example.org/tic-absa/comment/5ea0adf2ec4a89a68400049c,ESPERO SER CAPAZ DE CUMPLIR TODAS LAS ACTIVIDADES DELA MEJOR MANERA.,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e97ff4cec4a89aa85000080,mi espectativa es aprender mucho sobre el tema de huertos familiares,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ea4def6ec4a897315000c33,tengo los mismos errores en el test2 pregunta 3 y 8,Evaluacion,Neutral,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/653ed227ec4a89d0f30006a8,no nos deja responder ni enviar nuestras respuestas.,Evaluacion,Negativo,0.9,course-v1:UTPL+HG20+2023_2
+http://example.org/tic-absa/comment/5ea0eedcec4a899534000544,Solamente debería decir escoja las respuestas correctas.,Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9b37faec4a89e2a50009b6,mi expectativa es de ampliar conocimientos,Contenido,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e96576cec4a894f7b000935,es un gusto para mi poder aprender a traves del sistema de aprendizaje,Tutoria,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5eb19e4fec4a89a6840020f9,Con relación al Reto menciona fechas erróneas,Evaluacion,Negativo,0.9,course-v1:UTPL+EVOLFUND5+2020_1
+http://example.org/tic-absa/comment/5e97bfe5ec4a899b93000123,tengo muchas expectativas acerca de este curso,Contenido,Neutral,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9a394fec4a8962540004c9,"muy interesante, además necesario este curso",Contenido,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/589b4f2bec4a894498000bc1,estos cursos para mi son muy interesantes,Actividades,Positivo,0.9,course-v1:UTPL+HG-Ed3+2017-FEB
+http://example.org/tic-absa/comment/5e9cbd8dec4a892278000200,"Partiendo de los conceptos de Agricultura Urbana y Periurbana, ¿cuál crees que es el sistema de producción que más se adapta a los objetivos de la producción de alimentos?",Actividades,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/59e4c301ec4a896487000c20,para mi es un placer acceder a este curso,General,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5b456612ec4a89f42b002148,califiquenos a los que ya hicimos,Evaluacion,Neutral,0.8,course-v1:UTPL+EVOLFUND2+2018_2
+http://example.org/tic-absa/comment/5e9c46dfec4a892278000022,realmente son dos actividades de practica y compartir y reforzar conocimientos,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/59dbedfaec4a89af1700061a,me es muy grato poder compartir con cada uno el aprendizaje de esta asignatura,Tutoria,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/664cea9aec4a89d5bf0001f7,El Reto 2 esta habilitado desde el 6 de mayo hasta el dia 22,Evaluacion,Neutral,0.8,course-v1:UTPL+HG21+2024_1
+http://example.org/tic-absa/comment/59efd6dcec4a89ecb6000c96,deseo adquirir muchos conocimientos en este curso.,General,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/58ee72a9ec4a89c76100136f,sigo este curso por que creo interesante,General,Positivo,0.9,course-v1:UTPL+HG-Ed4+ABR_2017
+http://example.org/tic-absa/comment/5e9856f5ec4a89beb9000107,CON TODOS UN GUSTO PODER FORMAR FARTE DE ESTE INTERESANTE CURSO,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/59f7b264ec4a89af17000e4a,el compost o sustratos organicos no sirven para nuestro huerto,General,Negativo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5af8e265ec4a89f42b001c21,gracias por la atencion brindada,Retos,Negativo,0.9,course-v1:UTPL+EVOLFUND+2018_1
+http://example.org/tic-absa/comment/5af98a1eec4a89253000023d,cierran antes de tiempo o no dan bien las indicaciones,General,Negativo,0.8,course-v1:UTPL+EVOLFUND+2018_1
+http://example.org/tic-absa/comment/5edd7bc8ec4a89a68400457b,yo me encuentro con bajas evaluaciones de las pruebas.,Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5edcd914ec4a89a684004516,su aporte oportuno fue muy valioso durante este evento.,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5c06a6fdec4a89a5b100027c,me gusto este curso por mi deseo de aprender mas y algo útil que se pueda compartir con la familia.,General,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/5eda4a10ec4a89a684004395,el sistema no nos permitió subir nuestro trabajo,Plataforma,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ec6ce18ec4a89a9a800339c,en los tests muchas de las preguntas no están en el material del curso,General,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9783a6ec4a89e67c0010a2,Me parece interesante este curso,Contenido,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5acd37c5ec4a89f42b0014b5,Me agrada este curso porque veo que vamos a aprender cosas interesantes.,Tutoria,Positivo,0.9,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/5ea620f2ec4a899534000ee1,esperemos una revisión por la parte del docente a las peticiones realizadas,Tutoria,Positivo,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e943bbcec4a89aaf30003d0,"hola, mi nombre es Edison Palma. Estudio la carrera de Educación Básica en la Facultad de Ciencias de la Educación de la ULEAM de Manta",Contenido,Positivo,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e99ec24ec4a89f904000179,Dice el RETO inicia el 20 de Abril,Tutoria,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e946f04ec4a89789c000c01,me hes muy interesante estos cursos de auto formación,General,Positivo,0.9,course-v1:UTPL+EVOLFUND5+2020_1
+http://example.org/tic-absa/comment/5e96a007ec4a89e67c0005c2,"Cualquier duda al grupo de wtsapp, un compañero lo creo, quizá por ahí nos podemos ayudar todos mucho mejor.",Tutoria,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/59f9d3e5ec4a89f42b000d3a,se ha extendido el tiempo para la resolucion del cuestionario,Evaluacion,Neutral,0.8,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/636b01f1ec4a89d0f300012e,no se me activa el Reto 1 y he visto que a otros compañeros ya se les activo.,Plataforma,Negativo,0.9,course-v1:UTPL+HG18+2022_2
+http://example.org/tic-absa/comment/5e96596cec4a894f7b000969,estoy gustoso de pertenecer a este grupo y clase,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ed9950dec4a899534003e95,EN OTRO CURSO QUE TAMBIEN ESTOY DIJERON QUE SUBIR POR ESTE MEDIO ES UNA PERDIDA DE TIEMPO PORQUE EL SISTEMA DE CALIFICACION NO ES POR ESTE MEDIO,Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9bb7f1ec4a897f1400007a,mi interés en seguir este curso es aprender como hacer cultivos con estrategias para un mejor producto de alimentación,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5adc2a69ec4a89ecb60019c2,Buenas noches compañeros y Tutora,Tutoria,Positivo,0.9,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/58a270f4ec4a896c9b000caa,estoy muy gustoso con esta materia,Contenido,Positivo,0.9,course-v1:UTPL+HG-Ed3+2017-FEB
+http://example.org/tic-absa/comment/5e976c44ec4a897eb1000f99,Estoy muy a gusto en el curso de Huertos Familiares.,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5acce02cec4a89af17001694,espero aprender sobre el tema de huertos.,General,Positivo,0.9,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/5e99ac3dec4a89de3400011d,me parece interesante la temática del curso,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e962771ec4a894f7b00037a,valoro mucho la oportunidad de aprender de manera virtual,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5b02db4dec4a89f42b001ce5,la idea con el curso es tener informacion de base para analizar los temas,Actividades,Neutral,0.7,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/5e96576cec4a894f7b000935,es un gusto para mi poder aprender a traves del sistema de aprendizaje,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9a111aec4a89f9040002dc,me parece muy interesante conocer el origen se la vida en nuestro planeta Tierra,Actividades,Positivo,0.9,course-v1:UTPL+EVOLFUND5+2020_1
+http://example.org/tic-absa/comment/5e98a321ec4a89197b00029d,"La Agricultura Urbana y Periurbana se adapta a los objetivos de la producción de alimentos para el autocomsumo y comercializan, es un sustento para en general todas las personas que necesitan un ingreso económico o desean productos orgánicos para su familia.",General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/60b706e1ec4a89cc79000111,YO TAMPOCO PUDE REALIZAR LA EVALUACION POR PARES,Evaluacion,Negativo,0.9,course-v1:UTPL+HG15+2021_1
+http://example.org/tic-absa/comment/5eda702aec4a899534003ef1,las fechas e indicaciones estaban claramente indicadas en la actividad.,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/65617c22ec4a89d7ba000034,intente subir el video del reto 2 pero no me permite,Plataforma,Negativo,0.9,course-v1:UTPL+HG20+2023_2
+http://example.org/tic-absa/comment/5899ea4aec4a894498000ac8,espero adquirir nuevos conocimientos los cuales me ayuden aplicarlos a mi vida diaria.,General,Positivo,0.9,course-v1:UTPL+HG-Ed3+2017-FEB
+http://example.org/tic-absa/comment/5e94760aec4a89789c000d38,me inscribí en este curso porque quiero aprender a desarrollar los huertos familiares de una forma más técnica,General,Positivo,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ef41cf2ec4a89953400468a,sino se va a subir a la plataforma.,Plataforma,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5f8e53e5ec4a8995340051b5,me inscribí en este curso para ampliar mis conocimientos en huertos familiares,General,Positivo,0.9,course-v1:UTPL+HG14+2020_2
+http://example.org/tic-absa/comment/5c0846b0ec4a89a5b1000402,me parece muy interesante los contenidos del mismo,Contenido,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/59ddbf02ec4a89af1700080a,espero ampliar mis conocimientos con este curso,General,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5947edb4ec4a89f42b000056,me parece muy agradable la oportunidad que nos dan con estos cursos.,General,Positivo,0.9,course-v1:UTPL+HG-Ed5+2017_JUN
+http://example.org/tic-absa/comment/6083787aec4a89ffd400143d,"Se puede hacer el test 2, la fecha límite es 24 de abril.",Evaluacion,Neutral,0.7,course-v1:UTPL+EVOLFUND7+2021_1
+http://example.org/tic-absa/comment/5ea0788cec4a89a9a8000446,muy de acuerdo la enseñansa debe venir de las diferentes instituciones educativas.,General,Neutral,0.7,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5eb1fa73ec4a8973150021b8,no soy la única que tiene los problemas sobre los tests desarrollados,Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5eda6ff1ec4a89a9a8004288,las fechas e indicaciones estaban claramente indicadas en la actividad.,Actividades,Neutral,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e971612ec4a897eb1000848,así que considero ésta una gran oportunidad para aprender y replicar ese conocimiento con mis pequeños,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/59dcfef9ec4a89ecb600066b,espero comprender todas las tematicas propuestas en este curso,Contenido,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5ed44985ec4a897315003ec0,creería que en este curso no habrá esta evaluación,Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/59de052fec4a89ecb6000764,me interesó este curso de Huertos Familiares,General,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5ed98954ec4a89a9a8004211,"en la parte del reto se subió sólo mi bibliografía, sin que se cargue la imagen",Evaluacion,Neutral,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e965847ec4a894f7b000948,es gratificante contar con una posibilidad de formación con ayuda de docentes calificados y cualificados,Contenido,Positivo,0.9,course-v1:UTPL+EVOLFUND5+2020_1
+http://example.org/tic-absa/comment/5ec6ce18ec4a89a9a800339c,en los tests muchas de las preguntas no están en el material del curso,Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ec1c751ec4a897315002f3c,"no encuentro más actividades que generen puntuación alguna, como es posible aprobar el curso si se requiere un mínimo del 70 ??",Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e944940ec4a898059000615,la expectativa que tengo es aprender a cultivar nuestra propia comida,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5cb66c32ec4a89109f0001a9,mi expectativa sobre el curso es tener un mayor conocimiento sobre la agricultura,Actividades,Positivo,0.9,course-v1:UTPL+HG11+2019_1
+http://example.org/tic-absa/comment/5eddb711ec4a89a6840045b7,La evaluación de pares está en la semana 4,Evaluacion,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9d33f4ec4a89906b0005a8,estoy expectante de lo que podamos aprender y contribuir en este curso.,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9693f8ec4a89c1a900048f,mi expectativa de aprendizaje en esta plataforma es ampliar mis conocimientos,General,Positivo,0.9,course-v1:UTPL+EVOLFUND5+2020_1
+http://example.org/tic-absa/comment/5a125e3fec4a896487001191,tengo inquietudes sobre los test y cierta inconformidad con las calificaciones porque muchas preguntas no tienen relación con el contenido,Plataforma,Negativo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/58a8d48eec4a894498000f1a,ya que leo que estudias bioquímica me podrías dar algún consejo que pueda poner en práctica para esa materia de bioquímica que no es fácil?,General,Neutral,0.8,course-v1:UTPL+HG-Ed3+2017-FEB
+http://example.org/tic-absa/comment/5edc5bcbec4a899534003ff3,la fecha esta asta el día de mañana intente subir la infografia hoy pero ya no permite,Plataforma,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e95e522ec4a892501000375,mi expectativa para el curso es afianzar los conocimientos obtenidos durante la carrera,Plataforma,Neutral,0.47,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5b076b7aec4a89af170020b7,sigo sin poder calificar a mis compañeros,General,Negativo,0.9,course-v1:UTPL+EVOLFUND+2018_1
+http://example.org/tic-absa/comment/5ea4cdeeec4a897315000bfa,el 40 corresponde a las evaluaciones,Evaluacion,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/6178998eec4a89552e000276,he extendido la presentación para este 29 de octubre,General,Negativo,0.8,course-v1:UTPL+EVOLFUND6+2021_2
+http://example.org/tic-absa/comment/5ed9a2c7ec4a899534003ea6,aunque en la pregunta 10 ninguna respuesta acepta como correcta...,Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5eb6366dec4a899534002365,"Sin embargo, por parte de las autoridades no se generan los espacios o capacitaciones para que las personas lo hagan de una manera té",Actividades,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5cc78e92ec4a896841000637,un gusto compartir con todos uds. este mooc de huertos familiares,General,Positivo,0.9,course-v1:UTPL+HG11+2019_1
+http://example.org/tic-absa/comment/5acc1b84ec4a89f42b001361,con gran entusiasmo de iniciar este curso de esta materia.,Tutoria,Positivo,0.9,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/5891605bec4a89c7610008a9,Los test en vez de ayudarme en el aprendizaje me han hecho dudar demasiado,Evaluacion,Negativo,0.9,course-v1:UTPL+HG-Ed2+2017_ENE
+http://example.org/tic-absa/comment/5ea8d060ec4a897315001326,la informacion proporcionada no es muy facil de relacionar con las preguntas del test,Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e972db2ec4a89c1a900097d,el curso de huertos familiares es una alternativa para adquirir conocimientos,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9f671bec4a8995340001dd,hola a todos mi nombre es Valeria Saritama de la ciudad de Machala y debido a otras actividades recién me estoy poniendo al día en el presente curso,Tutoria,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9472ccec4a89aaf3000cd7,estoy muy contenta de estar en el curso,Contenido,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e954489ec4a891292000547,he decido seguir este curso en virtud de todo lo que está pasando el Ecuador y en sí el mundo entero,Contenido,Positivo,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e974940ec4a897eb1000ccc,siempre es emocionante aprender,General,Positivo,0.9,course-v1:UTPL+EVOLFUND5+2020_1
+http://example.org/tic-absa/comment/5ecff916ec4a89953400380f,que es el test final o cuando lo suben,Evaluacion,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/59eea334ec4a89f42b000c53,realizar esta actividad que tranquilamente se la puede hacer en nuestras horas fuera de trabajo normal,Contenido,Negativo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/653eb2ecec4a89d0f30006a4,no nos deja responder ni enviar nuestras respuestas.,Evaluacion,Negativo,0.9,course-v1:UTPL+HG20+2023_2
+http://example.org/tic-absa/comment/5f8db5bbec4a89a684004fda,los contenidos son muy didácticos y científicos,General,Positivo,0.9,course-v1:UTPL+EVOLFUND5+2020_1
+http://example.org/tic-absa/comment/59e6697eec4a89f42b000b21,un gusto participar en este componente,General,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5ea32a3aec4a89a68400091e,Y si alguien me puede aclarar cual es el Reto?,Retos,Neutral,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ec864a5ec4a89a684003581,el profesor debe ser un guía para entender la información disponible lo cual sí se ha dado en cierta forma en este curso,Contenido,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e975963ec4a89906f000d2f,espero que este curso nos de las herramientas necesarias,General,Positivo,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e94ceebec4a896eb4000388,decidí participar en este curso porque seguramente me ayudará en la carrera universitaria que pienso seguir,General,Positivo,0.9,course-v1:UTPL+EVOLFUND5+2020_1
+http://example.org/tic-absa/comment/5ec5e04cec4a89a9a800330d,en que consiste este reto de la CITA BIBLIOGRÁFICA,Actividades,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ea4def6ec4a897315000c33,tengo los mismos errores en el test2 pregunta 3 y 8,Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/59e187a0ec4a89ecb6000971,Muy buenas noches a todos quienes participamos de esta nueva experiencia.,Contenido,Neutral,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5e965084ec4a892bab000896,me interesa mucho este curso para renovar los conocimientos en mi vida profesional,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/59dd68c6ec4a8964870007b9,es un gusto y un placer poder compartir este curso con todos los presentes,Actividades,Neutral,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5aeb2f91ec4a89f42b001b06,Se ha solucionado el problema de la visualización de los tests.,Evaluacion,Positivo,0.9,course-v1:UTPL+EVOLFUND+2018_1
+http://example.org/tic-absa/comment/5edac120ec4a89a684004400,"Tampoco pude abrir, para reiniciar de nuevo el envío por el canal sugerido.",Plataforma,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/60845e6dec4a8955ef0013e6,"no se me guarda el intento, esperemos solucionen este inconveniente",Plataforma,Negativo,0.9,course-v1:UTPL+EVOLFUND7+2021_1
+http://example.org/tic-absa/comment/5ea3865cec4a89a684000a49,faltó más guia para el desarrollo del curso,Retos,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5acbb1f0ec4a89f42b001294,estoy en este curso esperando poder cumplirlo con satisfaccion tanto como para la universidad como para mi persona.,General,Neutral,0.8,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/5cbba979ec4a8968410003da,es un gusto para mi poder compartir este curso con todos ustedes,Contenido,Positivo,0.9,course-v1:UTPL+HG11+2019_1
+http://example.org/tic-absa/comment/5e94c5f5ec4a890a09000286,este curso significa para mí la oportunidad de adquirir nuevos conocimientos,Contenido,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/58ec0d7dec4a8944980012f2,estoy encantada de estar en este curso,General,Positivo,0.9,course-v1:UTPL+HG-Ed4+ABR_2017
+http://example.org/tic-absa/comment/6829f2d9ec4a89dae70000b6,"el reto N 2 no se puede realizar, tiene fecha del 2024",Retos,Negativo,0.9,course-v1:UTPL+HG23+2025_1
+http://example.org/tic-absa/comment/5ea666f4ec4a899534000fa3,la tematica se ha planteado para trabajar con materiales que siempre estan disponibles en casa.,Actividades,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ec1c751ec4a897315002f3c,"no encuentro más actividades que generen puntuación alguna, como es posible aprobar el curso si se requiere un mínimo del 70 ??",Retos,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e97a16bec4a89e67c00131f,quiero aprovechar la oportunidad que nos da la Universidad para conocer sobre los huertos familiar,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5acfefa8ec4a89af170018be,me encanta aprender cosas nuevas y me parece excelente que la universidad nos proponga algo diferente y entretenido,General,Positivo,0.9,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/5fd3e41dec4a89838100149e,PROBLEMAS DE INTERNET EN MI LOCALIDAD NO ME PERMITIERON HACERLO,Actividades,Neutral,0.9,course-v1:UTPL+HG14+2020_2
+http://example.org/tic-absa/comment/5c0c060aec4a892f0700046f,me siento muy entusiasmado por iniciar con los conocimientos del curso,General,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/5843492dec4a89c7610005ee,ya me estaba frustrando con el test,Evaluacion,Negativo,0.9,course-v1:UTPL+HG+2016
+http://example.org/tic-absa/comment/5e975c79ec4a897eb1000e21,estoy segura que por medio de usted tutora me brindara sus valiosos conocimientos.,Tutoria,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5eda4b10ec4a899534003ed8,no fui la única con el problema de la subida del RETO,Retos,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e981117ec4a89aa850000b3,sin embargo es un reto que deberíamos superar y ponernos manos a la obra.,Retos,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9770fcec4a89906f000f52,buenas tardes a todos nuestro tutor participantes,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5a125e3fec4a896487001191,tengo inquietudes sobre los test y cierta inconformidad con las calificaciones porque muchas preguntas no tienen relación con el contenido,Contenido,Negativo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5c0af4c2ec4a892f0700042d,me intereso este curso fundamentalmente por que peude ser aplicable en la vida diaria.,General,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/5e9b7f7dec4a89e2a5000ba1,en el test hay preguntas que no están en ninguna parte,Contenido,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9f7a55ec4a897315000244,con la capacitación adecuada esto dejaría al producto cultivado en su totalidad orgánico bueno en su mayoría,Tutoria,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e95db96ec4a897d62000250,un placer compartir el mismo gusto sobre la agricultura,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5b042cc5ec4a892530000344,el sistema esta configurado para recibir trabajos hasta el dia 20 de mayo,Actividades,Neutral,0.8,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/5e945d12ec4a89e82d0008f7,gracias por la oportunidad que nos brindan con estos cursos.,Contenido,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5cbb4a83ec4a89109f000443,Les deseo muchos éxitos a todos y que podamos compartir nuestros conocimientos para fortalecer nuestras aptitudes académicas.,General,Positivo,0.9,course-v1:UTPL+HG11+2019_1
+http://example.org/tic-absa/comment/66444e44ec4a89d5bf0001df,La evaluación 3 y 4 tienen fecha 18 de mayo,Retos,Neutral,0.8,course-v1:UTPL+HG21+2024_1
+http://example.org/tic-absa/comment/589acc32ec4a894498000b94,los temas muy intersantes e insentivan a un mayor aprendizaje,General,Positivo,0.9,course-v1:UTPL+HG-Ed3+2017-FEB
+http://example.org/tic-absa/comment/5c080d1fec4a89a5b10003c4,mi objetivo para este curso es poder adquirir conocimientos para luego ponerlos en prácticas y así poder ayudar a la sociedad!!,General,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/625e0e32ec4a890612000c4f,sale ya todo vencido por eso no deja enviar el test,Evaluacion,Negativo,0.9,course-v1:UTPL+EVOLFUND7+2022_1
+http://example.org/tic-absa/comment/5e95c768ec4a89225f000d59,me interesa este curso para desarrollar tecnicas en el huerto urbano,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e949354ec4a89aaf300106c,elegí este curso para obtener más conocimiento,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5c073e5fec4a89a5b100032e,el curso de huertos familiares me genera gran interés,General,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/58ec35ffec4a894498001352,este curso que me paece muy útil.,Tutoria,Positivo,0.9,course-v1:UTPL+HG-Ed4+ABR_2017
+http://example.org/tic-absa/comment/5eab1428ec4a89a9a80015f6,"si momento de hacer el test , uno se confunde y lo que ya leyó y se aprendió entra en duda.",Contenido,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/58eccba0ec4a8944980013d2,la temática de este curso me encanta,General,Positivo,0.9,course-v1:UTPL+HG-Ed4+ABR_2017
+http://example.org/tic-absa/comment/5e9bb336ec4a89e70400003d,"van a encontrar un saludo de bienvenida, la introducción, y la información correspondiente, como documentos y diapositivas.",Contenido,Positivo,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5948501bec4a89af170000a5,Es muy importante para mi formar parte de este curso,General,Positivo,0.9,course-v1:UTPL+HG-Ed5+2017_JUN
+http://example.org/tic-absa/comment/60ab229fec4a8955ef001b31,sale que si cuenta como nota aquello en el progreso.,Tutoria,Negativo,0.8,course-v1:UTPL+EVOLFUND7+2021_1
+http://example.org/tic-absa/comment/5f8efdf7ec4a899534005390,me es grato poder ser estudiante de un docente tan preparado académicamente como profesionalmente,Tutoria,Positivo,0.9,course-v1:UTPL+EVOLFUND6+2020_2
+http://example.org/tic-absa/comment/59dd8509ec4a89af170007b7,espero aprender más acerca de esta temática como lo es Huertos Familiares,General,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/59ee99e5ec4a89ecb6000c5a,las preguntas de los cuestionarios no son muy claras,Evaluacion,Negativo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5cb6a0f0ec4a896841000228,Estoy segura que voy a disfrutar de las lecciones de éste curso.,General,Positivo,0.9,course-v1:UTPL+HG11+2019_1
+http://example.org/tic-absa/comment/5e94bf11ec4a896eb40001b6,uno de mis grandes anhelos fue hacer una huerta con mi familia.,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5b076b9dec4a892530000386,sigo sin poder calificar a mis compañeros,Plataforma,Negativo,0.9,course-v1:UTPL+EVOLFUND+2018_1
+http://example.org/tic-absa/comment/5e97a7a5ec4a89e67c001397,estoy muy agradecido de esta oportunidad de conocer una actividad muy importante para nuestra vida que es la agricultura,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/58ed3afcec4a896c9b001296,es un gusto poder participar de este curso,General,Positivo,0.9,course-v1:UTPL+HG-Ed4+ABR_2017
+http://example.org/tic-absa/comment/5e98bd1eec4a89733600039c,Mucho gusto con todos los compañeros,Contenido,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5eab1428ec4a89a9a80015f6,"si momento de hacer el test , uno se confunde y lo que ya leyó y se aprendió entra en duda.",Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ea628c0ec4a89a9a8000fc4,en la primera lección obtuve 9 y en la segunda 5,Evaluacion,Negativo,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5fc81db5ec4a89afaa0011ec,la plataforma impide subir el reto,Retos,Negativo,0.9,course-v1:UTPL+HG14+2020_2
+http://example.org/tic-absa/comment/5c07f9f2ec4a892f070002f7,es un gusto llegar a ustedes a través de este medio,General,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/5e9672a0ec4a89e67c000157,me da gusto compartir con gente nueva y aprender mucho de este curso.,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5f8db224ec4a89a684004faf,es un gusto participar en este curso,General,Positivo,0.9,course-v1:UTPL+HG14+2020_2
+http://example.org/tic-absa/comment/5c074003ec4a8905900002a4,mi principal objetivo de este curso es adquirir conocimientos,General,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/5af639a0ec4a8925300001fa,espero es este curso hayan resuelto las inquietudes que teniamos como yo si lo hice,Actividades,Positivo,0.9,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/589b38f0ec4a896c9b000a64,mi nombre es Esteban Yaguari y espero que nos vaya muy bien esn estos cursos,Actividades,Negativo,0.5,course-v1:UTPL+HG-Ed3+2017-FEB
+http://example.org/tic-absa/comment/5e97ac11ec4a89e67c0013fe,Me parece interesante el curso para poder adquirir conocimientos,Tutoria,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5edcd914ec4a89a684004516,su aporte oportuno fue muy valioso durante este evento.,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e979f79ec4a89e67c0012f3,es un inmenso gusto para mi saludarlos estimado docente y queridos compañeros,Contenido,Positivo,0.9,course-v1:UTPL+EVOLFUND5+2020_1
+http://example.org/tic-absa/comment/5acbeda5ec4a8964870015d5,"espero poder adquirir conocimiento acerca de este curso y aportar en lo que pueda, es muy interesante.",Tutoria,Positivo,0.9,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/5e9786b0ec4a89c1a9001145,me interesa aprender un poco más en este curso,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5a65f2fcec4a89f42b0011f9,los test de la unidad 6 se cerraban el día 18 de enero.,Evaluacion,Neutral,0.8,course-v1:UTPL+HG-Ed7+2017_DIC
+http://example.org/tic-absa/comment/59ee92d7ec4a89ecb6000c59,estoy muy contenta de seguir este curso,General,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5eb5b80bec4a8995340022f4,he visto con preocupación como por este curso de Agricultura urbana se han presentado quejas de todo tipo.,Contenido,Positivo,0.45,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ada1d00ec4a89ecb6001990,me parece muy interesante este curso,General,Positivo,0.9,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/5ce8314eec4a8977be00034f,mil disculpas por no haber realizado antes las actividades correspondientes a este periodo,Actividades,Negativo,0.8,course-v1:UTPL+HG11+2019_1
+http://example.org/tic-absa/comment/5aeb2f87ec4a89af17001e08,Se ha solucionado el problema de la visualización de los tests.,Evaluacion,Positivo,0.9,course-v1:UTPL+EVOLFUND+2018_1
+http://example.org/tic-absa/comment/5e9f671bec4a8995340001dd,hola a todos mi nombre es Valeria Saritama de la ciudad de Machala y debido a otras actividades recién me estoy poniendo al día en el presente curso,Contenido,Positivo,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/589c8460ec4a894498000c40,estoy muy entusiasmada de dar inicio a este curso,Tutoria,Positivo,0.9,course-v1:UTPL+HG-Ed3+2017-FEB
+http://example.org/tic-absa/comment/5edd3cadec4a897315004498,me encontré que ya estaba cerrada,Actividades,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9f81fdec4a89a684000265,"La Agricultura Urbana y Periurbana se desarrolla dentro de los límites y en los alrededores de las ciudades y cuando estas se practican de modo apropiado y en condiciones seguras contribuyen a la disponibilidad de alimentos frescos y saludables mejorando así la Seguridad Alimentaria y Nutricional de las familias en las zonas urbanas, periurbanas y zonas rurales cercanas.",General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5eda6e75ec4a89a6840043af,las fechas e indicaciones estaban claramente indicadas en la actividad.,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/58eb904cec4a896c9b00106c,les deseo mucha suerte a todos en este curso,General,Positivo,0.9,course-v1:UTPL+HG-Ed4+ABR_2017
+http://example.org/tic-absa/comment/5e9ca436ec4a89d9510001a1,este curso es una gran oportunidad considerando la situación actual de emergencia.,Contenido,Positivo,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9655c3ec4a895265000968,fomentación de talleres prácticos e involucrar proyectos pilotos de Agricultura urbana y Peri urbana,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5fd57781ec4a89e66d00132d,el sistema esta configurado con horario Universal,Plataforma,Neutral,0.8,course-v1:UTPL+HG14+2020_2
+http://example.org/tic-absa/comment/5e95b80cec4a891154000c67,muy gustosa de estar en este curso,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/59dd0653ec4a89af1700070e,es un gusto participar de este curso tan interesante,Actividades,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5e98bd1eec4a89733600039c,Mucho gusto con todos los compañeros,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9bb3f8ec4a895e1a000059,"van a encontrar un saludo de bienvenida, la introducción, y la información correspondiente, como documentos y diapositivas.",Contenido,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5a33a7d5ec4a89f42b001091,me parece excelente éste espacio para conocer temas importantes,General,Positivo,0.9,course-v1:UTPL+HG-Ed7+2017_DIC
+http://example.org/tic-absa/comment/5e9bb323ec4a890676000050,"van a encontrar un saludo de bienvenida, la introducción, y la información correspondiente, como documentos y diapositivas.",Contenido,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e970729ec4a897eb10007c6,Yo estoy tomando este curso justo porque deseo aprender sobre la seguridad alimentaria.,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/656d5dedec4a8954d200005f,tengo el mismo problema que los compañeros para poder calificar o realizar la Revision de pares del Reto número 2,Retos,Negativo,0.9,course-v1:UTPL+HG20+2023_2
+http://example.org/tic-absa/comment/5e9e723aec4a89953400006c,es un poco dificil entender en donde encontrar ciertas cosas,Retos,Negativo,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5b1ca7dfec4a89c2cf0007a4,Saludo a a todos compañeros mucho éxito en el desarrollo del curso.,General,Positivo,0.9,course-v1:UTPL+HG9+2018_2
+http://example.org/tic-absa/comment/5eaec57aec4a89a9a8001be6,ESTE CURSO ES UN ESPACIO PARA PODER SEMBRAR Y HACER NUESTRO HUERTO.,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e988088ec4a89516a000091,hice el test antes de terminar de leer la unidad completa.,Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e94513bec4a89805900071a,estoy muy agradecida por esta oportunidad,Contenido,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5eda71eeec4a897315004303,las fechas e indicaciones estaban claramente indicadas en la actividad.,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9d2b6bec4a898ced0005b3,la agricultura urbana es una gran oportunidad para mejorar la alimentación de la población urbana,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5eaf0eb4ec4a89a684001c65,Las pruebas están mal elaboradas y lo más perjudicial es que confunden,Contenido,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/6563d559ec4a89d7ba00004f,ya hoy estamos a pocas horas para que cierre la plataforma y nada.,Plataforma,Negativo,0.9,course-v1:UTPL+HG20+2023_2
+http://example.org/tic-absa/comment/5eb0cde5ec4a89a9a80020c7,puedo repetir las evaluaciones o test que tengo puntuaciòn baja,Evaluacion,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e95ca1bec4a89225f000db1,es muy emocionante participar de este curso,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9a111aec4a89f9040002dc,me parece muy interesante conocer el origen se la vida en nuestro planeta Tierra,Contenido,Positivo,0.9,course-v1:UTPL+EVOLFUND5+2020_1
+http://example.org/tic-absa/comment/5e99e898ec4a890c83000146,Sobre la plataforma me parece apropiada.,Plataforma,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5f8fb9d7ec4a89a684005cf6,espero que nos vaya muy bien en este curso,General,Positivo,0.9,course-v1:UTPL+HG14+2020_2
+http://example.org/tic-absa/comment/5e9e3371ec4a89d9510008b1,es un gusto estar con ustedes en este curso,Contenido,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e94596fec4a89e82d00087d,La plataforma se ve sencilla de manejar,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5cc106cfec4a896841000559,el rol de la periurbana es enseñar a como llevar grandews extenciones organicas en provevho de salud,Actividades,Positivo,0.8,course-v1:UTPL+HG11+2019_1
+http://example.org/tic-absa/comment/5edd340aec4a89a9a8004414,Compañero al final del cuestionario hay una pestaña la cual oculta y muestra respuesta.,Evaluacion,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5eda4b43ec4a89a9a800426d,el sistema no nos permitió subir nuestro trabajo,Tutoria,Neutral,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/59789f98ec4a89af170004f4,no se puede aperturar la activiadad nuevamente,Evaluacion,Negativo,0.8,course-v1:UTPL+HG-Ed5+2017_JUN
+http://example.org/tic-absa/comment/64458ce3ec4a89d0f3000433,sin poder enviar las respuestas,Plataforma,Negativo,0.9,course-v1:UTPL+HG19+2023_1
+http://example.org/tic-absa/comment/60a84d5fec4a89c3d5001bb1,"si yo deseo saber lo mismo, por favor nos podría aclarar esa duda para no tener inconvenientes en la entrega",General,Neutral,0.8,course-v1:UTPL+HG15+2021_1
+http://example.org/tic-absa/comment/5e96848dec4a89e67c00034c,me interesa este curso para poder implementar estos conocimientos en mi ámbito laboral,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ec1c30cec4a897315002f28,mi nota solo alcanza al 39 y dice que el reto tiene un valor del 30,Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e98bebbec4a89197b0003e4,La agricultura peri urbana según mi opinión es la que mejor se adaptaría a nuestro medio.,Plataforma,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5f90dea5ec4a89a684005f39,es un placer de estar en este curso de Open Campus,General,Positivo,0.9,course-v1:UTPL+HG14+2020_2
+http://example.org/tic-absa/comment/5c09858cec4a89a5b1000496,es un placer poder estar aquí participando en este curso,General,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/5ea7cd75ec4a89a9a800129d,no encontrar relación del contenido teórico y las preguntas,Tutoria,Neutral,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5a15c12dec4a8964870011d9,el RETO se debe subir hasta el 23 de nov. 23h00,Retos,Neutral,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5948b5dcec4a896487000132,es muy interesante poder compartir con ustedes este curso,Contenido,Positivo,0.9,course-v1:UTPL+HG-Ed5+2017_JUN
+http://example.org/tic-absa/comment/5ea925b8ec4a8973150013a4,material tan basto que tenemos que leer,Contenido,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e992403ec4a89918100031c,espero aprender cosas interesantes,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9cbd8dec4a892278000200,"Partiendo de los conceptos de Agricultura Urbana y Periurbana, ¿cuál crees que es el sistema de producción que más se adapta a los objetivos de la producción de alimentos?",General,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/607506abec4a8955ef000629,espero en este curso conocer el aporte que brinda esta actividad dentro de la sociedad,Actividades,Positivo,0.85,course-v1:UTPL+HG15+2021_1
+http://example.org/tic-absa/comment/5edf0487ec4a8973150045da,Lamento mucho que se haya dado mucho inconveniente por falta de lectura de los ítems.,Actividades,Neutral,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/607f1e3bec4a89c3d50012fc,"la evaluación al menos del primer test, una confusión completa",Evaluacion,Negativo,0.9,course-v1:UTPL+HG15+2021_1
+http://example.org/tic-absa/comment/5ed99f0fec4a89a684004352,lamentablemente por cualquiera que hayan sido las razones el compañero a ser evaluado no pudo cargar la imagen,Retos,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/644bfd08ec4a89d0f30004a0,intento realizar la evaluación de la semana 1 pero en la parte inferior no salen los botones guardar las respuestas y revisión.,Evaluacion,Negativo,0.9,course-v1:UTPL+HG19+2023_1
+http://example.org/tic-absa/comment/5ed847ffec4a899534003df8,no comprendi las instrucciones para enviar el reto sobre las fotografias,Retos,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e96ff27ec4a89906f000733,muchas expectativa por este curso de autoeducación.,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/6563d559ec4a89d7ba00004f,ya hoy estamos a pocas horas para que cierre la plataforma y nada.,Actividades,Neutral,0.9,course-v1:UTPL+HG20+2023_2
+http://example.org/tic-absa/comment/5e9ce947ec4a892278000379,me intereso este curso ya que me ayudara ampliar mis conocimientos sobre el tema,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e94656bec4a89e82d000a45,Buen inicio de semana con todos.,Tutoria,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ad025b8ec4a89648700198b,"estoy muy emocionada, porque estoy segura que este curso nos va a ayudar mucho",General,Positivo,0.9,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/59dfd4d1ec4a89f42b000865,muy gustoso de participar en este curso,Contenido,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5e97b25dec4a89a036000031,Me encanta esta iniciativa de la UTPL,Contenido,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e97c43bec4a89a036000187,tengo grandes expectativas de este maravilloso curso,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/58f01dfbec4a89c761001421,me siento muy interesado por aprender de esta formidable materia,General,Positivo,0.9,course-v1:UTPL+HG-Ed4+ABR_2017
+http://example.org/tic-absa/comment/5e9a373cec4a890c83000474,Preferible presentar antes del 6 de junio.,Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5f8e0018ec4a897315005254,dice que esta mal la actividad cuando yo veo que esta bien,Actividades,Negativo,0.9,course-v1:UTPL+EVOLFUND6+2020_2
+http://example.org/tic-absa/comment/58f38e36ec4a8944980016bc,he seleccionado esta materia para poder aprender mas sobre como realizar huertos familiares,General,Positivo,0.9,course-v1:UTPL+HG-Ed4+ABR_2017
+http://example.org/tic-absa/comment/5e967560ec4a89906f000194,me interesa mucho seguir aprendiendo sobre la agricultura.,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e99985bec4a8990b3000101,Hay tutoriales en youtube que dan una orientacion para obtener semillas para huertos familiares,Tutoria,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e94d902ec4a896eb40004f7,me parece muy interesante el tema relacionado a Huertos Familiares,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9ccbceec4a898ced0002ca,los cuestionarios deben ser contestados cada semana,Retos,Neutral,0.7,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5eaf0eb4ec4a89a684001c65,Las pruebas están mal elaboradas y lo más perjudicial es que confunden,Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5b02db4dec4a89f42b001ce5,la idea con el curso es tener informacion de base para analizar los temas,Contenido,Neutral,0.7,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/644d2588ec4a89c79d0004d9,NO SE PUEDE VER EL PROGRESO DEL CURSO,General,Negativo,0.9,course-v1:UTPL+HG19+2023_1
+http://example.org/tic-absa/comment/5fa476eeec4a89e66d000793,he aprendido bastante sobre conocimientos del campo,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9d0729ec4a89906b000490,La agricultura urbana es escasa en mi comunidad debido a que no existe políticas públicas que generen conciencia sobre la importancia de huertos familiares en pequeños espacios,General,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5cb89d4eec4a89924000030c,la colaboración y ayuda del tutor,General,Positivo,0.9,course-v1:UTPL+HG11+2019_1
+http://example.org/tic-absa/comment/5c072bfeec4a892f0700027e,muy contento de estar en este curso,General,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/5ad0d418ec4a89f42b0016b8,Es un placer poder formar parte de este curso,General,Positivo,0.9,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/5c07599aec4a89d34200024b,escogí Huertos porque es una actividades que me interesa,General,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/626c6899ec4a891c9f00104b,la plataforma esta desactualizada,Evaluacion,Negativo,0.9,course-v1:UTPL+HG17+2022_1
+http://example.org/tic-absa/comment/5ad80b4bec4a89f42b001940,Es un gusto y verdadero placer unirme a este curso,Tutoria,Positivo,0.9,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/61880186ec4a890612000554,no se me registra ninguna evaluación hasta el momento,Evaluacion,Negativo,0.9,course-v1:UTPL+EVOLFUND6+2021_2
+http://example.org/tic-absa/comment/5e987357ec4a89197b00001b,La mejor formado combatir el hambre es enseñar en la Scuelas,Contenido,Positivo,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5b3538e9ec4a89c2cf000937,AQUI SI PUDE SUBIR LA IMAGEN DEL RETO,Retos,Positivo,0.9,course-v1:UTPL+HG9+2018_2
+http://example.org/tic-absa/comment/589b4f2bec4a894498000bc1,estos cursos para mi son muy interesantes,Tutoria,Positivo,0.9,course-v1:UTPL+HG-Ed3+2017-FEB
+http://example.org/tic-absa/comment/6563eeaeec4a8969ac00003c,ya esta cerrada la opción de subir el video,Retos,Neutral,0.9,course-v1:UTPL+HG20+2023_2
+http://example.org/tic-absa/comment/5e97ce3eec4a8987910000a6,estoy interesado en ampliar mis conocimientos,General,Neutral,0.7,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/59ee85b6ec4a896487000dda,es algo muy bueno en todos los aspectos,General,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5e9462e1ec4a89789c0009ba,Me interesa este curso porque quiero sembrar de manera correcta mi propio huerto familiar.,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e97a968ec4a89c1a9001420,EN SI ESTE PROYECTO FUE DE MUCHA AYUDA PARA CADA UNO DE LOS PARTICIPANTES,Tutoria,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e98f302ec4a89c2cf000085,gracias por la oportunidad que nos brindan estos espacios para ampliar nuestros conocimientos,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e95c3a8ec4a89b0e0000cc7,gracias a UTPL voy adquirir más conocimientos para mi vida universitaria,General,Positivo,0.9,course-v1:UTPL+EVOLFUND5+2020_1
+http://example.org/tic-absa/comment/5e9e1bc2ec4a89906b0007f0,quiero realizar esta actividad con mis hijos,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/608f2445ec4a89ffd40016e4,en esta semana me aparece que no lo he realizado y no se me actualiza,Evaluacion,Negativo,0.9,course-v1:UTPL+EVOLFUND7+2021_1
+http://example.org/tic-absa/comment/5f9b4904ec4a8981a10004b2,es necesario que queden claros los horarios de apertura y cierre de los test con la debida anticipación.,Evaluacion,Negativo,0.9,course-v1:UTPL+EVOLFUND6+2020_2
+http://example.org/tic-absa/comment/5eda70bcec4a8973150042fe,Felicitaciones por terminar con exito el curso,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e95d3a5ec4a89198700010c,La plataforma está bastante clara hoy,Plataforma,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e969f8fec4a897eb10005da,Salvo que debemos cumplir con las actividades semanales.,Actividades,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/589acc32ec4a894498000b94,los temas muy intersantes e insentivan a un mayor aprendizaje,Actividades,Positivo,0.9,course-v1:UTPL+HG-Ed3+2017-FEB
+http://example.org/tic-absa/comment/5e964613ec4a894f7b0006f3,"Una buena oportunidad de la UTPL en este tiempo dificil, ofrecer estos cursos para aprender",General,Positivo,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5c075203ec4a89a5b1000359,Me complace compartir con ustedes este curso que creo será de utilidad.,General,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/5e991600ec4a89c2cf00024d,estoy muy interesado en este curso a fin de aprender tecnicas de cultivo,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5c153d6eec4a89a564000100,todos los conocimientos que nos pueda brindar la tutora.,Tutoria,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/5e97087cec4a897eb10007cb,espero que este curso sea de mucho provecho para todos,Contenido,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/6650d611ec4a8915020001f7,escribale a este correo que es de la tutora.,Tutoria,Positivo,0.8,course-v1:UTPL+HG21+2024_1
+http://example.org/tic-absa/comment/5eda72c0ec4a897315004306,las fechas e indicaciones estaban claramente indicadas en la actividad.,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5edc750cec4a899534004011,"agradecimiento a la UTPL y particularmente a la Dra. Jacqueline Rojas, nuestra facilitadora.",Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5a2ea8d8ec4a896487001249,deseando el mejor éxito a todos los compañeros,General,Positivo,0.9,course-v1:UTPL+HG-Ed7+2017_DIC
+http://example.org/tic-absa/comment/5e97c706ec4a897faa00000f,mi interes en el curso es integral los conocimientos de alimentacion saludable y el desarrollo de la seguridad alimentaria,General,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/6548373aec4a89c79d00071d,por favor revisar la plataforma porque realizo la evaluación y no hay como enviar las respuestas,Plataforma,Negativo,0.9,course-v1:UTPL+HG20+2023_2
+http://example.org/tic-absa/comment/5b19ee60ec4a8925300005ee,me alegro de estar este grupo un empezar a aprender un poco mas.,General,Positivo,0.9,course-v1:UTPL+HG9+2018_2
+http://example.org/tic-absa/comment/5e9d1ec1ec4a892278000502,agradecida con la UTPLcon esta oportunidad para emprendedores,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5b153b64ec4a89c2cf0004fd,me alegra poder realizar este curso,General,Positivo,0.9,course-v1:UTPL+HG9+2018_2
+http://example.org/tic-absa/comment/5e972db2ec4a89c1a900097d,el curso de huertos familiares es una alternativa para adquirir conocimientos,Contenido,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ad3c859ec4a89ecb60017de,"es un gusto ser integrante de este curso que pienso va a ser de gran utilidad para mi familia y por que no, para la comunidad",General,Positivo,0.9,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/5af639a0ec4a8925300001fa,espero es este curso hayan resuelto las inquietudes que teniamos como yo si lo hice,Tutoria,Positivo,0.9,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/5c08724dec4a89d3420002d1,es un gusto poder estar en el grupo,Contenido,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/5fb089aaec4a898381000b4f,"la semana 1 tiene como actividad un foro, que hasta la fecha no se activa",Foros,Negativo,0.9,course-v1:UTPL+HG14+2020_2
+http://example.org/tic-absa/comment/589a7095ec4a896c9b0009f9,espero aprovechar al máximo toda la información proporcionada.,Contenido,Positivo,0.9,course-v1:UTPL+HG-Ed3+2017-FEB
+http://example.org/tic-absa/comment/6564163aec4a8969ac000049,el instructor no se pone en contacto con nadie y no se le puede pedir ni una ayuda,Actividades,Negativo,0.9,course-v1:UTPL+HG20+2023_2
+http://example.org/tic-absa/comment/5e98bebbec4a89197b0003e4,La agricultura peri urbana según mi opinión es la que mejor se adaptaría a nuestro medio.,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ec212b9ec4a89a9a8002fcf,siento que hace falta capacitaciones para aprovechar los recursos más importantes el agua y el suelo.,Tutoria,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e973d8dec4a89e67c000b21,me parecio de suma importancia este curso por la magnitud que representa la sana alimentacion,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ed993b0ec4a89a684004343,NO APARECE AL PAR QUE LE TOQUE CALIFICAR,Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/64552a59ec4a89c79d00052b,"yo tambien estoy confundida porque dice 12 de mayo , pero en otro apartado dice que es hasta la semana 3",General,Neutral,0.8,course-v1:UTPL+HG19+2023_1
+http://example.org/tic-absa/comment/5e97a165ec4a897eb10013ee,es un gusto poder participar de este curso ya que la propuesta es muy interesante,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e97d8a8ec4a897faa000162,Que importante es aprender a hacer los huertos familiares,Contenido,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/59dcf9b3ec4a89f42b00061d,espero aprovechemos al máximo este curso que nos permitirá reforzar nuestros conocimientos,General,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/59df4e60ec4a896487000907,es un gusto poder compartir una experiencia mas en la vida y adquirir nievos conocimientos.,General,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/59e3cc6dec4a89af17000b37,la agricultura y urbana sonn muy buenas,General,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5899f7fcec4a894498000ae4,estoy muy gustosa de inicar este curso,Contenido,Positivo,0.9,course-v1:UTPL+HG-Ed3+2017-FEB
+http://example.org/tic-absa/comment/5e97bafdec4a899b930000c4,Estoy muy contenta de empezar con este aprendizaje.,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9438fcec4a89789c000312,el motivo de asistir al curso es adquirir conocimientos que complementen mi aprendizaje en cuanto a la carrera.,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5eb19086ec4a899534001fc2,falta más precisión en las preguntas,Contenido,Negativo,0.9,course-v1:UTPL+EVOLFUND5+2020_1
+http://example.org/tic-absa/comment/5e94740bec4a89aaf3000cff,estoy muy interesado en adquirir nuevos conocimientos de este curso,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5b156002ec4a89c2cf000515,Encantada de poder realizar este curso muy interesante.,General,Positivo,0.9,course-v1:UTPL+HG9+2018_2
+http://example.org/tic-absa/comment/5a65f49dec4a89ecb6001231,ya no se puede volver habilitar por que ya se inicio el proceso de evaluación por pares.,Retos,Negativo,0.9,course-v1:UTPL+HG-Ed7+2017_DIC
+http://example.org/tic-absa/comment/5ebb2949ec4a89a9a8002977,Está complicado este reto sin poder conseguir los insumos necesarios.,Retos,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/589a75dcec4a894498000b4a,es un gusto poder aprender este curso q lo veo muy interesante,General,Positivo,0.9,course-v1:UTPL+HG-Ed3+2017-FEB
+http://example.org/tic-absa/comment/5a31e6cfec4a89af17001252,exitos en el desarrollo del curso,General,Positivo,0.8,course-v1:UTPL+HG-Ed7+2017_DIC
+http://example.org/tic-absa/comment/5f8dbd0bec4a89a9a8004ee6,es un placer participar en este curso,General,Positivo,0.9,course-v1:UTPL+HG14+2020_2
+http://example.org/tic-absa/comment/626220c7ec4a89552e000ed6,no coinciden las fechas para resolver las tareas,Actividades,Negativo,0.9,course-v1:UTPL+HG17+2022_1
+http://example.org/tic-absa/comment/59dbf38bec4a89648700065e,un gusto poder compartir conocimientos,Tutoria,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5e95a856ec4a89225f000a84,Felicitaciones a la UTPL y a Open campus por brindar estos cursos gratuitos muy interesantes.,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e975e13ec4a897eb1000e4a,mi expectativas de este curso es manejar los conocimientos que nos vayan a impartir aqui,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e95c10eec4a891292000cd3,interés en los cursos mediante la plataforma Open Campus que ofrece UTPL,Plataforma,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5cc119bcec4a89a9ae00051f,llevar todas las actividades acorde a lo indicado,Contenido,Positivo,0.9,course-v1:UTPL+HG11+2019_1
+http://example.org/tic-absa/comment/58ec2ce5ec4a894498001339,estimando tutor a y estimados compañeros,Tutoria,Positivo,0.9,course-v1:UTPL+HG-Ed4+ABR_2017
+http://example.org/tic-absa/comment/5eda6e9fec4a89a6840043b0,las fechas e indicaciones estaban claramente indicadas en la actividad.,Actividades,Neutral,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e94486fec4a89e82d000638,estoy en este curso para poder tener más conocimiento y ayudar a la comunidad,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e95d737ec4a897d620001af,Mi espectativas del curso es adquirir conocimientos y ponerlos en práctica para mejorar la enseñanza aprendizaje con mis estudiantes.,Plataforma,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e95a173ec4a89225f000a35,quiero agradecer por la oportunidad que nos brindan,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e943ccbec4a89e82d0003e7,estoy interesada en el curso ya que está relacionado con mi carrera,Contenido,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ecd257aec4a899534003605,incluso algunos tenían errores en calificar,Evaluacion,Negativo,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5cb66c32ec4a89109f0001a9,mi expectativa sobre el curso es tener un mayor conocimiento sobre la agricultura,General,Positivo,0.9,course-v1:UTPL+HG11+2019_1
+http://example.org/tic-absa/comment/5e94d902ec4a896eb40004f7,me parece muy interesante el tema relacionado a Huertos Familiares,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9bcef1ec4a89e70400011d,mi meta de este curso es adquirir más conocimientos,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/596d7fb0ec4a89ecb600044b,ya esta cerrada la plataforma donde hay que enviar,Plataforma,Negativo,0.9,course-v1:UTPL+HG-Ed5+2017_JUN
+http://example.org/tic-absa/comment/5e9cd346ec4a89906b0002dc,Mis primeras impresiones acerca de la plataforma de estudio han sido positivas,Plataforma,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5fd6d6fdec4a8983810014fc,no se puede continuar con las actividades de calificación,Actividades,Negativo,0.9,course-v1:UTPL+HG14+2020_2
+http://example.org/tic-absa/comment/5c060ec8ec4a892f0700018f,el OpenCampus que es muy bueno y permite un aprendizaje coherente,Actividades,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/5854ba84ec4a8944980007f1,"los test tienen errores por ejemplo en el test 2 en las preguntas 2 y 8 se pide ELIJA AL MENOS 2 OPCIONES DE RESPUESTA, pero el cursor solo permite elegir una",General,Negativo,0.9,course-v1:UTPL+HG+2016
+http://example.org/tic-absa/comment/5e97d0b1ec4a8910eb0000cd,no se como utilizar la plataforma,Plataforma,Negativo,0.9,course-v1:UTPL+EVOLFUND5+2020_1
+http://example.org/tic-absa/comment/5b021489ec4a89f42b001cd6,"no pude subir el reto, no sé cuál será el inconveniente pero me rechazó el trabajo al intentar subirlo.",Actividades,Neutral,0.9,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/64458e57ec4a89d0f3000436,no se graba mi progreso después de haberlo realizado,Plataforma,Negativo,0.9,course-v1:UTPL+HG19+2023_1
+http://example.org/tic-absa/comment/5e95ea34ec4a897d62000452,estoy muy entusiasmada con este curso,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9a20e1ec4a89e2a50003b1,tome este curso con el objteivo de adquirir conocimientos,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5cbbef68ec4a89a9ae0003e6,me pareció interesante la materia,General,Positivo,0.9,course-v1:UTPL+HG11+2019_1
+http://example.org/tic-absa/comment/5e97551aec4a89906f000ce2,agradezco a la UTPL el haber iniciado estos cursos,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9884adec4a89ff200000d3,mi proposito para este curso es adquirir nuevos conocimientos en las tecnicas para huertos familiares.,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9f0ba0ec4a89a6840000e6,"me tomó como respuesta correcta que las hortalizas tienen de 85 a 98 de agua, cuando en el material se indicaba de 80",Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5c081f23ec4a89a5b10003d1,me es grato poder compartir conocimientos a través de esta materia,Contenido,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/5acee69eec4a89ecb60015f6,estoy dispuesto aprender de su conocimiento y que nos guíe en el transcurso de dicho curso.,Tutoria,Positivo,0.9,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/5f8daf89ec4a89a9a8004e32,un gusto participar en este curso con todos ustedes.,General,Positivo,0.9,course-v1:UTPL+HG14+2020_2
+http://example.org/tic-absa/comment/58f52754ec4a89c761001585,me intereso este curso porque no se mucho de este tema,General,Positivo,0.9,course-v1:UTPL+HG-Ed4+ABR_2017
+http://example.org/tic-absa/comment/5c173194ec4a89a564000120,espero que pueda aprender mucho sobre los huertos,General,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/5e99f011ec4a89e2a50001db,es un gusto poder participar de este curso,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5edf0197ec4a89a9a800454b,AYUDENOS ACTIVANDO PARA REALIZAR EL TEST FINAL,Evaluacion,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9785d1ec4a897eb10011c2,Muy Buenas Tardes Tutora y Compañeros.,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e95c6d2ec4a89b0e0000d30,me interesa este curso para desarrollar tecnicas en el huerto urbano,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/6466f172ec4a89184f000606,no he podido completar las tareas porque en verdad no me salía nada en la plataforma,Plataforma,Negativo,0.9,course-v1:UTPL+HG19+2023_1
+http://example.org/tic-absa/comment/5e96993dec4a89e67c000546,creo que para todos será un gusto compartir con otras personas y adquirir ciertas experiencias,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9737edec4a89e67c000a8f,es un gusto formar parte de la comunidad Open Campus,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/674f93edec4a89983a000022,Los cortes de luz en semanas anteriores fue crítico para todos.,Tutoria,Negativo,0.9,course-v1:UTPL+HG22+2024_2
+http://example.org/tic-absa/comment/5e9405e9ec4a898059000174,me llama la atención todo lo relacionado especialmente con el recurso suelo,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ae143e0ec4a89c2cf00001f,considero que el tema de huertos familiares es un tema bastante interesante.,General,Positivo,0.9,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/646bf992ec4a89c79d0005a6,NO PUEDO COMPLETAR EL RETO 2 PORQUE no me permite subir el video del reto 2,Retos,Negativo,0.9,course-v1:UTPL+HG19+2023_1
+http://example.org/tic-absa/comment/5e96064fec4a898e130002bc,gracias por esta oportunidad de autoformación,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5eb11390ec4a899534001fa0,se ha solicitado a los responsables de la plataforma hacer la revisión correspondiente.,Plataforma,Negativo,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ea596a6ec4a89a684000d08,Pesimo test la verdad.. respuestas no son para ellos,Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5cbf7f8dec4a899240000588,el tema de los huertos familiares es una rama interesante,General,Positivo,0.9,course-v1:UTPL+HG11+2019_1
+http://example.org/tic-absa/comment/5ace94c0ec4a89ecb60015b3,es un gusto poder compartir con todos ustedes.,General,Positivo,0.9,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/5f8da1dcec4a89a9a8004db8,inscripción cerrada ya que no coincide con la fecha actual,Tutoria,Negativo,0.8,course-v1:UTPL+HG14+2020_2
+http://example.org/tic-absa/comment/5ad37f07ec4a89af17001a31,Buenos días estimada tutora y compañeros,General,Positivo,0.9,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/6462dcd7ec4a8993220005ba,"SUBI EL RETO 1, PERO SOLO APARECE MI RESPUESTA, MAS NO LA INFOGRAFIA COMO IMAGEN QUE SUBI.",Retos,Negativo,0.9,course-v1:UTPL+HG19+2023_1
+http://example.org/tic-absa/comment/5acbaff1ec4a896487001561,tengo muchas ganas de aprehender de este curso,General,Positivo,0.9,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/59e3b450ec4a896487000b55,en mi opinion piensoo que para poder sembrar nosotros mismmos debes estudiar sobre como sembrar,General,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5a16d6e4ec4a89f42b000f94,este trabajo sera evaluado por sus pares respectivos que están dentro del grupo de participantes,Evaluacion,Neutral,0.8,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/59153667ec4a89aa4a000079,La plataforma esta diseñada para subir informacion grande,Plataforma,Neutral,0.8,course-v1:UTPL+HG-Ed4+ABR_2017
+http://example.org/tic-absa/comment/5e95d34dec4a891987000100,mi expectativa de este curso es el aprender nuevas técnicas y ponerlas en práctica,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/62b20d54ec4a891c9f0013f2,Aún no obtengo mi calificación del Reto 1,Evaluacion,Negativo,0.9,course-v1:UTPL+HG17+2022_1
+http://example.org/tic-absa/comment/6466f172ec4a89184f000606,no he podido completar las tareas porque en verdad no me salía nada en la plataforma,Evaluacion,Neutral,0.9,course-v1:UTPL+HG19+2023_1
+http://example.org/tic-absa/comment/5eaf1b07ec4a897315001c8c,"en el test tiene preguntas en donde se encuentran mas de una respuesta, pero al escogerlas la evaluan como erronea",Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e95cb4dec4a891154000ea1,En el foro de dudas generales hay un enlace para unirte al grupo,Foros,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9a8d0cec4a89e2a5000862,mi expectativa acerca de este curso es adquirir conocimientos,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5b0b3069ec4a8925300003ac,inconvenientes presentados en la calificación por pares,Retos,Positivo,0.9,course-v1:UTPL+EVOLFUND+2018_1
+http://example.org/tic-absa/comment/5e947da6ec4a898059000e43,"Mi primera impresión de la plataforma me muestra que hay herramientas poderosas para compartir conocimiento, y que están al alcance de la mano.",Plataforma,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/58fd2ebfec4a89c76100167e,siendo un gusto saludarlos y compartirles mi meta en este curso que es la de adquirir el mayor aprendizaje posible,General,Positivo,0.9,course-v1:UTPL+HG-Ed4+ABR_2017
+http://example.org/tic-absa/comment/5ea230b0ec4a89a9a800085f,me pueden ayudar como realizar las actividades y donde puedo visualizarlas,Actividades,Neutral,0.7,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e949ddaec4a89aaf300116e,me parece bastante atractiva la idea de esta participacion grupal,Actividades,Positivo,0.9,course-v1:UTPL+EVOLFUND5+2020_1
+http://example.org/tic-absa/comment/5eda6f93ec4a89a6840043b3,las fechas e indicaciones estaban claramente indicadas en la actividad.,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5acc1cbfec4a896487001644,Es un gusto poder compartir con todos ustedes este curso tan interesante.,Contenido,Positivo,0.9,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/59deb6d1ec4a89ecb60007f8,saludos . estimados compañeros y a tutor,General,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5c07f9f2ec4a892f070002f7,es un gusto llegar a ustedes a través de este medio,Contenido,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/5e9b794bec4a89f904000b85,es un gusto de formar parte de este grupo de estudio,General,Positivo,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5a076ff6ec4a89f42b000dff,me pareció muy interesante muy interesante el tema,General,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/664e3025ec4a8980b800021f,todavía está habilitad la plataforma,Retos,Neutral,0.9,course-v1:UTPL+HG21+2024_1
+http://example.org/tic-absa/comment/5ae143e0ec4a89c2cf00001f,considero que el tema de huertos familiares es un tema bastante interesante.,Contenido,Positivo,0.9,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/5eda4995ec4a8973150042e3,el sistema no nos permitió subir nuestro trabajo,Plataforma,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/67559b4bec4a89908e000032,la pagina estuvo caida y no valia como casi una semana,Actividades,Neutral,0.9,course-v1:UTPL+HG22+2024_2
+http://example.org/tic-absa/comment/5e95ef10ec4a8925010004cb,tengo el deseo de obtener un mejor conocimiento relacionado al proceso de crear huertos familiares,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ad762ecec4a89ecb6001914,Cabe señalar que el ejercicio se marcará como correcto cuando todas las respuestas sean correctas.,Evaluacion,Neutral,0.8,course-v1:UTPL+EVOLFUND+2018_1
+http://example.org/tic-absa/comment/5e95e304ec4a89e2c9000334,La plataforma me parece muy amigable,Actividades,Neutral,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/664fd2caec4a8980b8000225,me salio que solo admite imagenes y no me dejo subir el video,Plataforma,Negativo,0.9,course-v1:UTPL+HG21+2024_1
+http://example.org/tic-absa/comment/5f9d9a51ec4a89e66d0005c7,perdí la evaluación del 28 de octubre,General,Negativo,0.9,course-v1:UTPL+EVOLFUND6+2020_2
+http://example.org/tic-absa/comment/6461aca7ec4a89d0f3000532,El cuestionario de la semana no da la opción para poder evaluarla ni guarddarla.,Evaluacion,Negativo,0.9,course-v1:UTPL+HG19+2023_1
+http://example.org/tic-absa/comment/5f8e5816ec4a8973150056b9,"soy Dilia Arrobo, exitos para todos en este curso",General,Positivo,0.9,course-v1:UTPL+HG14+2020_2
+http://example.org/tic-absa/comment/5ef26f63ec4a89a9a8004a2a,nunca me llego la Evaluación por pares,Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e97bdc6ec4a891ee4000125,espero que este curso me imparta conocimientos nuevos e información que refuerce mis conocimientos,General,Positivo,0.9,course-v1:UTPL+EVOLFUND5+2020_1
+http://example.org/tic-absa/comment/5c05996aec4a89a5b1000099,la agricultura nos enseña ha dar nuevos pasos y la importancia de darle valor a los alimentos,General,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/5e95b081ec4a891154000bc2,les deseo los mejores deseos y que este curso nos sirva y nos ayude de la mejor manera,General,Positivo,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5cbab6d6ec4a89a9ae000399,encantado de iniciar este nuevo curso,Actividades,Positivo,0.9,course-v1:UTPL+HG11+2019_1
+http://example.org/tic-absa/comment/5ea7adc3ec4a89a68400122e,no es importante la calificación sino adquirir conocimientos,Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5f97851aec4a89838100028c,"agradezco a todos los profesores y compañeros poder adquirir más conocimientos sobre los huertos, cultivos y otros.",General,Positivo,0.9,course-v1:UTPL+HG14+2020_2
+http://example.org/tic-absa/comment/5e98c0dcec4a89197b000409,mis aspiraciones con respecto al curso es adquirir conocimiento útil para implementar en mi entorno.,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5b024cb1ec4a89c2cf0003be,Y el cuestionario final no lo puedo guardar.,Evaluacion,Negativo,0.9,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/60904be3ec4a896de1001809,no se puede visualizar lo PDF adicional,Actividades,Negativo,0.9,course-v1:UTPL+HG15+2021_1
+http://example.org/tic-absa/comment/5c06f962ec4a89a5b10002c7,mi deseo de participar en este curso es por aprender y mejorar mis conocimientos,General,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/6387df53ec4a8993220001c2,podrían por favor ayudarme activando el Reto 1,Retos,Neutral,0.8,course-v1:UTPL+HG18+2022_2
+http://example.org/tic-absa/comment/5e97a1e1ec4a89906f0012f9,especialmente de nuestro profesor,General,Neutral,0.9,course-v1:UTPL+EVOLFUND5+2020_1
+http://example.org/tic-absa/comment/5f8f0f32ec4a89a9a8005870,como esta fue ttratada durante su ciclo productivo.,Contenido,Positivo,0.8,course-v1:UTPL+HG14+2020_2
+http://example.org/tic-absa/comment/5e968616ec4a89906f000370,"gracias a la UTPL, por la oportunidad de poder participar en esta capacitación en forma virtual.",Contenido,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5cb6adf8ec4a89109f000216,Con todo entusiasmo espero obtener conocimientos sobre esta materia,Contenido,Positivo,0.9,course-v1:UTPL+HG11+2019_1
+http://example.org/tic-absa/comment/5e967171ec4a89e67c00012f,estoy feliz de seguir este curso,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e95c688ec4a891154000e09,me interesa este curso para desarrollar tecnicas en el huerto urbano,General,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5acbb0d1ec4a89ecb60012df,espero con su ayuda estimada tutora,Tutoria,Positivo,0.9,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/5b076b81ec4a89f42b001d3d,sigo sin poder calificar a mis compañeros,General,Negativo,0.9,course-v1:UTPL+EVOLFUND+2018_1
+http://example.org/tic-absa/comment/5f8e430aec4a89a684005683,me llamo la atención este curso puesto a que me interesaría conocer más a profundidad del tema.,Contenido,Positivo,0.8,course-v1:UTPL+HG14+2020_2
+http://example.org/tic-absa/comment/5fab39ebec4a89e66d00097a,el reto que tenemos que realizar o que tenemos que hacer,Retos,Neutral,0.8,course-v1:UTPL+HG14+2020_2
+http://example.org/tic-absa/comment/5e95b04bec4a89225f000b12,la razón por la que tomo este curso es para adquirir nuevos conocimientos,Contenido,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ea0b715ec4a89a6840004c1,Siento que todas las responsabilidades se las estan trasladando a los centros educativos,Tutoria,Negativo,0.7,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ecd0f62ec4a89a684003a19,Estoy terminando el reto 1 y por ende el Curso.,Retos,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e94c97cec4a8974b00002db,mi proposito y expectativas a cumplir en este curso es adquirir mas información acerca de la materia,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e965f09ec4a894f7b000a09,Espero poder actualizar conocimientos del manejo de Huertos.,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5eaf1c83ec4a89a9a8001cb4,"en el test tiene preguntas en donde se encuentran mas de una respuesta, pero al escogerlas la evaluan como erronea",Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5a660fd9ec4a89af17001418,Solicito de la manera más comedida se de la oportunidad de subir el reto 1.,Plataforma,Neutral,0.8,course-v1:UTPL+HG-Ed7+2017_DIC
+http://example.org/tic-absa/comment/59deb6d1ec4a89ecb60007f8,saludos . estimados compañeros y a tutor,Tutoria,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5ed9b58eec4a8973150042c2,"No puedo subir mi infografía, dice que el tiempo ya pasó",Actividades,Neutral,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/59e255b8ec4a89ecb600099e,Esta materia me parece muy interesante,Tutoria,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5ee18504ec4a89a9a8004615,esto perjudica mi puntaje final,Evaluacion,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ec34b3aec4a89a9a8003130,Que puntaje y peso tienen para la evaluación final?,Actividades,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5c0846b0ec4a89a5b1000402,me parece muy interesante los contenidos del mismo,General,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/5e9856f5ec4a89beb9000107,CON TODOS UN GUSTO PODER FORMAR FARTE DE ESTE INTERESANTE CURSO,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5eb8e069ec4a89a68400272c,QUE SUSTO RECIEN TERMINE EL TEST DE LA SEMANA CUATRO.,Retos,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5b1696aeec4a89c2cf0005ee,muy contenta de empezar con ánimos este curso,General,Positivo,0.9,course-v1:UTPL+HG9+2018_2
+http://example.org/tic-absa/comment/5f93a6c3ec4a89a6840062f3,espero aprender mucho en este curso,General,Positivo,0.9,course-v1:UTPL+HG14+2020_2
+http://example.org/tic-absa/comment/5edc760bec4a89a684004501,"Una vez enviada sus evaluaciones, usted podrá acceder a su calificación final.",Evaluacion,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/60904be3ec4a896de1001809,no se puede visualizar lo PDF adicional,Evaluacion,Negativo,0.9,course-v1:UTPL+HG15+2021_1
+http://example.org/tic-absa/comment/5948a7a6ec4a89f42b000109,me inscribí al curso porque me interesa en gran medida incursionar en el campo de los cultivos orgánicos en general,General,Positivo,0.8,course-v1:UTPL+HG-Ed5+2017_JUN
+http://example.org/tic-absa/comment/5e962572ec4a8927a2000396,quiero aprender mucho en este curso,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e9cd3d4ec4a89d951000310,Me parece fantástico este curso de Huertos Familiares,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e96b4dbec4a89906f00069b,la plataforma me parece muy interactiva y entretenida,Contenido,Positivo,0.9,course-v1:UTPL+EVOLFUND5+2020_1
+http://example.org/tic-absa/comment/5e93fd67ec4a8980590000c1,agradezco por ello la oportunidad de hacerlo en esta universidad de prestigio.,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5cc23ee3ec4a899240000614,me parece muy interesante este curso,General,Positivo,0.9,course-v1:UTPL+HG11+2019_1
+http://example.org/tic-absa/comment/5e94fb1aec4a890a090009ae,podemos ir creando un grupo por whatsapp y asi estar en constante aprendizaje,Tutoria,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5f8e5bbcec4a8973150056f1,me inscribí a este curso para adquirir conocimientos técnicos para mejorar mis conocimientos,General,Positivo,0.9,course-v1:UTPL+HG14+2020_2
+http://example.org/tic-absa/comment/5e9743a2ec4a897eb1000c4f,gracias a la oportunidad de aprender sobre los huertos familiares,Actividades,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/58fb9369ec4a896c9b0015fb,me gustaria apreder sobre el tema.,General,Neutral,0.5,course-v1:UTPL+HG-Ed4+ABR_2017
+http://example.org/tic-absa/comment/59dec2d4ec4a89af170008ab,espero poder entender cada uno de los temas propuestos en esta materia,Contenido,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5edd9065ec4a8973150044d6,"se solicita la extensión del test final, pues la fecha de publicación para el test no fué oportuna.",Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/62ae59daec4a89e1ca001593,Nada aún con la nota de la calificación de pares,Retos,Negativo,0.9,course-v1:UTPL+HG17+2022_1
+http://example.org/tic-absa/comment/5b036a29ec4a89c2cf0003d9,aun no puedo calificar a mis compañeros con lo cual no se me va a calificar estos retos,Retos,Negativo,0.9,course-v1:UTPL+EVOLFUND+2018_1
+http://example.org/tic-absa/comment/5af915f8ec4a892530000232,aun se podría enviar el reto y no nos deja enviarlo,General,Negativo,0.9,course-v1:UTPL+EVOLFUND+2018_1
+http://example.org/tic-absa/comment/5e975e13ec4a897eb1000e4a,mi expectativas de este curso es manejar los conocimientos que nos vayan a impartir aqui,Contenido,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/589a2cf1ec4a896c9b0009ba,los cursos que ofrece mooc s son una gran oportunidad de aprender y conocer temas muy importantes e interesantes,Contenido,Positivo,0.9,course-v1:UTPL+HG-Ed3+2017-FEB
+http://example.org/tic-absa/comment/638d5d3aec4a89c79d0001b2,"hola, yo tampoco pude subir el video del reto 2",Plataforma,Negativo,0.9,course-v1:UTPL+HG18+2022_2
+http://example.org/tic-absa/comment/5eda8bd8ec4a89a9a80042a2,Espero que esta resolución no afecte la nota de las personas que si enviamos a tiempo el trabajo!,Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5aced431ec4a8964870018f1,un gusto poder estudiar y saber a cerca de los huertos familiares,General,Positivo,0.9,course-v1:UTPL+HG-Ed8+2018_1
+http://example.org/tic-absa/comment/5e962771ec4a894f7b00037a,valoro mucho la oportunidad de aprender de manera virtual,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ef53ca9ec4a89a9a8004adc,Los cuales se generan en esta plataforma.,Plataforma,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/647a0590ec4a89c79d0005eb,no se puede ver el reto que han enviado los compañeros,Evaluacion,Negativo,0.9,course-v1:UTPL+HG19+2023_1
+http://example.org/tic-absa/comment/5eb55ad5ec4a8995340022a8,todo esta mal formulado porque en la mayoría bien podrían ser las 4 respuestas o 2 muy similares y validas,Contenido,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5fc82e2fec4a8981a100129d,ya resolviste el test final y el reto,Actividades,Neutral,0.7,course-v1:UTPL+HG14+2020_2
+http://example.org/tic-absa/comment/5b076b81ec4a89f42b001d3d,sigo sin poder calificar a mis compañeros,Evaluacion,Negativo,0.9,course-v1:UTPL+EVOLFUND+2018_1
+http://example.org/tic-absa/comment/5e965535ec4a895265000951,no pude acceder por que el internet se cayo,Actividades,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5f978591ec4a89e66d00027c,Espero el proceso de capacitación cumpla con las expectativas,General,Positivo,0.8,course-v1:UTPL+EVOLFUND6+2020_2
+http://example.org/tic-absa/comment/5c0acf42ec4a89a5b1000516,estoy deseoso de adquirir nuevos conocimientos,General,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/5fc82e2fec4a8981a100129d,ya resolviste el test final y el reto,Evaluacion,Neutral,0.7,course-v1:UTPL+HG14+2020_2
+http://example.org/tic-absa/comment/5e97bd1cec4a899b930000ef,es un gusto participar en este curso de huertos familiares,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5ec5cbd4ec4a89a6840033a6,sino no le van a poder calificar,Evaluacion,Negativo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e96192cec4a894f7b0001dc,hola buen día. Mi nombre es Teresa Carrillo.,General,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5b402826ec4a899b9a000395,No tengo calificación cuando ya hice todos los pasos.,Evaluacion,Negativo,0.9,course-v1:UTPL+EVOLFUND2+2018_2
+http://example.org/tic-absa/comment/59dff3d2ec4a89af17000952,Es un gusto ser parte de este curso,Contenido,Positivo,0.9,course-v1:UTPL+HG-Ed6+2017_OCT
+http://example.org/tic-absa/comment/5e9f6ab2ec4a89a6840001fa,es tan importante aprender y socializar los conocimientos como los que nos brinda éste curso,General,Positivo,0.9,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5e992626ec4a89c2cf000336,el objetivo de este curso es para poder realizar un huerto familiar.,General,Neutral,0.8,course-v1:UTPL+HG13+2020_1
+http://example.org/tic-absa/comment/5c098baaec4a89d34200032e,considero que es importante aprender estos conocimientos,General,Positivo,0.9,course-v1:UTPL+HG10+2018_3
+http://example.org/tic-absa/comment/618434e5ec4a89e1ca0004ec,realice el test 2 y no se registra en la pestaña progreso,Evaluacion,Negativo,0.9,course-v1:UTPL+EVOLFUND6+2021_2
+http://example.org/tic-absa/comment/5ecd257aec4a899534003605,incluso algunos tenían errores en calificar,Contenido,Negativo,0.8,course-v1:UTPL+HG13+2020_1

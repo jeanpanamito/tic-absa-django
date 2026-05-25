@@ -1,0 +1,62 @@
+[
+  {
+    "model": "baseline_majority_class",
+    "sent_f1_weighted": 0.4552,
+    "sent_f1_macro": 0.2511,
+    "aspect_acc": 0.3514,
+    "avg_confidence": 1.0,
+    "latency_s": 0.0,
+    "cost_usd": 0.0,
+    "json_errors": 0.0
+  },
+  {
+    "model": "baseline_cosine_only",
+    "sent_f1_weighted": 0.4377,
+    "sent_f1_macro": 0.3756,
+    "aspect_acc": 0.4129,
+    "avg_confidence": 0.4065,
+    "latency_s": 0.0,
+    "cost_usd": 0.0,
+    "json_errors": 0.0
+  },
+  {
+    "model": "baseline_no_guides",
+    "sent_f1_weighted": 0.8278,
+    "sent_f1_macro": 0.7626,
+    "aspect_acc": 0.5856,
+    "avg_confidence": 0.8416,
+    "latency_s": 1.587,
+    "cost_usd": 0.071825,
+    "json_errors": 0.0
+  },
+  {
+    "model": "gpt-4o-mini",
+    "sent_f1_weighted": 0.8955,
+    "sent_f1_macro": 0.8613,
+    "aspect_acc": 0.7614,
+    "avg_confidence": 0.8725,
+    "latency_s": 1.5797,
+    "cost_usd": 0.077364,
+    "json_errors": 0.0
+  },
+  {
+    "model": "gpt-4o",
+    "sent_f1_weighted": 0.9141,
+    "sent_f1_macro": 0.8982,
+    "aspect_acc": 0.7881,
+    "avg_confidence": 0.8613,
+    "latency_s": 1.2409,
+    "cost_usd": 1.300807,
+    "json_errors": 0.0
+  },
+  {
+    "model": "gemini-2.5-flash",
+    "sent_f1_weighted": 0.875,
+    "sent_f1_macro": 0.875,
+    "aspect_acc": 0.0251,
+    "avg_confidence": 0.9333,
+    "latency_s": 0.1197,
+    "cost_usd": 0.001847,
+    "json_errors": 0.0063
+  }
+]
