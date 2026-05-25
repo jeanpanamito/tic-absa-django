@@ -36,7 +36,7 @@ Los modelos debían clasificar cada comentario en uno de los siguientes **8 aspe
 Se utilizó una metodología de **tres fases**, orquestada mediante el script principal [evaluation/run_all_experiments.py](./evaluation/run_all_experiments.py):
 
 - **Fase A (Baselines):** Técnicas de referencia sin LLMs avanzados.
-- **Fase B (Inferencia):** Cada LLM procesó los 637 comentarios usando el mismo *prompt* ABSA *zero-shot* con guías de anotación de la ontología y similitud coseno de embeddings pre-computados. (Script: [evaluation/multi_llm/inference_runner.py](./evaluation/multi_llm/inference_runner.py))
+- **Fase B (Inferencia):** Cada LLM procesó los 637 comentarios usando el mismo *prompt* ABSA *zero-shot* con guías de anotación de la ontología y similitud coseno de embeddings pre-computados. (Scripts: [evaluation/multi_llm/inference_runner.py](./evaluation/multi_llm/inference_runner.py) y [evaluation/prompts.py](./evaluation/prompts.py))
 - **Fase C (Evaluación – LLM-as-a-Judge):** GPT-4o actuó como juez automatizado para verificar si el aspecto predicho y el sentimiento predicho eran correctos, asignando una puntuación de relevancia del 1 al 5. (Script: [evaluation/multi_llm/judge_evaluator.py](./evaluation/multi_llm/judge_evaluator.py))
 
 El cálculo final de métricas se realizó con el script [evaluation/metrics/compute_metrics.py](./evaluation/metrics/compute_metrics.py).
@@ -63,6 +63,7 @@ El cálculo final de métricas se realizó con el script [evaluation/metrics/com
 
 ### 3.1 Baseline 1 — `baseline_majority_class`
 **Script asociado:** [evaluation/baselines/baseline_majority_class.py](./evaluation/baselines/baseline_majority_class.py)
+**Resultados generados:** [evaluation/results/baseline_majority_class.json](./evaluation/results/baseline_majority_class.json)
 
 **Descripción:** Clasificador trivial que siempre predice la clase mayoritaria del dataset. Asigna el sentimiento **Positivo** a todos los comentarios y el aspecto **General** a todos.
 
@@ -94,6 +95,7 @@ El cálculo final de métricas se realizó con el script [evaluation/metrics/com
 
 ### 3.2 Baseline 2 — `baseline_cosine_only`
 **Script asociado:** [evaluation/baselines/baseline_cosine_only.py](./evaluation/baselines/baseline_cosine_only.py)
+**Resultados generados:** [evaluation/results/baseline_cosine_only.json](./evaluation/results/baseline_cosine_only.json)
 
 **Descripción:** Clasificador basado puramente en similitud coseno entre embeddings de comentarios y vectores de referencia de los aspectos de la ontología. No usa ningún LLM para la decisión final. El sentimiento se infiere por reglas simples de polaridad léxica.
 
@@ -125,6 +127,7 @@ El cálculo final de métricas se realizó con el script [evaluation/metrics/com
 
 ### 3.3 Baseline 3 — `baseline_no_guides` (Ablación)
 **Script asociado:** [evaluation/baselines/baseline_no_guides.py](./evaluation/baselines/baseline_no_guides.py)
+**Resultados generados:** [evaluation/results/baseline_no_guides.json](./evaluation/results/baseline_no_guides.json)
 
 **Descripción:** Ablación que usa **GPT-4o-mini como LLM** pero **sin proporcionar las guías de anotación de la ontología** en el prompt. El modelo recibe solo el comentario y debe inferir aspecto y sentimiento por sí mismo, sin restricciones al vocabulario oficial.
 
@@ -159,6 +162,8 @@ El cálculo final de métricas se realizó con el script [evaluation/metrics/com
 
 ### 3.4 Experimento 4 — `gpt-4o-mini` (con ontología + RAG)
 **Script asociado:** [evaluation/multi_llm/inference_runner.py](./evaluation/multi_llm/inference_runner.py)
+**Resultados de Inferencia:** [evaluation/results/gpt-4o-mini.jsonl](./evaluation/results/gpt-4o-mini.jsonl)
+**Evaluación del Juez:** [evaluation/results/gpt-4o-mini_judged.jsonl](./evaluation/results/gpt-4o-mini_judged.jsonl)
 
 **Descripción:** GPT-4o-mini con el prompt ABSA completo: sistema de instrucciones detallado, guías de anotación de la ontología, ejemplo de formato JSON y similitudes coseno pre-computadas por comentario.
 
@@ -206,6 +211,8 @@ El cálculo final de métricas se realizó con el script [evaluation/metrics/com
 
 ### 3.5 Experimento 5 — `gpt-4o` (con ontología + RAG)
 **Script asociado:** [evaluation/multi_llm/inference_runner.py](./evaluation/multi_llm/inference_runner.py)
+**Resultados de Inferencia:** [evaluation/results/gpt-4o.jsonl](./evaluation/results/gpt-4o.jsonl)
+**Evaluación del Juez:** [evaluation/results/gpt-4o_judged.jsonl](./evaluation/results/gpt-4o_judged.jsonl)
 
 **Descripción:** La versión completa y más capaz de OpenAI, con el mismo prompt ABSA guiado por ontología.
 
@@ -253,6 +260,8 @@ El cálculo final de métricas se realizó con el script [evaluation/metrics/com
 
 ### 3.6 Experimento 6 — `gemini-2.5-flash` (con ontología + RAG)
 **Script asociado:** [evaluation/multi_llm/inference_runner.py](./evaluation/multi_llm/inference_runner.py)
+**Resultados de Inferencia:** [evaluation/results/gemini-2.5-flash.jsonl](./evaluation/results/gemini-2.5-flash.jsonl)
+**Evaluación del Juez:** [evaluation/results/gemini-2.5-flash_judged.jsonl](./evaluation/results/gemini-2.5-flash_judged.jsonl)
 
 **Descripción:** Modelo *flash* de última generación de Google DeepMind, con el mismo prompt ABSA guiado. Se utilizó la API de Google AI Studio con la librería `google-generativeai`.
 
@@ -304,6 +313,10 @@ El cálculo final de métricas se realizó con el script [evaluation/metrics/com
 ---
 
 ## 4. Tabla Comparativa Final
+
+**Archivos exportados:** 
+- [evaluation/results/comparative_table.csv](./evaluation/results/comparative_table.csv)
+- [evaluation/results/comparative_table.json](./evaluation/results/comparative_table.json)
 
 | Modelo | F1-Sent (w) | F1-Sent (m) | Aspect Acc | Confianza | Latencia (s) | Costo (USD) | Errores JSON |
 |--------|-------------|-------------|------------|-----------|--------------|-------------|--------------|
